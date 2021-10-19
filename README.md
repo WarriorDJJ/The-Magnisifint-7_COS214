@@ -3,3 +3,5 @@ Fuck you
 and your family
 and your cow
 WOW IM HOT
+yes bbys 
+no i'm hot 
