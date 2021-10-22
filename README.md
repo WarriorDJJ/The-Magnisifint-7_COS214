@@ -7,3 +7,6 @@ yes bbys
 no i'm hot 
 ,
 Lol keep dreaming
+
+fuck all ya'll
+ew please relax sir
