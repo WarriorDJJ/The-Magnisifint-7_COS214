@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/james/CLionProjects/214Project/main.cpp">
+		<Unit filename="C:/Users/james/CLionProjects/214Project/Iterator.cpp">
+			<Option target="214Project"/>
+		</Unit>
+		<Unit filename="C:/Users/james/CLionProjects/214Project/Iterator.h">
+			<Option target="214Project"/>
+		</Unit>
+		<Unit filename="C:/Users/james/CLionProjects/214Project/Main.cpp">
+			<Option target="214Project"/>
+		</Unit>
+		<Unit filename="C:/Users/james/CLionProjects/214Project/SpaceCraft.cpp">
+			<Option target="214Project"/>
+		</Unit>
+		<Unit filename="C:/Users/james/CLionProjects/214Project/SpaceCraft.h">
 			<Option target="214Project"/>
 		</Unit>
 		<Unit filename="C:/Users/james/CLionProjects/214Project/CMakeLists.txt">

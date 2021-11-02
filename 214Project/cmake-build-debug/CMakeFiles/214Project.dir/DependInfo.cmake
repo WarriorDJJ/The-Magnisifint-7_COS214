@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/james/CLionProjects/214Project/main.cpp" "C:/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles/214Project.dir/main.cpp.obj"
+  "C:/Users/james/CLionProjects/214Project/Iterator.cpp" "C:/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles/214Project.dir/Iterator.cpp.obj"
+  "C:/Users/james/CLionProjects/214Project/Main.cpp" "C:/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles/214Project.dir/Main.cpp.obj"
+  "C:/Users/james/CLionProjects/214Project/SpaceCraft.cpp" "C:/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles/214Project.dir/SpaceCraft.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

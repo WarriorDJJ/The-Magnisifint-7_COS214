@@ -128,29 +128,77 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/build
 .PHONY : 214Project/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+Iterator.obj: Iterator.cpp.obj
+.PHONY : Iterator.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Iterator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Iterator.cpp.obj
+.PHONY : Iterator.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+Iterator.i: Iterator.cpp.i
+.PHONY : Iterator.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/main.cpp.i
-.PHONY : main.cpp.i
+Iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Iterator.cpp.i
+.PHONY : Iterator.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Iterator.s: Iterator.cpp.s
+.PHONY : Iterator.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/main.cpp.s
-.PHONY : main.cpp.s
+Iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Iterator.cpp.s
+.PHONY : Iterator.cpp.s
+
+Main.obj: Main.cpp.obj
+.PHONY : Main.obj
+
+# target to build an object file
+Main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Main.cpp.obj
+.PHONY : Main.cpp.obj
+
+Main.i: Main.cpp.i
+.PHONY : Main.i
+
+# target to preprocess a source file
+Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Main.cpp.i
+.PHONY : Main.cpp.i
+
+Main.s: Main.cpp.s
+.PHONY : Main.s
+
+# target to generate assembly for a file
+Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Main.cpp.s
+.PHONY : Main.cpp.s
+
+SpaceCraft.obj: SpaceCraft.cpp.obj
+.PHONY : SpaceCraft.obj
+
+# target to build an object file
+SpaceCraft.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/SpaceCraft.cpp.obj
+.PHONY : SpaceCraft.cpp.obj
+
+SpaceCraft.i: SpaceCraft.cpp.i
+.PHONY : SpaceCraft.i
+
+# target to preprocess a source file
+SpaceCraft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/SpaceCraft.cpp.i
+.PHONY : SpaceCraft.cpp.i
+
+SpaceCraft.s: SpaceCraft.cpp.s
+.PHONY : SpaceCraft.s
+
+# target to generate assembly for a file
+SpaceCraft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/SpaceCraft.cpp.s
+.PHONY : SpaceCraft.cpp.s
 
 # Help Target
 help:
@@ -161,9 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 214Project
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Iterator.obj
+	@echo ... Iterator.i
+	@echo ... Iterator.s
+	@echo ... Main.obj
+	@echo ... Main.i
+	@echo ... Main.s
+	@echo ... SpaceCraft.obj
+	@echo ... SpaceCraft.i
+	@echo ... SpaceCraft.s
 .PHONY : help
 
 

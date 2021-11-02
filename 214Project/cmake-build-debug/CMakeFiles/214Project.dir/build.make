@@ -65,32 +65,62 @@ include CMakeFiles/214Project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/214Project.dir/flags.make
 
-CMakeFiles/214Project.dir/main.cpp.obj: CMakeFiles/214Project.dir/flags.make
-CMakeFiles/214Project.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\james\CLionProjects\214Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/214Project.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\214Project.dir\main.cpp.obj -c C:\Users\james\CLionProjects\214Project\main.cpp
+CMakeFiles/214Project.dir/Main.cpp.obj: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Main.cpp.obj: ../Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\james\CLionProjects\214Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/214Project.dir/Main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\214Project.dir\Main.cpp.obj -c C:\Users\james\CLionProjects\214Project\Main.cpp
 
-CMakeFiles/214Project.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\james\CLionProjects\214Project\main.cpp > CMakeFiles\214Project.dir\main.cpp.i
+CMakeFiles/214Project.dir/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\james\CLionProjects\214Project\Main.cpp > CMakeFiles\214Project.dir\Main.cpp.i
 
-CMakeFiles/214Project.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\james\CLionProjects\214Project\main.cpp -o CMakeFiles\214Project.dir\main.cpp.s
+CMakeFiles/214Project.dir/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\james\CLionProjects\214Project\Main.cpp -o CMakeFiles\214Project.dir\Main.cpp.s
+
+CMakeFiles/214Project.dir/SpaceCraft.cpp.obj: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/SpaceCraft.cpp.obj: ../SpaceCraft.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\james\CLionProjects\214Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/214Project.dir/SpaceCraft.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\214Project.dir\SpaceCraft.cpp.obj -c C:\Users\james\CLionProjects\214Project\SpaceCraft.cpp
+
+CMakeFiles/214Project.dir/SpaceCraft.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/SpaceCraft.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\james\CLionProjects\214Project\SpaceCraft.cpp > CMakeFiles\214Project.dir\SpaceCraft.cpp.i
+
+CMakeFiles/214Project.dir/SpaceCraft.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/SpaceCraft.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\james\CLionProjects\214Project\SpaceCraft.cpp -o CMakeFiles\214Project.dir\SpaceCraft.cpp.s
+
+CMakeFiles/214Project.dir/Iterator.cpp.obj: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Iterator.cpp.obj: ../Iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\james\CLionProjects\214Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/214Project.dir/Iterator.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\214Project.dir\Iterator.cpp.obj -c C:\Users\james\CLionProjects\214Project\Iterator.cpp
+
+CMakeFiles/214Project.dir/Iterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Iterator.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\james\CLionProjects\214Project\Iterator.cpp > CMakeFiles\214Project.dir\Iterator.cpp.i
+
+CMakeFiles/214Project.dir/Iterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Iterator.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\james\CLionProjects\214Project\Iterator.cpp -o CMakeFiles\214Project.dir\Iterator.cpp.s
 
 # Object files for target 214Project
 214Project_OBJECTS = \
-"CMakeFiles/214Project.dir/main.cpp.obj"
+"CMakeFiles/214Project.dir/Main.cpp.obj" \
+"CMakeFiles/214Project.dir/SpaceCraft.cpp.obj" \
+"CMakeFiles/214Project.dir/Iterator.cpp.obj"
 
 # External object files for target 214Project
 214Project_EXTERNAL_OBJECTS =
 
-214Project.exe: CMakeFiles/214Project.dir/main.cpp.obj
+214Project.exe: CMakeFiles/214Project.dir/Main.cpp.obj
+214Project.exe: CMakeFiles/214Project.dir/SpaceCraft.cpp.obj
+214Project.exe: CMakeFiles/214Project.dir/Iterator.cpp.obj
 214Project.exe: CMakeFiles/214Project.dir/build.make
 214Project.exe: CMakeFiles/214Project.dir/linklibs.rsp
 214Project.exe: CMakeFiles/214Project.dir/objects1.rsp
 214Project.exe: CMakeFiles/214Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\james\CLionProjects\214Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 214Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\james\CLionProjects\214Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 214Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\214Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

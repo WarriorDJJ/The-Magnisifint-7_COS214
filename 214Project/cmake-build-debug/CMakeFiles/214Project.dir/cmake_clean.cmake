@@ -2,7 +2,9 @@ file(REMOVE_RECURSE
   "214Project.exe"
   "214Project.exe.manifest"
   "214Project.pdb"
-  "CMakeFiles/214Project.dir/main.cpp.obj"
+  "CMakeFiles/214Project.dir/Iterator.cpp.obj"
+  "CMakeFiles/214Project.dir/Main.cpp.obj"
+  "CMakeFiles/214Project.dir/SpaceCraft.cpp.obj"
   "lib214Project.dll.a"
 )
 
