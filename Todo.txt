@@ -1,0 +1,5 @@
+-Make function of requirments a list
+-Include Multiplisity in class diagram
+-Activity Diagram Redo: 
+	State of Rocket
+-Fix Builder Activity diagram to have user story and follow off function requirments
