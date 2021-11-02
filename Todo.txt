@@ -3,6 +3,3 @@
 -Activity Diagram Redo: 
 	State of Rocket
 -Fix Builder Activity diagram to have user story and follow off function requirments
--Eat some ice cream
--Fill up with petrol
--Buy milk
