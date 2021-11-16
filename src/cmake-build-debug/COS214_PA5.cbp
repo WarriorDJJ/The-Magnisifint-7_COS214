@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="COS214_PA5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COS214_PA5_V1">
+				<Option output="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/COS214_PA5_V1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 COS214_PA5_V1"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COS214_PA5_V1/fast">
+				<Option output="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/COS214_PA5_V1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 COS214_PA5_V1/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Bell.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Bell.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BuildStrategy.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BuildStrategy.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/CargoDragon.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Command.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Command.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/CrewDragon.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Dragon.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/EngineFactory.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/EngineFactory.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Falcon9TS.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Falcon9TS.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconBuilder.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconBuilder.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavy.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavy.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyBuilder.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyBuilder.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyTS.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyTS.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FullStackBuildStrategy.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FullStackBuildStrategy.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Invoker.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Invoker.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Iterator.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Iterator.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/LaunchCommand.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/LaunchCommand.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/LinkedList.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/LinkedList.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Main.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinEngine.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinEngine.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinEngineFactory.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinEngineFactory.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinFactory.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinFactory.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MotorFactory.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MotorFactory.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketBuilder.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketBuilder.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketBuilderDirector.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketBuilderDirector.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketMotor.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketMotor.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Satelite.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SimStore.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SimStore.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SingleRocketBuildStrategy.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SingleRocketBuildStrategy.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardSimulation.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardSimulation.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Starlink.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Starlink.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StarlinkSimulationAdapter.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StarlinkSimulationAdapter.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSim.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSim.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSimState.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UntestedState.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UntestedState.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UpperStageBuilder.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UpperStageBuilder.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/VacumeBell.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/VacumeBell.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/WorkingState.cpp">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/WorkingState.h">
+			<Option target="COS214_PA5_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
