@@ -1,7 +1,9 @@
 #ifndef UPPERSTAGEBUILDER_H
 #define UPPERSTAGEBUILDER_H
 
-class UpperStageBuilder : RocketBuilder {
+#include "RocketBuilder.h"
+
+class UpperStageBuilder : public RocketBuilder {
 
 
 public:

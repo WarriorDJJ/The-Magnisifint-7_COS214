@@ -1,7 +1,7 @@
 #ifndef CREWDRAGON_H
 #define CREWDRAGON_H
 
-class CrewDragon : Dragon {
+class CrewDragon : public Dragon {
 };
 
 #endif

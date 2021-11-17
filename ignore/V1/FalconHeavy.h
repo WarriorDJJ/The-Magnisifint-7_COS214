@@ -1,7 +1,7 @@
 #ifndef FALCONHEAVY_H
 #define FALCONHEAVY_H
-
-class FalconHeavy : Rocket {
+#include "Rocket.h"
+class FalconHeavy : public Rocket {
 
 private:
 	Rocket* LeftBooster;

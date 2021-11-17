@@ -1,7 +1,7 @@
 #ifndef WORKINGSTATE_H
 #define WORKINGSTATE_H
-
-class WorkingState : TestState {
+#include "TestState.h"
+class WorkingState : public TestState {
 
 
 public:

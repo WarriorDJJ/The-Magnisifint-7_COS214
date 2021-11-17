@@ -1,12 +1,14 @@
 #ifndef ROCKETMOTOR_H
 #define ROCKETMOTOR_H
-
-class RocketMotor : Engine {
-
+#include "Engine.h"
+class RocketMotor : public Engine {
+private:
+    int ISP;
+    int chamberPressure;
 public:
-	int ISP;
-
+    RocketMotor(int cp);
 	int getISP();
+    int getChamberPressure();
 
 	int getThrust(int a);
 

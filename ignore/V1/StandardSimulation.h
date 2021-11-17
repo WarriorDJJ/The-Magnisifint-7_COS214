@@ -1,7 +1,8 @@
 #ifndef STANDARDSIMULATION_H
 #define STANDARDSIMULATION_H
+#include "Simulation.h"
 
-class StandardSimulation : Simulation {
+class StandardSimulation : public Simulation {
 
 
 public:

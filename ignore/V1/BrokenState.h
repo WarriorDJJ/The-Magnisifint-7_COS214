@@ -1,7 +1,9 @@
 #ifndef BROKENSTATE_H
 #define BROKENSTATE_H
 
-class BrokenState : TestState {
+#include "TestState.h"
+
+class BrokenState : public TestState {
 
 
 public:

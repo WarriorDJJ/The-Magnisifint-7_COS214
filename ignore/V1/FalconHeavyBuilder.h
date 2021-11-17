@@ -1,7 +1,9 @@
 #ifndef FALCONHEAVYBUILDER_H
 #define FALCONHEAVYBUILDER_H
 
-class FalconHeavyBuilder : RocketBuilder {
+#include "RocketBuilder.h"
+
+class FalconHeavyBuilder : public RocketBuilder {
 
 
 public:

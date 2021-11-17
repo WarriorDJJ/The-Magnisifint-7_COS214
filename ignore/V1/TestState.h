@@ -1,6 +1,9 @@
 #ifndef TESTSTATE_H
 #define TESTSTATE_H
 
+#include "SpaceCraft.h"
+#include "TestStrat.h"
+
 class TestState {
 
 private:

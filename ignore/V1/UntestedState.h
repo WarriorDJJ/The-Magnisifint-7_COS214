@@ -1,7 +1,7 @@
 #ifndef UNTESTEDSTATE_H
 #define UNTESTEDSTATE_H
-
-class UntestedState : TestState {
+#include "TestState.h"
+class UntestedState : public TestState {
 
 
 public:

@@ -1,7 +1,9 @@
 #ifndef BELL_H
 #define BELL_H
 
-class Bell : Engine {
+#include "Engine.h"
+
+class Bell : public Engine {
 
 private:
 	int len;

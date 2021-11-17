@@ -1,7 +1,9 @@
 #ifndef PAYLOAD_H
 #define PAYLOAD_H
 
-class Payload : SpaceCraft {
+#include "SpaceCraft.h"
+
+class Payload : public SpaceCraft {
 
 
 public:

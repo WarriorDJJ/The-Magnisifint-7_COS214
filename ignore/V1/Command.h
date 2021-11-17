@@ -1,5 +1,6 @@
 #ifndef COMMAND_H
 #define COMMAND_H
+#include "SpaceCraft.h"
 
 class Command {
 
@@ -12,6 +13,7 @@ public:
 	void execute();
 
 	Command(SpaceCraft* s);
+
 };
 
 #endif

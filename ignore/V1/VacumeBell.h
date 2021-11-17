@@ -1,7 +1,9 @@
 #ifndef VACUMEBELL_H
 #define VACUMEBELL_H
 
-class VacumeBell : Bell {
+#include "Bell.h"
+
+class VacumeBell : public Bell {
 
 
 public:

@@ -1,7 +1,8 @@
 #ifndef STARLINKSIMULATIONADAPTER_H
 #define STARLINKSIMULATIONADAPTER_H
-
-class StarlinkSimulationAdapter : Simulation {
+#include "Simulation.h"
+#include "Starlink.h"
+class StarlinkSimulationAdapter : public Simulation {
 
 public:
 	Starlink* starlink;

@@ -5,7 +5,8 @@ void FullStackBuildStrategy::build() {
 	throw "Not yet implemented";
 }
 
-FullStackBuildStrategy::FullStackBuildStrategy(RocketBuilder* b, SpaceCraft* payload) {
+FullStackBuildStrategy::FullStackBuildStrategy(RocketBuilder *b, SpaceCraft *payload)
+        : BuildStrategy(b) {
 	// TODO - implement FullStackBuildStrategy::FullStackBuildStrategy
 	throw "Not yet implemented";
 }

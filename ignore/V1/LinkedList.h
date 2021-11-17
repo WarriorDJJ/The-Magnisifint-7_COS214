@@ -1,7 +1,7 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
-
-class LinkedList : Iterator {
+#include "Iterator.h"
+class LinkedList : public Iterator {
 
 
 public:

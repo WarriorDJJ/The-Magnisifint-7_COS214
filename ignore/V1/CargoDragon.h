@@ -1,7 +1,9 @@
 #ifndef CARGODRAGON_H
 #define CARGODRAGON_H
 
-class CargoDragon : Dragon {
+#include "Dragon.h"
+
+class CargoDragon : public Dragon {
 };
 
 #endif

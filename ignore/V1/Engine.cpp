@@ -2,6 +2,7 @@
 
 int Engine::getThrust(int a) {
 	// TODO - implement Engine::getThrust
+
 	throw "Not yet implemented";
 }
 

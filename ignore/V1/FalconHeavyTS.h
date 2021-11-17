@@ -1,13 +1,15 @@
 #ifndef FALCONHEAVYTS_H
 #define FALCONHEAVYTS_H
 
-class FalconHeavyTS : TestStrat {
+#include "TestStrat.h"
+
+class FalconHeavyTS : public TestStrat {
 
 
 public:
-	void staticTest();
+	void staticTest() override;
 
-	void launch();
+	void launch() override;
 };
 
 #endif

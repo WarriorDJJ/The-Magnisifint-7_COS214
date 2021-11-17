@@ -1,7 +1,7 @@
 #ifndef SATELITE_H
 #define SATELITE_H
-
-class Satelite : Payload {
+#include "Payload.h"
+class Satelite : public Payload {
 };
 
 #endif

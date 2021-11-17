@@ -1,7 +1,9 @@
 #ifndef STANDARDBELL_H
 #define STANDARDBELL_H
 
-class StandardBell : Bell {
+#include "Bell.h"
+
+class StandardBell : public Bell {
 
 
 public:

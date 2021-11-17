@@ -1,6 +1,7 @@
 #ifndef SIMULATION_H
 #define SIMULATION_H
-
+#include "TestState.h"
+#include "Payload.h"
 class Simulation {
 
 private:
