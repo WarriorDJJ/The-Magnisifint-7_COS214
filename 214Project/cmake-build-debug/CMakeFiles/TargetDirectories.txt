@@ -1,3 +1,0 @@
-C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/cmake-build-debug/CMakeFiles/214Project.dir
-C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/cmake-build-debug/CMakeFiles/edit_cache.dir
