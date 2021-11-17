@@ -7,9 +7,8 @@ class Payload : public SpaceCraft {
 
 
 public:
-	void Activate();
-
-	void clone();
+	virtual void Activate();
+	virtual Payload * clone();
 };
 
 #endif

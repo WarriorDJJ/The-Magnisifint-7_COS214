@@ -9,12 +9,13 @@ class Engine {
 protected:
     SpaceCraft * spaceCraft;
     bool fail;
-    int thrust;
 public:
-    Engine(int thrust);
-    void setSpacecraft(SpaceCraft* Spacecraft);
+    Engine();
+    void StartEngine();
+    void setSpacecraft(SpaceCraft* spacecraft);
     virtual int getThrust(int a);
 	virtual Engine * clone();
+    void update();
 };
 
 #endif

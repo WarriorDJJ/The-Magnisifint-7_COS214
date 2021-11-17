@@ -48,8 +48,12 @@ using namespace std;
 #include <stdlib.h>     /* srand, rand */
 int main() {
     cout << "Hello, World!" << endl;
-    MotorFactory* merlinFact = new MerlinFactory();
-    RocketMotor* yeet = merlinFact->createMotor();
-    cout << yeet->getChamberPressure();
+    //MotorFactory* merlinFact = new MerlinFactory();
+    //RocketMotor* yeet = merlinFact->createMotor();
+    //cout << yeet->getChamberPressure();
+
+
+
+
     return 0;
 }

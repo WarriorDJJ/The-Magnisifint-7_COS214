@@ -7,9 +7,9 @@ class StandardBell : public Bell {
 
 
 public:
-	int getThrust(int a);
+	int getThrust(int a) override;
 
-	void clone();
+	Engine* clone() override;
 };
 
 #endif

@@ -7,6 +7,7 @@ class RocketMotor : public Engine {
 protected:
     int ISP;
     int chamberPressure;
+
 public:
     RocketMotor(int cp);
     virtual int getISP();

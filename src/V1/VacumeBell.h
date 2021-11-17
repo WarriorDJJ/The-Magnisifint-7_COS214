@@ -7,9 +7,8 @@ class VacumeBell : public Bell {
 
 
 public:
-	int getThrust(int a);
-
-	void clone();
+	double getThrust(double altitude);
+	Engine* clone() override;
 };
 
 #endif

@@ -3,10 +3,11 @@
 #include "BuildStrategy.h"
 class FullStackBuildStrategy : public BuildStrategy {
 
+protected:
+    SpaceCraft* payload;
 
 public:
-	void build();
-
+	virtual void build();
 	FullStackBuildStrategy(RocketBuilder *b, SpaceCraft *payload);
 };
 

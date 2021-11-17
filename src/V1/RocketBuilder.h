@@ -14,11 +14,11 @@ protected:
 public:
 	virtual void createRocket() = 0;
 
-	virtual Rocket* getRocket() = 0;
+	Rocket* getRocket();//test to see if this needs Virtual
 
 	virtual void createEngines() = 0;
 
-	virtual void attachPayload(SpaceCraft* p) = 0;
+	void attachPayload(SpaceCraft* p);
 };
 
 #endif

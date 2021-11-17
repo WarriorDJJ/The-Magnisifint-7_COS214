@@ -5,13 +5,13 @@ class Iterator {
 
 
 public:
-	virtual void first();
+	virtual void first() = 0;
 
-	virtual void next();
+	virtual void next() = 0;
 
-	virtual bool hasNext();
+	virtual bool hasNext() = 0;
 
-	virtual Satelite* current();
+	virtual Satelite* current() = 0;
 };
 
 #endif

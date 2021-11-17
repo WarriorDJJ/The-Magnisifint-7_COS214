@@ -2,6 +2,9 @@ Todo:
 -Rename Engine to Motor
 -Update clone() function to return in uml
 -Change all vars to protected
+-Rename FalconBuilder to Falcon 9 Builder
+-Respell VacumeStuff
+-Fixe Engine Naming
 
 James Changes:
     StoredSimState:
@@ -37,6 +40,10 @@ James Changes:
         +Satelite* getNextSatelite()
         +Satelite()
         +void setNextSatelite(Satelite* s)
+        +void release() // not complete, requires more details
+    =======ITERATOR DONE========
+    =======ADAPTER DONE=======
+
 
 Francois Changes:
     Worked on Engine.cpp and Engine.h //glorious
@@ -45,6 +52,10 @@ Francois Changes:
     Added LoadFuelCommand as part of the Spacecraft commands
     Implemented the LoadFuelCommand Execute as well as the launch
     Wasnt sure about logistics so I just added some basic error checking
+    Implemented observer on Engine for failures, notify still needs to be implemented on rockets
+    Added StartEngine() to engine, which is used in the startup of the rockets
+    Moved vector<Engine*> engines in rocket to private
+    Implemented the Activate() function inside Rocket.cpp
 
 
 Keelan Changes:
@@ -56,10 +67,33 @@ Keelan Changes:
         made rocket protected under RocketBuilder as no setter is in the UML
         implemented createRocket for FalconBuilder and made functions virtual
         made FalconHeavy member variables protected instead of private
+        added getters and variables for Left and Right boosters for FHeavy
+        =====FalconHeavyBuilder Complete=====
+        implemented the getRocket and attachPayload systems in the RocketBuilder class
+        implemented createRocket for the Falcon9 builder
+        did the createEngines for Falcon9 builder
+        =====FalconBuilder Complete=====
+
 
     ---EngineFactory---
-    made EngineFactory class abstract
+        made EngineFactory class abstract
+
+    ---BuildStrategy---
+        made BuildStrategy abstract
+        made it protected instead of private
 
 
 Damian Changes:
-    -Bell: Added Constructor
+    -Bell, Engine, Motor...: Added Constructor and added getters and setters
+    -spacecraft abstract
+    -make functions to access the engins
+
+
+Fourie Changes:
+    -Removed typo from Bell.h.
+    -Finished getThrust() function;
+    -GetThrust() in bell.h and vacuumBell.h function uses basic simplified math to get an output. (we can update it to rocket science mafs later)
+    -Updated all bell class variables from integers to doubles for use in main program, if errors pop up just revert them.
+    -Added 2 variables to the bell classes respectively, these 2 define the power in kN of each engine
+    -ThrustInVacuum and ThrustAtSealevel;
+    -Finished both bell classes getThrust functions, (Damian will replace the maths later)

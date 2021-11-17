@@ -2,7 +2,7 @@
 
 using namespace std;
 
-FalconHeavy::FalconHeavy(Rocket *lb, Rocket *rb) : LeftBooster(lb), RightBooster(rb){
+FalconHeavy::FalconHeavy(Rocket *lb, Rocket *rb) : LeftBooster(lb), RightBooster(rb), Rocket(0, 0, 0, "FalconHeave"){
 
 }
 
@@ -16,7 +16,7 @@ void FalconHeavy::Activate() {
 	throw "Not yet implemented";
 }
 
-void FalconHeavy::clone() {
+FalconHeavy * FalconHeavy::clone() {
 	// TODO - implement FalconHeavy::clone
 	throw "Not yet implemented";
 }

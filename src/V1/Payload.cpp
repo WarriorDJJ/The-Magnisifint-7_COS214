@@ -5,7 +5,7 @@ void Payload::Activate() {
 	throw "Not yet implemented";
 }
 
-void Payload::clone() {
+Payload * Payload::clone() {
 	// TODO - implement Payload::clone
 	throw "Not yet implemented";
 }

@@ -9,6 +9,18 @@ void FalconBuilder::createRocket() {
 }
 
 void FalconBuilder::createEngines() {
-	// TODO - implement FalconBuilder::createEngines
-	throw "Not yet implemented";
+    if(rocket == nullptr)
+    {
+        cout<<"Rocket is empty, please create it!"<<endl;
+        return;
+    }
+    else
+    {
+        EngineFactory* eFact = new MerlinEngineFactory();
+        for(int i = 0; i < 9; i++)
+        {
+            rocket->AddEngine(eFact->createStandardEngine());
+        }
+        delete eFact;
+    }
 }

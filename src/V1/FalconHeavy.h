@@ -16,7 +16,7 @@ public:
 
 	void Activate();
 
-	void clone();
+	virtual FalconHeavy * clone();
 };
 
 #endif

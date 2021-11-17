@@ -5,13 +5,13 @@
 
 class BuildStrategy {
 
-private:
+protected:
 	RocketBuilder* b;
 
 public:
 	BuildStrategy(RocketBuilder* b);
 
-	void build();
+	virtual void build() = 0;
 };
 
 #endif

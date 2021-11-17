@@ -10,17 +10,30 @@ using namespace std;
 class Rocket : public SpaceCraft {
 
 private:
+    int EnginesFailed;
     double fuel;
     double wetMass;
     double dryMass;
 	SpaceCraft* NextStage;
     string name;
+protected:
+    vector<Engine*> engines;
 
 public:
-    vector<Engine*> engines;
+    Rocket();
     Rocket(double f, double wm, double dm, string n);
-	void Activate();
-	void clone();
+    void AddEngine(Engine * engine);
+    void RemoveEngine(Engine * engine);
+    virtual void AddStage(SpaceCraft* s);
+    virtual void SeperateStage();
+    virtual SpaceCraft * GetNextStage();
+	virtual void Activate();
+	virtual Rocket * clone();
+
+    void LoadFuel() override;
+    int GetFuel() override;
+    void VentFuel() override;
+    void notify(Engine * engine) override;
 };
 
 #endif

@@ -1,8 +1,9 @@
 #include "Starlink.h"
 #include "LinkedList.h"
 void Starlink::release() {
-	// TODO - implement Starlink::release
-	throw "Not yet implemented";
+	while(root != nullptr){
+        removeSat(nullptr,true);
+    }
 }
 
 Iterator* Starlink::createIterator() {
@@ -61,10 +62,16 @@ void Starlink::removeSat(Satelite *s, bool launch) {
                 prev->next();
                 it->next();
                 if(it->current() == s){
+                    if(launch){
+                        prev->current()->release();
+                    }
                     prev->current()->setNextSatelite(nullptr);
                 }
             }
         }else{
+            if(launch){
+                root->release();
+            }
             root = nullptr;
         }
     }

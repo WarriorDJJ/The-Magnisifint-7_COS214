@@ -16,7 +16,7 @@ void LinkedList::next() {
 }
 
 bool LinkedList::hasNext() {
-	if(hasNext()){
+	if(curr != nullptr){
         return curr->getNextSatelite() != nullptr;
     }
     return false;

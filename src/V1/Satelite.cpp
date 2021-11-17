@@ -16,3 +16,7 @@ void Satelite::setNextSatelite(Satelite *s) {
     next = s;
 }
 
+void Satelite::release() {
+    cout << "Satellite released..." << endl;
+}
+

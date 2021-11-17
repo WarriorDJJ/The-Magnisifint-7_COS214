@@ -1,14 +1,16 @@
 #ifndef SATELITE_H
 #define SATELITE_H
 #include "Payload.h"
+#include <iostream>
+using namespace std;
 class Satelite : public Payload {
 private:
     Satelite* next;
 public:
     Satelite();
     Satelite* getNextSatelite();
-
-    void setNextSatelite(Satelite *pSatelite);
+    void release();
+    void setNextSatelite(Satelite *s);
 };
 
 #endif

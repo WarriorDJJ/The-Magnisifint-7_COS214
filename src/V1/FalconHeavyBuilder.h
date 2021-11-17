@@ -14,6 +14,7 @@ public:
 	virtual void createEngines();
     Rocket* getLeft();
     Rocket* getRight();
+    virtual Rocket* getRocket();
 };
 
 #endif
