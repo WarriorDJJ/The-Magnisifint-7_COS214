@@ -11,7 +11,7 @@ private:
 public:
 	void storeSim(StoredSim* mem);
 
-	StoredSim* getSim(int index);
+	StoredSim* getSim();
 };
 
 #endif

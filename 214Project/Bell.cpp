@@ -1,11 +1,15 @@
 #include "Bell.h"
 
-int Bell::getThrust(int a) {
-	// TODO - implement Bell::getThrust
-	throw "Not yet implemented";
+using namespace std;
+int Bell::getThrust(int a){
+    return this->thrust;
 }
 
-void Bell::clone() {
+Engine * Bell::clone() {
 	// TODO - implement Bell::clone
-	throw "Not yet implemented";
+	return Engine::clone();
 }
+
+Bell::Bell(int thrust, int len, int diameter) : Engine(thrust), len(len), diameter(diameter) {}
+
+

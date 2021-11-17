@@ -1,12 +1,10 @@
 #include "SimStore.h"
 
 void SimStore::storeSim(StoredSim* mem) {
-
-	// TODO - implement SimStore::storeSim
-	throw "Not yet implemented";
+    _mem = mem;
 }
 
-StoredSim* SimStore::getSim(int index) {
+StoredSim* SimStore::getSim() {
 	// TODO - implement SimStore::getSim
-	throw "Not yet implemented";
+	return _mem;
 }

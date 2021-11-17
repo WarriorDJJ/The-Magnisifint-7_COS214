@@ -1,17 +1,17 @@
 #ifndef ITERATOR_H
 #define ITERATOR_H
-
+#include "Satelite.h"
 class Iterator {
 
 
 public:
-	void first();
+	virtual void first();
 
-	void next();
+	virtual void next();
 
-	void isDone();
+	virtual bool hasNext();
 
-	void current();
+	virtual Satelite* current();
 };
 
 #endif

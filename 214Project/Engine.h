@@ -2,12 +2,12 @@
 #define ENGINE_H
 
 class Engine {
-
-
+protected:
+    int thrust;
 public:
-	int getThrust(int a);
-
-	void clone();
+    Engine(int thrust);
+    virtual int getThrust(int a);
+	virtual Engine * clone();
 };
 
 #endif

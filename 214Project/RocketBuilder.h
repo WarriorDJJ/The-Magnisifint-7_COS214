@@ -2,20 +2,22 @@
 #define ROCKETBUILDER_H
 
 #include "Rocket.h"
+#include "MerlinEngineFactory.h"
 
-class RocketBuilder {
+class RocketBuilder
+{
 
-private:
+protected:
 	Rocket* rocket;
 
 public:
-	void createRocket();
+	virtual void createRocket() = 0;
 
-	Rocket* getRocket();
+	virtual Rocket* getRocket() = 0;
 
-	void createEngines();
+	virtual void createEngines() = 0;
 
-	void attachPayload(SpaceCraft* p);
+	virtual void attachPayload(SpaceCraft* p) = 0;
 };
 
 #endif

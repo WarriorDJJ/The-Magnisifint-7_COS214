@@ -1,17 +1,20 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 #include "Iterator.h"
+#include "Satelite.h"
 class LinkedList : public Iterator {
-
+    Satelite* root;
+    Satelite* curr;
 
 public:
-	void first();
+    LinkedList(Satelite* s);
+	void first() override;
 
-	void next();
+	void next() override;
 
-	void isDone();
+	bool hasNext() override;
 
-	void current();
+	Satelite* current() override;
 };
 
 #endif

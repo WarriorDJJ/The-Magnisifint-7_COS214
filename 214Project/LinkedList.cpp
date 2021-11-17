@@ -1,21 +1,27 @@
 #include "LinkedList.h"
 
+LinkedList::LinkedList(Satelite *s) {
+    root = s;
+    curr = root;
+}
+
 void LinkedList::first() {
-	// TODO - implement LinkedList::first
-	throw "Not yet implemented";
+	curr = root;
 }
 
 void LinkedList::next() {
-	// TODO - implement LinkedList::next
-	throw "Not yet implemented";
+	if(hasNext()){
+        curr = curr->getNextSatelite();
+    }
 }
 
-void LinkedList::isDone() {
-	// TODO - implement LinkedList::isDone
-	throw "Not yet implemented";
+bool LinkedList::hasNext() {
+	if(hasNext()){
+        return curr->getNextSatelite() != nullptr;
+    }
+    return false;
 }
 
-void LinkedList::current() {
-	// TODO - implement LinkedList::current
-	throw "Not yet implemented";
+Satelite* LinkedList::current() {
+	return curr;
 }

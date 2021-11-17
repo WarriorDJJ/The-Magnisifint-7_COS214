@@ -5,15 +5,16 @@
 
 class Bell : public Engine {
 
-private:
+protected:
 	int len;
 	int diameter;
 	Engine motor;
 
 public:
-	int getThrust(int a);
-
-	void clone();
+    Bell(int thrust, int len, int diameter);
+    virtual void addComponent()
+    virtual int getThrust(int a);
+    virtual Engine * clone();
 };
 
-#endif
+#endif poes

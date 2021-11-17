@@ -3,11 +3,10 @@
 #include "RocketBuilder.h"
 class FalconBuilder : public RocketBuilder {
 
-
 public:
-	void createRocket();
+	virtual void createRocket();
 
-	void createEngines();
+	virtual void createEngines();
 };
 
 #endif

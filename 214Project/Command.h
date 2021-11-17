@@ -4,14 +4,12 @@
 
 class Command {
 
-private:
+protected:
 	SpaceCraft* receiver;
 
 public:
 	SpaceCraft* getReceiver();
-
-	void execute();
-
+	virtual void execute()=0;
 	Command(SpaceCraft* s);
 
 };

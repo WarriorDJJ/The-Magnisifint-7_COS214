@@ -1,11 +1,13 @@
 #include "StoredSim.h"
 
 StoredSim::StoredSim(TestState* testState, Payload* payload) {
-	// TODO - implement StoredSim::StoredSim
-	throw "Not yet implemented";
+	_state = new StoredSimState(testState, payload);
 }
 
 StoredSim::~StoredSim() {
-	// TODO - implement StoredSim::~StoredSim
-	throw "Not yet implemented";
+	delete _state;
+}
+
+StoredSimState *StoredSim::getState() {
+    return _state;
 }

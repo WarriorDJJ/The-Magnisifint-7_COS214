@@ -1,8 +1,7 @@
 #include "FalconBuilder.h"
 
 void FalconBuilder::createRocket() {
-	// TODO - implement FalconBuilder::createRocket
-	throw "Not yet implemented";
+    Rocket* lb = new Rocket(fuel, wet, dry, name);
 }
 
 void FalconBuilder::createEngines() {

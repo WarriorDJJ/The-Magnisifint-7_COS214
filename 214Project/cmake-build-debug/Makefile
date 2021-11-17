@@ -752,6 +752,30 @@ RocketMotor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/RocketMotor.cpp.s
 .PHONY : RocketMotor.cpp.s
 
+Satelite.obj: Satelite.cpp.obj
+.PHONY : Satelite.obj
+
+# target to build an object file
+Satelite.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Satelite.cpp.obj
+.PHONY : Satelite.cpp.obj
+
+Satelite.i: Satelite.cpp.i
+.PHONY : Satelite.i
+
+# target to preprocess a source file
+Satelite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Satelite.cpp.i
+.PHONY : Satelite.cpp.i
+
+Satelite.s: Satelite.cpp.s
+.PHONY : Satelite.s
+
+# target to generate assembly for a file
+Satelite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/Satelite.cpp.s
+.PHONY : Satelite.cpp.s
+
 SimStore.obj: SimStore.cpp.obj
 .PHONY : SimStore.obj
 
@@ -967,6 +991,30 @@ StoredSim.s: StoredSim.cpp.s
 StoredSim.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/StoredSim.cpp.s
 .PHONY : StoredSim.cpp.s
+
+StoredSimState.obj: StoredSimState.cpp.obj
+.PHONY : StoredSimState.obj
+
+# target to build an object file
+StoredSimState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/StoredSimState.cpp.obj
+.PHONY : StoredSimState.cpp.obj
+
+StoredSimState.i: StoredSimState.cpp.i
+.PHONY : StoredSimState.i
+
+# target to preprocess a source file
+StoredSimState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/StoredSimState.cpp.i
+.PHONY : StoredSimState.cpp.i
+
+StoredSimState.s: StoredSimState.cpp.s
+.PHONY : StoredSimState.s
+
+# target to generate assembly for a file
+StoredSimState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\214Project.dir\build.make CMakeFiles/214Project.dir/StoredSimState.cpp.s
+.PHONY : StoredSimState.cpp.s
 
 TestState.obj: TestState.cpp.obj
 .PHONY : TestState.obj
@@ -1199,6 +1247,9 @@ help:
 	@echo ... RocketMotor.obj
 	@echo ... RocketMotor.i
 	@echo ... RocketMotor.s
+	@echo ... Satelite.obj
+	@echo ... Satelite.i
+	@echo ... Satelite.s
 	@echo ... SimStore.obj
 	@echo ... SimStore.i
 	@echo ... SimStore.s
@@ -1226,6 +1277,9 @@ help:
 	@echo ... StoredSim.obj
 	@echo ... StoredSim.i
 	@echo ... StoredSim.s
+	@echo ... StoredSimState.obj
+	@echo ... StoredSimState.i
+	@echo ... StoredSimState.s
 	@echo ... TestState.obj
 	@echo ... TestState.i
 	@echo ... TestState.s

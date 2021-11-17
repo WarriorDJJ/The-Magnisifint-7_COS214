@@ -1,6 +1,6 @@
 #include "RocketMotor.h"
 
-RocketMotor::RocketMotor(int cp) {
+RocketMotor::RocketMotor(int cp) : Engine(-1){
     chamberPressure = cp;
 }
 
@@ -17,7 +17,7 @@ int RocketMotor::getThrust(int a) {
 	throw "Not yet implemented";
 }
 
-void RocketMotor::clone() {
+Engine * RocketMotor::clone() {
 	// TODO - implement RocketMotor::clone
 	throw "Not yet implemented";
 }

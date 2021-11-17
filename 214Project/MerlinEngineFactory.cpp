@@ -1,11 +1,11 @@
 #include "MerlinEngineFactory.h"
 
-Engine* MerlinEngineFactory::createVacuumEngine() {
+Engine* MerlinEngineFactory::createVacuumEngine() const{
 	// TODO - implement MerlinEngineFactory::createVacuumEngine
 	throw "Not yet implemented";
 }
 
-Engine* MerlinEngineFactory::createStandardEngine() {
+Engine* MerlinEngineFactory::createStandardEngine() const{
 	// TODO - implement MerlinEngineFactory::createStandardEngine
-	throw "Not yet implemented";
+    return new Engine;
 }

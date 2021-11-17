@@ -8,8 +8,7 @@ class LaunchCommand : public Command {
 
 public:
 	LaunchCommand(SpaceCraft *s);
-
-	void execute();
+	void execute() override;
 };
 
 #endif

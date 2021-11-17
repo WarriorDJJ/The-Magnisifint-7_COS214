@@ -1,11 +1,16 @@
 #include "FalconHeavyBuilder.h"
 
 void FalconHeavyBuilder::createRocket() {
-	// TODO - implement FalconHeavyBuilder::createRocket
-	throw "Not yet implemented";
+    double wet = 0;//needs falcon 9 values
+    double dry = 0;
+    double fuel = 0;
+    string name = "Falcon 9";
+    Rocket* lb = new Rocket(fuel, wet, dry, name);
+    Rocket* rb = new Rocket(fuel, wet, dry, name);
+
+	rocket = new FalconHeavy(lb, rb);
 }
 
 void FalconHeavyBuilder::createEngines() {
-	// TODO - implement FalconHeavyBuilder::createEngines
-	throw "Not yet implemented";
+Engine* temp = MerlinEngineFactory::createStandardEngine();
 }

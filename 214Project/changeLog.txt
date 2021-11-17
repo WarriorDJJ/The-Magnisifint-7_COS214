@@ -1,0 +1,64 @@
+Todo:
+-Rename Engine to Motor
+-Update clone() function to return in uml
+-Change all vars to protected
+
+James Changes:
+    StoredSimState:
+        +StoredSimState(TestState* t, Payload* p)
+        +Payload* getPayload()
+        +TestState* getTestState()
+        +void setPayload(Payload* p)
+        +void setTestState(TestState* t)
+    SimStore:
+        +StoredSim* getSim(int index) -> StoredSim* getSim()
+    StoredSim:
+        +StoredSimState* getState()
+    ========MEMENTO DONE=============
+
+    Starlink:
+        -satelites -> #Satelite* root
+        +Starlink()
+        +void addSat(Satelite* s)
+        +void removeSat(Satelite* s = nullptr, bool launch = false)
+        +bool isEmpty()
+
+    Iterator:
+        +void current() -> +Satelite* current()
+        +void isDone() -> +bool hasNext()
+    LinkedList:
+        +void current() -> +Satelite* current()
+        +void isDone() -> +bool hasNext()
+        +LinkedList(Satelite* s)
+        -Satelite* root
+        -Satelite* curr
+    Satelite:
+        -Satelite* next
+        +Satelite* getNextSatelite()
+        +Satelite()
+        +void setNextSatelite(Satelite* s)
+
+Francois Changes:
+    Worked on Engine.cpp and Engine.h //glorious
+    Added the thrust member and implemented the clone function.
+    Made Command Pure Virtual
+    Added LoadFuelCommand as part of the Spacecraft commands
+    Implemented the LoadFuelCommand Execute as well as the launch
+    Wasnt sure about logistics so I just added some basic error checking
+
+
+Keelan Changes:
+    ---RocketBuilders---
+        Made RocketBuilder abstract.
+        Adding constructor to FalconHeavy for FalconHeavyBuilder->createRocket() to use
+        Adding a rocket name variable
+        Adding rocket constructor
+        made rocket protected under RocketBuilder as no setter is in the UML
+
+
+    ---EngineFactory---
+    made EngineFactory class abstract
+
+
+Damian Changes:
+    -Bell: Added Constructor

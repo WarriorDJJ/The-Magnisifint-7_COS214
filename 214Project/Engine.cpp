@@ -1,12 +1,14 @@
 #include "Engine.h"
 
-int Engine::getThrust(int a) {
-	// TODO - implement Engine::getThrust
-
-	throw "Not yet implemented";
+int Engine::getThrust(int a){
+    return this->thrust;
 }
 
-void Engine::clone() {
-	// TODO - implement Engine::clone
-	throw "Not yet implemented";
+ Engine * Engine::clone(){
+	Engine * newEngine = new Engine(this->thrust);
+    return newEngine;
+}
+
+Engine::Engine(int thrust) {
+    this->thrust = thrust;
 }

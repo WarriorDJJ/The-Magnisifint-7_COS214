@@ -3,11 +3,10 @@
 #include "Engine.h"
 class EngineFactory {
 
-
 public:
-	Engine* createVacuumEngine();
+	virtual Engine* createVacuumEngine() = 0;
 
-	Engine* createStandardEngine();
+	 virtual Engine* createStandardEngine() = 0;
 };
 
 #endif

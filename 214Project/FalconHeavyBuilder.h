@@ -2,14 +2,14 @@
 #define FALCONHEAVYBUILDER_H
 
 #include "RocketBuilder.h"
+#include "FalconHeavy.h"
 
-class FalconHeavyBuilder : public RocketBuilder {
-
+class FalconHeavyBuilder : public RocketBuilder{
 
 public:
-	void createRocket();
+	virtual void createRocket();
 
-	void createEngines();
+	virtual void createEngines();
 };
 
 #endif

@@ -1,18 +1,20 @@
 #ifndef ROCKETMOTOR_H
 #define ROCKETMOTOR_H
+
 #include "Engine.h"
+
 class RocketMotor : public Engine {
-private:
+protected:
     int ISP;
     int chamberPressure;
 public:
     RocketMotor(int cp);
-	int getISP();
-    int getChamberPressure();
+    virtual int getISP();
+    virtual int getChamberPressure();
 
-	int getThrust(int a);
+    virtual int getThrust(int a);
 
-	void clone();
+	Engine * clone() override;
 };
 
 #endif

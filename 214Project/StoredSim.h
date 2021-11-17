@@ -10,7 +10,7 @@ private:
 
 public:
 	StoredSim(TestState* testState, Payload* payload);
-
+    StoredSimState* getState();
 	~StoredSim();
 };
 

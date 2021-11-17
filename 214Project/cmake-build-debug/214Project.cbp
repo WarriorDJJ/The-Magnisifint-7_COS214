@@ -242,6 +242,9 @@
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/RocketMotor.h">
 			<Option target="214Project"/>
 		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/Satelite.cpp">
+			<Option target="214Project"/>
+		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/Satelite.h">
 			<Option target="214Project"/>
 		</Unit>
@@ -297,6 +300,9 @@
 			<Option target="214Project"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/StoredSim.h">
+			<Option target="214Project"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/StoredSimState.cpp">
 			<Option target="214Project"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/214Project/StoredSimState.h">

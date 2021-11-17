@@ -7,9 +7,8 @@ class MerlinEngineFactory : public EngineFactory {
 
 
 public:
-	Engine* createVacuumEngine();
-
-	Engine* createStandardEngine();
+	virtual Engine* createVacuumEngine() const;
+	virtual Engine* createStandardEngine() const;
 };
 
 #endif

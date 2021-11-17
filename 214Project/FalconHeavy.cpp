@@ -1,5 +1,11 @@
 #include "FalconHeavy.h"
 
+using namespace std;
+
+FalconHeavy::FalconHeavy(Rocket *lb, Rocket *rb) : LeftBooster(lb), RightBooster(rb){
+
+}
+
 void FalconHeavy::SeperateStage() {
 	// TODO - implement FalconHeavy::SeperateStage
 	throw "Not yet implemented";
