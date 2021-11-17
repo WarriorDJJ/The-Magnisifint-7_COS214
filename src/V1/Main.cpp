@@ -42,7 +42,7 @@ using namespace std;
 #include "TestState.h"
 #include "UntestedState.h"
 #include "UpperStageBuilder.h"
-#include "VacumeBell.h"
+#include "VacuumBell.h"
 #include "WorkingState.h"
 #include "TestStrat.h"
 #include <stdlib.h>     /* srand, rand */

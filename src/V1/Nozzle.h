@@ -26,7 +26,10 @@ public:
     virtual SpaceCraft *getSpaceCraft() const;
     virtual void update();
 
-    void setAttributes();
+    void setLength(double length);
+    void setDiameter(double diameter);
+    void setNozzleArea(double nozzleArea);
+    void setThroatArea(double throatArea);
 
     Engine *getMotor() const;
     void setMotor(Engine *motor);

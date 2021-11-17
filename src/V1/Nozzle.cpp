@@ -30,8 +30,6 @@ void Nozzle::addComponent(Engine * e) {
 
 }
 
-//
-
 Engine *Nozzle::getMotor() const {
     return motor;
 }
@@ -63,6 +61,22 @@ SpaceCraft *Nozzle::getSpaceCraft() const {
 
 void Nozzle::update() {
     motor->getSpaceCraft()->notify(this);
+}
+
+void Nozzle::setLength(double length) {
+    Nozzle::length = length;
+}
+
+void Nozzle::setDiameter(double diameter) {
+    Nozzle::diameter = diameter;
+}
+
+void Nozzle::setNozzleArea(double nozzleArea) {
+    Nozzle::nozzleArea = nozzleArea;
+}
+
+void Nozzle::setThroatArea(double throatArea) {
+    Nozzle::throatArea = throatArea;
 }
 
 

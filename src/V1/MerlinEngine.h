@@ -4,10 +4,10 @@
 #include "RocketMotor.h"
 
 class MerlinEngine : public RocketMotor {
-
-
 public:
-	MerlinEngine * clone();
+    MerlinEngine();
+
+    virtual void StartEngine();
 };
 
 #endif

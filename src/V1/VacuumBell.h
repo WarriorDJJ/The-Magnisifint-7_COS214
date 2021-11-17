@@ -3,12 +3,10 @@
 
 #include "Nozzle.h"
 
-class VacumeBell : public Nozzle {
-
+class VacuumBell : public Nozzle {
 
 public:
 	double getThrust(double externalPressure);
-	Engine* clone() override;
 };
 
 #endif

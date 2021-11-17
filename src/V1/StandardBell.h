@@ -4,12 +4,8 @@
 #include "Nozzle.h"
 
 class StandardBell : public Nozzle {
-
-
 public:
 	double getThrust(double externalPressure) override;
-
-	Engine* clone() override;
 };
 
 #endif
