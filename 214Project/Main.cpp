@@ -49,6 +49,6 @@ int main() {
     cout << "Hello, World!" << endl;
     MotorFactory* merlinFact = new MerlinFactory();
     RocketMotor* yeet = merlinFact->createMotor();
-    yeet->getChamberPressure();
+    cout << yeet->getChamberPressure();
     return 0;
 }

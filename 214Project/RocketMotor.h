@@ -1,6 +1,6 @@
 #ifndef ROCKETMOTOR_H
 #define ROCKETMOTOR_H
-
+#include "Engine.h"
 class RocketMotor : public Engine {
 private:
     int ISP;

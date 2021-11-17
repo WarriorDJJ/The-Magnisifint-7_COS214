@@ -79,22 +79,178 @@ CMakeFiles/214Project.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Main.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Main.cpp -o CMakeFiles/214Project.dir/Main.cpp.s
 
-CMakeFiles/214Project.dir/SpaceCraft.cpp.o: CMakeFiles/214Project.dir/flags.make
-CMakeFiles/214Project.dir/SpaceCraft.cpp.o: ../SpaceCraft.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/214Project.dir/SpaceCraft.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/SpaceCraft.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/SpaceCraft.cpp
+CMakeFiles/214Project.dir/Bell.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Bell.cpp.o: ../Bell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/214Project.dir/Bell.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Bell.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Bell.cpp
 
-CMakeFiles/214Project.dir/SpaceCraft.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/SpaceCraft.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/SpaceCraft.cpp > CMakeFiles/214Project.dir/SpaceCraft.cpp.i
+CMakeFiles/214Project.dir/Bell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Bell.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Bell.cpp > CMakeFiles/214Project.dir/Bell.cpp.i
 
-CMakeFiles/214Project.dir/SpaceCraft.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/SpaceCraft.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/SpaceCraft.cpp -o CMakeFiles/214Project.dir/SpaceCraft.cpp.s
+CMakeFiles/214Project.dir/Bell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Bell.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Bell.cpp -o CMakeFiles/214Project.dir/Bell.cpp.s
+
+CMakeFiles/214Project.dir/BrokenState.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/BrokenState.cpp.o: ../BrokenState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/214Project.dir/BrokenState.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/BrokenState.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/BrokenState.cpp
+
+CMakeFiles/214Project.dir/BrokenState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/BrokenState.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/BrokenState.cpp > CMakeFiles/214Project.dir/BrokenState.cpp.i
+
+CMakeFiles/214Project.dir/BrokenState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/BrokenState.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/BrokenState.cpp -o CMakeFiles/214Project.dir/BrokenState.cpp.s
+
+CMakeFiles/214Project.dir/BuildStrategy.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/BuildStrategy.cpp.o: ../BuildStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/214Project.dir/BuildStrategy.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/BuildStrategy.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/BuildStrategy.cpp
+
+CMakeFiles/214Project.dir/BuildStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/BuildStrategy.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/BuildStrategy.cpp > CMakeFiles/214Project.dir/BuildStrategy.cpp.i
+
+CMakeFiles/214Project.dir/BuildStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/BuildStrategy.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/BuildStrategy.cpp -o CMakeFiles/214Project.dir/BuildStrategy.cpp.s
+
+CMakeFiles/214Project.dir/Command.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Command.cpp.o: ../Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/214Project.dir/Command.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Command.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Command.cpp
+
+CMakeFiles/214Project.dir/Command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Command.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Command.cpp > CMakeFiles/214Project.dir/Command.cpp.i
+
+CMakeFiles/214Project.dir/Command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Command.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Command.cpp -o CMakeFiles/214Project.dir/Command.cpp.s
+
+CMakeFiles/214Project.dir/Engine.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Engine.cpp.o: ../Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/214Project.dir/Engine.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Engine.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Engine.cpp
+
+CMakeFiles/214Project.dir/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Engine.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Engine.cpp > CMakeFiles/214Project.dir/Engine.cpp.i
+
+CMakeFiles/214Project.dir/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Engine.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Engine.cpp -o CMakeFiles/214Project.dir/Engine.cpp.s
+
+CMakeFiles/214Project.dir/EngineFactory.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/EngineFactory.cpp.o: ../EngineFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/214Project.dir/EngineFactory.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/EngineFactory.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/EngineFactory.cpp
+
+CMakeFiles/214Project.dir/EngineFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/EngineFactory.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/EngineFactory.cpp > CMakeFiles/214Project.dir/EngineFactory.cpp.i
+
+CMakeFiles/214Project.dir/EngineFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/EngineFactory.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/EngineFactory.cpp -o CMakeFiles/214Project.dir/EngineFactory.cpp.s
+
+CMakeFiles/214Project.dir/Falcon9TS.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Falcon9TS.cpp.o: ../Falcon9TS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/214Project.dir/Falcon9TS.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Falcon9TS.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Falcon9TS.cpp
+
+CMakeFiles/214Project.dir/Falcon9TS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Falcon9TS.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Falcon9TS.cpp > CMakeFiles/214Project.dir/Falcon9TS.cpp.i
+
+CMakeFiles/214Project.dir/Falcon9TS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Falcon9TS.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Falcon9TS.cpp -o CMakeFiles/214Project.dir/Falcon9TS.cpp.s
+
+CMakeFiles/214Project.dir/FalconBuilder.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/FalconBuilder.cpp.o: ../FalconBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/214Project.dir/FalconBuilder.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/FalconBuilder.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/FalconBuilder.cpp
+
+CMakeFiles/214Project.dir/FalconBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/FalconBuilder.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/FalconBuilder.cpp > CMakeFiles/214Project.dir/FalconBuilder.cpp.i
+
+CMakeFiles/214Project.dir/FalconBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/FalconBuilder.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/FalconBuilder.cpp -o CMakeFiles/214Project.dir/FalconBuilder.cpp.s
+
+CMakeFiles/214Project.dir/FalconHeavy.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/FalconHeavy.cpp.o: ../FalconHeavy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/214Project.dir/FalconHeavy.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/FalconHeavy.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavy.cpp
+
+CMakeFiles/214Project.dir/FalconHeavy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/FalconHeavy.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavy.cpp > CMakeFiles/214Project.dir/FalconHeavy.cpp.i
+
+CMakeFiles/214Project.dir/FalconHeavy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/FalconHeavy.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavy.cpp -o CMakeFiles/214Project.dir/FalconHeavy.cpp.s
+
+CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.o: ../FalconHeavyBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavyBuilder.cpp
+
+CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavyBuilder.cpp > CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.i
+
+CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavyBuilder.cpp -o CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.s
+
+CMakeFiles/214Project.dir/FalconHeavyTS.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/FalconHeavyTS.cpp.o: ../FalconHeavyTS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/214Project.dir/FalconHeavyTS.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/FalconHeavyTS.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavyTS.cpp
+
+CMakeFiles/214Project.dir/FalconHeavyTS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/FalconHeavyTS.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavyTS.cpp > CMakeFiles/214Project.dir/FalconHeavyTS.cpp.i
+
+CMakeFiles/214Project.dir/FalconHeavyTS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/FalconHeavyTS.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/FalconHeavyTS.cpp -o CMakeFiles/214Project.dir/FalconHeavyTS.cpp.s
+
+CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.o: ../FullStackBuildStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/FullStackBuildStrategy.cpp
+
+CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/FullStackBuildStrategy.cpp > CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.i
+
+CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/FullStackBuildStrategy.cpp -o CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.s
+
+CMakeFiles/214Project.dir/Invoker.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Invoker.cpp.o: ../Invoker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/214Project.dir/Invoker.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Invoker.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Invoker.cpp
+
+CMakeFiles/214Project.dir/Invoker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Invoker.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Invoker.cpp > CMakeFiles/214Project.dir/Invoker.cpp.i
+
+CMakeFiles/214Project.dir/Invoker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Invoker.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Invoker.cpp -o CMakeFiles/214Project.dir/Invoker.cpp.s
 
 CMakeFiles/214Project.dir/Iterator.cpp.o: CMakeFiles/214Project.dir/flags.make
 CMakeFiles/214Project.dir/Iterator.cpp.o: ../Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/214Project.dir/Iterator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/214Project.dir/Iterator.cpp.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Iterator.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Iterator.cpp
 
 CMakeFiles/214Project.dir/Iterator.cpp.i: cmake_force
@@ -105,21 +261,435 @@ CMakeFiles/214Project.dir/Iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Iterator.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Iterator.cpp -o CMakeFiles/214Project.dir/Iterator.cpp.s
 
+CMakeFiles/214Project.dir/LaunchCommand.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/LaunchCommand.cpp.o: ../LaunchCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/214Project.dir/LaunchCommand.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/LaunchCommand.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/LaunchCommand.cpp
+
+CMakeFiles/214Project.dir/LaunchCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/LaunchCommand.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/LaunchCommand.cpp > CMakeFiles/214Project.dir/LaunchCommand.cpp.i
+
+CMakeFiles/214Project.dir/LaunchCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/LaunchCommand.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/LaunchCommand.cpp -o CMakeFiles/214Project.dir/LaunchCommand.cpp.s
+
+CMakeFiles/214Project.dir/LinkedList.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/LinkedList.cpp.o: ../LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/214Project.dir/LinkedList.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/LinkedList.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/LinkedList.cpp
+
+CMakeFiles/214Project.dir/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/LinkedList.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/LinkedList.cpp > CMakeFiles/214Project.dir/LinkedList.cpp.i
+
+CMakeFiles/214Project.dir/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/LinkedList.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/LinkedList.cpp -o CMakeFiles/214Project.dir/LinkedList.cpp.s
+
+CMakeFiles/214Project.dir/MerlinEngine.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/MerlinEngine.cpp.o: ../MerlinEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/214Project.dir/MerlinEngine.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/MerlinEngine.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/MerlinEngine.cpp
+
+CMakeFiles/214Project.dir/MerlinEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/MerlinEngine.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/MerlinEngine.cpp > CMakeFiles/214Project.dir/MerlinEngine.cpp.i
+
+CMakeFiles/214Project.dir/MerlinEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/MerlinEngine.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/MerlinEngine.cpp -o CMakeFiles/214Project.dir/MerlinEngine.cpp.s
+
+CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.o: ../MerlinEngineFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/MerlinEngineFactory.cpp
+
+CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/MerlinEngineFactory.cpp > CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.i
+
+CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/MerlinEngineFactory.cpp -o CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.s
+
+CMakeFiles/214Project.dir/MerlinFactory.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/MerlinFactory.cpp.o: ../MerlinFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/214Project.dir/MerlinFactory.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/MerlinFactory.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/MerlinFactory.cpp
+
+CMakeFiles/214Project.dir/MerlinFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/MerlinFactory.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/MerlinFactory.cpp > CMakeFiles/214Project.dir/MerlinFactory.cpp.i
+
+CMakeFiles/214Project.dir/MerlinFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/MerlinFactory.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/MerlinFactory.cpp -o CMakeFiles/214Project.dir/MerlinFactory.cpp.s
+
+CMakeFiles/214Project.dir/MotorFactory.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/MotorFactory.cpp.o: ../MotorFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/214Project.dir/MotorFactory.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/MotorFactory.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/MotorFactory.cpp
+
+CMakeFiles/214Project.dir/MotorFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/MotorFactory.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/MotorFactory.cpp > CMakeFiles/214Project.dir/MotorFactory.cpp.i
+
+CMakeFiles/214Project.dir/MotorFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/MotorFactory.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/MotorFactory.cpp -o CMakeFiles/214Project.dir/MotorFactory.cpp.s
+
+CMakeFiles/214Project.dir/Payload.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Payload.cpp.o: ../Payload.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/214Project.dir/Payload.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Payload.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Payload.cpp
+
+CMakeFiles/214Project.dir/Payload.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Payload.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Payload.cpp > CMakeFiles/214Project.dir/Payload.cpp.i
+
+CMakeFiles/214Project.dir/Payload.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Payload.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Payload.cpp -o CMakeFiles/214Project.dir/Payload.cpp.s
+
+CMakeFiles/214Project.dir/Rocket.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Rocket.cpp.o: ../Rocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/214Project.dir/Rocket.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Rocket.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Rocket.cpp
+
+CMakeFiles/214Project.dir/Rocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Rocket.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Rocket.cpp > CMakeFiles/214Project.dir/Rocket.cpp.i
+
+CMakeFiles/214Project.dir/Rocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Rocket.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Rocket.cpp -o CMakeFiles/214Project.dir/Rocket.cpp.s
+
+CMakeFiles/214Project.dir/RocketBuilder.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/RocketBuilder.cpp.o: ../RocketBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/214Project.dir/RocketBuilder.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/RocketBuilder.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/RocketBuilder.cpp
+
+CMakeFiles/214Project.dir/RocketBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/RocketBuilder.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/RocketBuilder.cpp > CMakeFiles/214Project.dir/RocketBuilder.cpp.i
+
+CMakeFiles/214Project.dir/RocketBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/RocketBuilder.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/RocketBuilder.cpp -o CMakeFiles/214Project.dir/RocketBuilder.cpp.s
+
+CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.o: ../RocketBuilderDirector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/RocketBuilderDirector.cpp
+
+CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/RocketBuilderDirector.cpp > CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.i
+
+CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/RocketBuilderDirector.cpp -o CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.s
+
+CMakeFiles/214Project.dir/RocketMotor.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/RocketMotor.cpp.o: ../RocketMotor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/214Project.dir/RocketMotor.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/RocketMotor.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/RocketMotor.cpp
+
+CMakeFiles/214Project.dir/RocketMotor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/RocketMotor.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/RocketMotor.cpp > CMakeFiles/214Project.dir/RocketMotor.cpp.i
+
+CMakeFiles/214Project.dir/RocketMotor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/RocketMotor.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/RocketMotor.cpp -o CMakeFiles/214Project.dir/RocketMotor.cpp.s
+
+CMakeFiles/214Project.dir/SimStore.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/SimStore.cpp.o: ../SimStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/214Project.dir/SimStore.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/SimStore.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/SimStore.cpp
+
+CMakeFiles/214Project.dir/SimStore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/SimStore.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/SimStore.cpp > CMakeFiles/214Project.dir/SimStore.cpp.i
+
+CMakeFiles/214Project.dir/SimStore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/SimStore.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/SimStore.cpp -o CMakeFiles/214Project.dir/SimStore.cpp.s
+
+CMakeFiles/214Project.dir/Simulation.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Simulation.cpp.o: ../Simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/214Project.dir/Simulation.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Simulation.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Simulation.cpp
+
+CMakeFiles/214Project.dir/Simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Simulation.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Simulation.cpp > CMakeFiles/214Project.dir/Simulation.cpp.i
+
+CMakeFiles/214Project.dir/Simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Simulation.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Simulation.cpp -o CMakeFiles/214Project.dir/Simulation.cpp.s
+
+CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.o: ../SingleRocketBuildStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/SingleRocketBuildStrategy.cpp
+
+CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/SingleRocketBuildStrategy.cpp > CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.i
+
+CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/SingleRocketBuildStrategy.cpp -o CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.s
+
+CMakeFiles/214Project.dir/SpaceCraft.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/SpaceCraft.cpp.o: ../SpaceCraft.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/214Project.dir/SpaceCraft.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/SpaceCraft.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/SpaceCraft.cpp
+
+CMakeFiles/214Project.dir/SpaceCraft.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/SpaceCraft.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/SpaceCraft.cpp > CMakeFiles/214Project.dir/SpaceCraft.cpp.i
+
+CMakeFiles/214Project.dir/SpaceCraft.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/SpaceCraft.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/SpaceCraft.cpp -o CMakeFiles/214Project.dir/SpaceCraft.cpp.s
+
+CMakeFiles/214Project.dir/StandardBell.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/StandardBell.cpp.o: ../StandardBell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/214Project.dir/StandardBell.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/StandardBell.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/StandardBell.cpp
+
+CMakeFiles/214Project.dir/StandardBell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/StandardBell.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/StandardBell.cpp > CMakeFiles/214Project.dir/StandardBell.cpp.i
+
+CMakeFiles/214Project.dir/StandardBell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/StandardBell.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/StandardBell.cpp -o CMakeFiles/214Project.dir/StandardBell.cpp.s
+
+CMakeFiles/214Project.dir/StandardSimulation.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/StandardSimulation.cpp.o: ../StandardSimulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/214Project.dir/StandardSimulation.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/StandardSimulation.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/StandardSimulation.cpp
+
+CMakeFiles/214Project.dir/StandardSimulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/StandardSimulation.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/StandardSimulation.cpp > CMakeFiles/214Project.dir/StandardSimulation.cpp.i
+
+CMakeFiles/214Project.dir/StandardSimulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/StandardSimulation.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/StandardSimulation.cpp -o CMakeFiles/214Project.dir/StandardSimulation.cpp.s
+
+CMakeFiles/214Project.dir/Starlink.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/Starlink.cpp.o: ../Starlink.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/214Project.dir/Starlink.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/Starlink.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/Starlink.cpp
+
+CMakeFiles/214Project.dir/Starlink.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/Starlink.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/Starlink.cpp > CMakeFiles/214Project.dir/Starlink.cpp.i
+
+CMakeFiles/214Project.dir/Starlink.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/Starlink.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/Starlink.cpp -o CMakeFiles/214Project.dir/Starlink.cpp.s
+
+CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.o: ../StarlinkSimulationAdapter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/StarlinkSimulationAdapter.cpp
+
+CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/StarlinkSimulationAdapter.cpp > CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.i
+
+CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/StarlinkSimulationAdapter.cpp -o CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.s
+
+CMakeFiles/214Project.dir/StoredSim.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/StoredSim.cpp.o: ../StoredSim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/214Project.dir/StoredSim.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/StoredSim.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/StoredSim.cpp
+
+CMakeFiles/214Project.dir/StoredSim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/StoredSim.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/StoredSim.cpp > CMakeFiles/214Project.dir/StoredSim.cpp.i
+
+CMakeFiles/214Project.dir/StoredSim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/StoredSim.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/StoredSim.cpp -o CMakeFiles/214Project.dir/StoredSim.cpp.s
+
+CMakeFiles/214Project.dir/TestState.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/TestState.cpp.o: ../TestState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/214Project.dir/TestState.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/TestState.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/TestState.cpp
+
+CMakeFiles/214Project.dir/TestState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/TestState.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/TestState.cpp > CMakeFiles/214Project.dir/TestState.cpp.i
+
+CMakeFiles/214Project.dir/TestState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/TestState.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/TestState.cpp -o CMakeFiles/214Project.dir/TestState.cpp.s
+
+CMakeFiles/214Project.dir/TestStrat.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/TestStrat.cpp.o: ../TestStrat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/214Project.dir/TestStrat.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/TestStrat.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/TestStrat.cpp
+
+CMakeFiles/214Project.dir/TestStrat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/TestStrat.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/TestStrat.cpp > CMakeFiles/214Project.dir/TestStrat.cpp.i
+
+CMakeFiles/214Project.dir/TestStrat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/TestStrat.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/TestStrat.cpp -o CMakeFiles/214Project.dir/TestStrat.cpp.s
+
+CMakeFiles/214Project.dir/UntestedState.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/UntestedState.cpp.o: ../UntestedState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/214Project.dir/UntestedState.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/UntestedState.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/UntestedState.cpp
+
+CMakeFiles/214Project.dir/UntestedState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/UntestedState.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/UntestedState.cpp > CMakeFiles/214Project.dir/UntestedState.cpp.i
+
+CMakeFiles/214Project.dir/UntestedState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/UntestedState.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/UntestedState.cpp -o CMakeFiles/214Project.dir/UntestedState.cpp.s
+
+CMakeFiles/214Project.dir/UpperStageBuilder.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/UpperStageBuilder.cpp.o: ../UpperStageBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/214Project.dir/UpperStageBuilder.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/UpperStageBuilder.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/UpperStageBuilder.cpp
+
+CMakeFiles/214Project.dir/UpperStageBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/UpperStageBuilder.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/UpperStageBuilder.cpp > CMakeFiles/214Project.dir/UpperStageBuilder.cpp.i
+
+CMakeFiles/214Project.dir/UpperStageBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/UpperStageBuilder.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/UpperStageBuilder.cpp -o CMakeFiles/214Project.dir/UpperStageBuilder.cpp.s
+
+CMakeFiles/214Project.dir/VacumeBell.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/VacumeBell.cpp.o: ../VacumeBell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/214Project.dir/VacumeBell.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/VacumeBell.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/VacumeBell.cpp
+
+CMakeFiles/214Project.dir/VacumeBell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/VacumeBell.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/VacumeBell.cpp > CMakeFiles/214Project.dir/VacumeBell.cpp.i
+
+CMakeFiles/214Project.dir/VacumeBell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/VacumeBell.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/VacumeBell.cpp -o CMakeFiles/214Project.dir/VacumeBell.cpp.s
+
+CMakeFiles/214Project.dir/WorkingState.cpp.o: CMakeFiles/214Project.dir/flags.make
+CMakeFiles/214Project.dir/WorkingState.cpp.o: ../WorkingState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/214Project.dir/WorkingState.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/214Project.dir/WorkingState.cpp.o -c /cygdrive/c/Users/james/CLionProjects/214Project/WorkingState.cpp
+
+CMakeFiles/214Project.dir/WorkingState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/214Project.dir/WorkingState.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/james/CLionProjects/214Project/WorkingState.cpp > CMakeFiles/214Project.dir/WorkingState.cpp.i
+
+CMakeFiles/214Project.dir/WorkingState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/214Project.dir/WorkingState.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/james/CLionProjects/214Project/WorkingState.cpp -o CMakeFiles/214Project.dir/WorkingState.cpp.s
+
 # Object files for target 214Project
 214Project_OBJECTS = \
 "CMakeFiles/214Project.dir/Main.cpp.o" \
+"CMakeFiles/214Project.dir/Bell.cpp.o" \
+"CMakeFiles/214Project.dir/BrokenState.cpp.o" \
+"CMakeFiles/214Project.dir/BuildStrategy.cpp.o" \
+"CMakeFiles/214Project.dir/Command.cpp.o" \
+"CMakeFiles/214Project.dir/Engine.cpp.o" \
+"CMakeFiles/214Project.dir/EngineFactory.cpp.o" \
+"CMakeFiles/214Project.dir/Falcon9TS.cpp.o" \
+"CMakeFiles/214Project.dir/FalconBuilder.cpp.o" \
+"CMakeFiles/214Project.dir/FalconHeavy.cpp.o" \
+"CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.o" \
+"CMakeFiles/214Project.dir/FalconHeavyTS.cpp.o" \
+"CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.o" \
+"CMakeFiles/214Project.dir/Invoker.cpp.o" \
+"CMakeFiles/214Project.dir/Iterator.cpp.o" \
+"CMakeFiles/214Project.dir/LaunchCommand.cpp.o" \
+"CMakeFiles/214Project.dir/LinkedList.cpp.o" \
+"CMakeFiles/214Project.dir/MerlinEngine.cpp.o" \
+"CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.o" \
+"CMakeFiles/214Project.dir/MerlinFactory.cpp.o" \
+"CMakeFiles/214Project.dir/MotorFactory.cpp.o" \
+"CMakeFiles/214Project.dir/Payload.cpp.o" \
+"CMakeFiles/214Project.dir/Rocket.cpp.o" \
+"CMakeFiles/214Project.dir/RocketBuilder.cpp.o" \
+"CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.o" \
+"CMakeFiles/214Project.dir/RocketMotor.cpp.o" \
+"CMakeFiles/214Project.dir/SimStore.cpp.o" \
+"CMakeFiles/214Project.dir/Simulation.cpp.o" \
+"CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.o" \
 "CMakeFiles/214Project.dir/SpaceCraft.cpp.o" \
-"CMakeFiles/214Project.dir/Iterator.cpp.o"
+"CMakeFiles/214Project.dir/StandardBell.cpp.o" \
+"CMakeFiles/214Project.dir/StandardSimulation.cpp.o" \
+"CMakeFiles/214Project.dir/Starlink.cpp.o" \
+"CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.o" \
+"CMakeFiles/214Project.dir/StoredSim.cpp.o" \
+"CMakeFiles/214Project.dir/TestState.cpp.o" \
+"CMakeFiles/214Project.dir/TestStrat.cpp.o" \
+"CMakeFiles/214Project.dir/UntestedState.cpp.o" \
+"CMakeFiles/214Project.dir/UpperStageBuilder.cpp.o" \
+"CMakeFiles/214Project.dir/VacumeBell.cpp.o" \
+"CMakeFiles/214Project.dir/WorkingState.cpp.o"
 
 # External object files for target 214Project
 214Project_EXTERNAL_OBJECTS =
 
 214Project.exe: CMakeFiles/214Project.dir/Main.cpp.o
-214Project.exe: CMakeFiles/214Project.dir/SpaceCraft.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Bell.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/BrokenState.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/BuildStrategy.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Command.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Engine.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/EngineFactory.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Falcon9TS.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/FalconBuilder.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/FalconHeavy.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/FalconHeavyBuilder.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/FalconHeavyTS.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/FullStackBuildStrategy.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Invoker.cpp.o
 214Project.exe: CMakeFiles/214Project.dir/Iterator.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/LaunchCommand.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/LinkedList.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/MerlinEngine.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/MerlinEngineFactory.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/MerlinFactory.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/MotorFactory.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Payload.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Rocket.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/RocketBuilder.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/RocketBuilderDirector.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/RocketMotor.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/SimStore.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Simulation.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/SingleRocketBuildStrategy.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/SpaceCraft.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/StandardBell.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/StandardSimulation.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/Starlink.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/StarlinkSimulationAdapter.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/StoredSim.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/TestState.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/TestStrat.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/UntestedState.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/UpperStageBuilder.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/VacumeBell.cpp.o
+214Project.exe: CMakeFiles/214Project.dir/WorkingState.cpp.o
 214Project.exe: CMakeFiles/214Project.dir/build.make
 214Project.exe: CMakeFiles/214Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 214Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/james/CLionProjects/214Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable 214Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/214Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

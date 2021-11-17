@@ -1,6 +1,6 @@
 #include "SingleRocketBuildStrategy.h"
 
-SingleRocketBuildStrategy::SingleRocketBuildStrategy(RocketBuilder* b) {
+SingleRocketBuildStrategy::SingleRocketBuildStrategy(RocketBuilder *b) : BuildStrategy(b) {
 	// TODO - implement SingleRocketBuildStrategy::SingleRocketBuildStrategy
 	throw "Not yet implemented";
 }
