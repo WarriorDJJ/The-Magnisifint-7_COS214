@@ -1,6 +1,8 @@
 #ifndef SIMSTORE_H
 #define SIMSTORE_H
 
+#include "StoredSim.h"
+
 class SimStore {
 
 private:

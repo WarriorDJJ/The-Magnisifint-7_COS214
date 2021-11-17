@@ -1,7 +1,7 @@
 #ifndef STANDARDSIMULATION_H
 #define STANDARDSIMULATION_H
 
-class StandardSimulation : Simulation {
+class StandardSimulation : public Simulation {
 
 
 public:

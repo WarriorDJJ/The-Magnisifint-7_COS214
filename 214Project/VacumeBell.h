@@ -1,7 +1,7 @@
 #ifndef VACUMEBELL_H
 #define VACUMEBELL_H
 
-class VacumeBell : Bell {
+class VacumeBell : public Bell {
 
 
 public:

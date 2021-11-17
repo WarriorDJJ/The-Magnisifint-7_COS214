@@ -1,8 +1,15 @@
 #include "RocketMotor.h"
 
+RocketMotor::RocketMotor(int cp) {
+    chamberPressure = cp;
+}
+
+int RocketMotor::getChamberPressure() {
+    return chamberPressure;
+}
+
 int RocketMotor::getISP() {
-	// TODO - implement RocketMotor::getISP
-	throw "Not yet implemented";
+	return ISP;
 }
 
 int RocketMotor::getThrust(int a) {

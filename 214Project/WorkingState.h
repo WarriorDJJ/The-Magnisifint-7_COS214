@@ -1,7 +1,7 @@
 #ifndef WORKINGSTATE_H
 #define WORKINGSTATE_H
 
-class WorkingState : TestState {
+class WorkingState : public TestState {
 
 
 public:

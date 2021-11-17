@@ -1,6 +1,7 @@
 #ifndef STARLINK_H
 #define STARLINK_H
 
+#include <vector>
 class Starlink {
 
 private:

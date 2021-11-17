@@ -5,9 +5,9 @@ class TestStrat {
 
 
 public:
-	void launch();
+	virtual void launch() = 0;
 
-	void staticTest();
+	virtual void staticTest() = 0;
 };
 
 #endif

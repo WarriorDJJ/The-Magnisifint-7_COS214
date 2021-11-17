@@ -1,6 +1,6 @@
 #include "MotorFactory.h"
 
-RocketMotor* MotorFactory::createMotor() {
+/*RocketMotor* MotorFactory::createMotor() {
 	// TODO - implement MotorFactory::createMotor
 	throw "Not yet implemented";
-}
+}*/

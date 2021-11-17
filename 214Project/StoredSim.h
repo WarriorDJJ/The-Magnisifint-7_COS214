@@ -1,6 +1,8 @@
 #ifndef STOREDSIM_H
 #define STOREDSIM_H
 
+#include "StoredSimState.h"
+
 class StoredSim {
 
 private:

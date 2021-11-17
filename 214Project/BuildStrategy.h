@@ -1,6 +1,8 @@
 #ifndef BUILDSTRATEGY_H
 #define BUILDSTRATEGY_H
 
+#include "RocketBuilder.h"
+
 class BuildStrategy {
 
 private:

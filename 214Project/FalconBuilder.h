@@ -1,7 +1,7 @@
 #ifndef FALCONBUILDER_H
 #define FALCONBUILDER_H
 
-class FalconBuilder : RocketBuilder {
+class FalconBuilder : public RocketBuilder {
 
 
 public:

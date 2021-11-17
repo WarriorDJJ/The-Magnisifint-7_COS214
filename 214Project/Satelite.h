@@ -1,7 +1,7 @@
 #ifndef SATELITE_H
 #define SATELITE_H
 
-class Satelite : Payload {
+class Satelite : public Payload {
 };
 
 #endif

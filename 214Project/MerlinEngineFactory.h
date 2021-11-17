@@ -1,7 +1,7 @@
 #ifndef MERLINENGINEFACTORY_H
 #define MERLINENGINEFACTORY_H
 
-class MerlinEngineFactory : EngineFactory {
+class MerlinEngineFactory : public EngineFactory {
 
 
 public:

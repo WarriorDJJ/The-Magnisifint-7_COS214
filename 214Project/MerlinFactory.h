@@ -1,11 +1,13 @@
 #ifndef MERLINFACTORY_H
 #define MERLINFACTORY_H
 
-class MerlinFactory : MotorFactory {
+#include "MotorFactory.h"
+
+class MerlinFactory : public MotorFactory {
 
 
 public:
-	RocketMotor* createMotor();
+	RocketMotor* createMotor() override;
 };
 
 #endif

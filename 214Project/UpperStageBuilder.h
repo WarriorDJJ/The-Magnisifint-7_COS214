@@ -1,7 +1,7 @@
 #ifndef UPPERSTAGEBUILDER_H
 #define UPPERSTAGEBUILDER_H
 
-class UpperStageBuilder : RocketBuilder {
+class UpperStageBuilder : public RocketBuilder {
 
 
 public:

@@ -1,11 +1,12 @@
 #ifndef ROCKET_H
 #define ROCKET_H
 
-class Rocket : SpaceCraft {
+#include <vector>
+class Rocket : public SpaceCraft {
 
 public:
 	SpaceCraft* NextStage;
-	Vector<Engine*> engines;
+	vector<Engine*> engines;
 public:
 	int Fuel;
 

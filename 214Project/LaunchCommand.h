@@ -1,11 +1,11 @@
 #ifndef LAUNCHCOMMAND_H
 #define LAUNCHCOMMAND_H
 
-class LaunchCommand : Command {
+class LaunchCommand : public Command {
 
 
 public:
-	LaunchCommand(Spacecraft* s);
+	LaunchCommand(SpaceCraft* s);
 
 	void execute();
 };

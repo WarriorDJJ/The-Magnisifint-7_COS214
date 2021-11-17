@@ -5,7 +5,7 @@ class MotorFactory {
 
 
 public:
-	RocketMotor* createMotor();
+	virtual RocketMotor* createMotor() = 0;
 };
 
 #endif

@@ -1,6 +1,8 @@
 #ifndef ROCKETBUILDER_H
 #define ROCKETBUILDER_H
 
+#include "Rocket.h"
+
 class RocketBuilder {
 
 private:

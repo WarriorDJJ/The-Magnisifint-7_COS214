@@ -1,7 +1,7 @@
 #ifndef STANDARDBELL_H
 #define STANDARDBELL_H
 
-class StandardBell : Bell {
+class StandardBell : public Bell {
 
 
 public:

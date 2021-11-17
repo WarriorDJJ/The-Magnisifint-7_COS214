@@ -1,7 +1,7 @@
 #ifndef SINGLEROCKETBUILDSTRATEGY_H
 #define SINGLEROCKETBUILDSTRATEGY_H
 
-class SingleRocketBuildStrategy : BuildStrategy {
+class SingleRocketBuildStrategy : public BuildStrategy {
 
 
 public:

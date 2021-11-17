@@ -1,7 +1,7 @@
 #ifndef UNTESTEDSTATE_H
 #define UNTESTEDSTATE_H
 
-class UntestedState : TestState {
+class UntestedState : public TestState {
 
 
 public:

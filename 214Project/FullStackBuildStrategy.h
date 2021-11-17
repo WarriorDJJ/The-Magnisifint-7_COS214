@@ -1,7 +1,7 @@
 #ifndef FULLSTACKBUILDSTRATEGY_H
 #define FULLSTACKBUILDSTRATEGY_H
 
-class FullStackBuildStrategy : BuildStrategy {
+class FullStackBuildStrategy : public BuildStrategy {
 
 
 public:

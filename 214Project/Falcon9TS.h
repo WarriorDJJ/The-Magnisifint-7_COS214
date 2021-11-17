@@ -1,13 +1,13 @@
 #ifndef FALCON9TS_H
 #define FALCON9TS_H
 
-class Falcon9TS : TestStrat {
+class Falcon9TS : public TestStrat {
 
 
 public:
-	void launch();
+	void launch() override;
 
-	void staticTest();
+	void staticTest() override;
 };
 
 #endif
