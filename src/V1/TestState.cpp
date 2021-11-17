@@ -22,24 +22,24 @@ TestState::TestState(Rocket *rocketForTest)
 }
 
 
-void TestState::checkState() {}
-//{
-//    if (stateOfRocket == "untested")
-//    {
-//        Simulation* testRocket = new Simulation;
-//        testRocket->launch(rocketForTest);
-//    }
-//
-//    if (stateOfRocket == "faulty")
-//    {
+void TestState::checkState()
+{
+    if (stateOfRocket == "untested")
+    {
+        Simulation* testRocket = new Simulation;
+        testRocket->launch(rocketForTest);
+    }
+
+    if (stateOfRocket == "faulty")
+    {
 //        BrokenState* brokenRocket = new BrokenState(rocketForTest);
 //        brokenRocket->launch(rocketForTest);
-//    }
-//
-//    if (stateOfRocket == "tested")
-//    {
-//        //TODO: launching of rocket
-//    }
-//}
+    }
+
+    if (stateOfRocket == "tested")
+    {
+        //TODO: launching of rocket
+    }
+}
 
 

@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\COS214_PA5_V1.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\COS214_PA5_V1.dir/objects.a @CMakeFiles\COS214_PA5_V1.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\COS214_PA5_V1.dir/objects.a -Wl,--no-whole-archive -o COS214_PA5_V1.exe -Wl,--out-implib,libCOS214_PA5_V1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\COS214_PA5_V1.dir\linklibs.rsp

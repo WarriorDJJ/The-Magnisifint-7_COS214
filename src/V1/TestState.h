@@ -4,7 +4,7 @@
 #include "SpaceCraft.h"
 //#include "TestStrat.h"
 #include "Rocket.h"
-//#include "Simulation.h"
+#include "Simulation.h"
 //#include "BrokenState.h"
 //#include "WorkingState.h"
 

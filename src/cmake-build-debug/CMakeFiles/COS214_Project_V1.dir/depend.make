@@ -5,7 +5,9 @@ CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj: \
  ../V1/BrokenState.cpp \
  ../V1/BrokenState.h \
  ../V1/Engine.h \
+ ../V1/Payload.h \
  ../V1/Rocket.h \
+ ../V1/Simulation.h \
  ../V1/SpaceCraft.h \
  ../V1/TestState.h
 CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj: \
@@ -230,6 +232,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/SimStore.cpp.obj: \
  ../V1/Rocket.h \
  ../V1/SimStore.cpp \
  ../V1/SimStore.h \
+ ../V1/Simulation.h \
  ../V1/SpaceCraft.h \
  ../V1/StoredSim.h \
  ../V1/StoredSimState.h \
@@ -294,6 +297,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/StoredSim.cpp.obj: \
  ../V1/Engine.h \
  ../V1/Payload.h \
  ../V1/Rocket.h \
+ ../V1/Simulation.h \
  ../V1/SpaceCraft.h \
  ../V1/StoredSim.cpp \
  ../V1/StoredSim.h \
@@ -303,13 +307,16 @@ CMakeFiles/COS214_Project_V1.dir/V1/StoredSimState.cpp.obj: \
  ../V1/Engine.h \
  ../V1/Payload.h \
  ../V1/Rocket.h \
+ ../V1/Simulation.h \
  ../V1/SpaceCraft.h \
  ../V1/StoredSimState.cpp \
  ../V1/StoredSimState.h \
  ../V1/TestState.h
 CMakeFiles/COS214_Project_V1.dir/V1/TestState.cpp.obj: \
  ../V1/Engine.h \
+ ../V1/Payload.h \
  ../V1/Rocket.h \
+ ../V1/Simulation.h \
  ../V1/SpaceCraft.h \
  ../V1/TestState.cpp \
  ../V1/TestState.h
@@ -318,7 +325,9 @@ CMakeFiles/COS214_Project_V1.dir/V1/TestStrat.cpp.obj: \
  ../V1/TestStrat.h
 CMakeFiles/COS214_Project_V1.dir/V1/UntestedState.cpp.obj: \
  ../V1/Engine.h \
+ ../V1/Payload.h \
  ../V1/Rocket.h \
+ ../V1/Simulation.h \
  ../V1/SpaceCraft.h \
  ../V1/TestState.h \
  ../V1/UntestedState.cpp \
@@ -340,7 +349,9 @@ CMakeFiles/COS214_Project_V1.dir/V1/VacumeBell.cpp.obj: \
  ../V1/VacumeBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/WorkingState.cpp.obj: \
  ../V1/Engine.h \
+ ../V1/Payload.h \
  ../V1/Rocket.h \
+ ../V1/Simulation.h \
  ../V1/SpaceCraft.h \
  ../V1/TestState.h \
  ../V1/WorkingState.cpp \

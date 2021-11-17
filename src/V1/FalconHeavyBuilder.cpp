@@ -56,3 +56,7 @@ Rocket* FalconHeavyBuilder::getLeft() {
 Rocket* FalconHeavyBuilder::getRight() {
     return RightBooster;
 }
+
+Rocket *FalconHeavyBuilder::getRocket() {
+    return rocket;
+}

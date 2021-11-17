@@ -14,7 +14,7 @@ protected:
 public:
 	virtual void createRocket() = 0;
 
-	Rocket* getRocket();//test to see if this needs Virtual
+	virtual Rocket* getRocket();//test to see if this needs Virtual
 
 	virtual void createEngines() = 0;
 
