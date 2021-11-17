@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Bell.cpp">
-			<Option target="COS214_Project_V1"/>
-		</Unit>
-		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Bell.h">
-			<Option target="COS214_Project_V1"/>
-		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.cpp">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
@@ -216,6 +210,12 @@
 			<Option target="COS214_Project_V1"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MotorFactory.h">
+			<Option target="COS214_Project_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Nozzle.cpp">
+			<Option target="COS214_Project_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Nozzle.h">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.cpp">

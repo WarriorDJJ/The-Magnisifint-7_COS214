@@ -2,18 +2,29 @@
 #define TESTSTATE_H
 
 #include "SpaceCraft.h"
-#include "TestStrat.h"
+//#include "TestStrat.h"
+#include "Rocket.h"
+//#include "Simulation.h"
+//#include "BrokenState.h"
+//#include "WorkingState.h"
 
+//class WorkingState;
+//class BrokenState;
 class TestState {
 
 private:
-	SpaceCraft* rocket;
-	TestStrat* testS;
+	Rocket* rocketForTest;
+//	TestStrat* testS;
+    string stateOfRocket;
 
 public:
-	bool launch();
+    TestState(Rocket*);
+
+    bool runStaticTest();
 
 	TestState* getWorkingState();
+
+    void checkState();
 
 	TestState* getBrokenState();
 };

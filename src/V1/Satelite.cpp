@@ -20,3 +20,19 @@ void Satelite::release() {
     cout << "Satellite released..." << endl;
 }
 
+//TODO
+void Satelite::LoadFuel() {
+
+}
+
+void Satelite::VentFuel() {
+
+}
+
+int Satelite::GetFuel() {//should almost definitely be double but yeah someone else oughta fix it
+    return 0;
+}
+
+void Satelite::notify(Engine *engine) {
+
+}

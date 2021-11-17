@@ -2,8 +2,8 @@
 
 void FullStackBuildStrategy::build() {
     //ASSEMBLE STAGE 1
-    b->createRocket();
-    b->createEngines();
+    builder->createRocket();
+    builder->createEngines();
     //ASSEMBLE STAGE 2
     double wet = 0;//needs falcon 9 values
     double dry = 0;
@@ -23,9 +23,9 @@ void FullStackBuildStrategy::build() {
     delete eFact;
 
     //ASSEMBLE STAGE 3
-    b->attachPayload(payload);
+    builder->attachPayload(payload);
 }
 
-FullStackBuildStrategy::FullStackBuildStrategy(RocketBuilder *b, SpaceCraft *payload) : BuildStrategy(b), payload(payload) {
-
+FullStackBuildStrategy::FullStackBuildStrategy(RocketBuilder *b, SpaceCraft *payload) : payload(payload) {
+    builder = b;
 }

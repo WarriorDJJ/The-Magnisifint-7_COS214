@@ -46,16 +46,17 @@ James Changes:
 
 
 Francois Changes:
-    Worked on Engine.cpp and Engine.h //glorious
-    Added the thrust member and implemented the clone function.
-    Made Command Pure Virtual
-    Added LoadFuelCommand as part of the Spacecraft commands
-    Implemented the LoadFuelCommand Execute as well as the launch
-    Wasnt sure about logistics so I just added some basic error checking
-    Implemented observer on Engine for failures, notify still needs to be implemented on rockets
-    Added StartEngine() to engine, which is used in the startup of the rockets
-    Moved vector<Engine*> engines in rocket to private
-    Implemented the Activate() function inside Rocket.cpp
+    -Worked on Engine.cpp and Engine.h //glorious
+    -Added the thrust member and implemented the clone function. //thrust removed
+    -Made Command Pure Virtual
+    -Added LoadFuelCommand as part of the Spacecraft commands
+    -Implemented the LoadFuelCommand Execute as well as the launch
+    -Wasnt sure about logistics so I just added some basic error checking
+    -Implemented observer on Engine for failures, notify still needs to be implemented on rockets
+    -Added StartEngine() to engine, which is used in the startup of the rockets
+    -Moved vector<Engine*> engines in rocket to private
+    -Implemented the Activate() function inside Rocket.cpp
+    -AddEngine and RemoveEngine implemented in Rocket class
 
 
 Keelan Changes:
@@ -74,23 +75,37 @@ Keelan Changes:
         did the createEngines for Falcon9 builder
         =====FalconBuilder Complete=====
 
-
     ---EngineFactory---
         made EngineFactory class abstract
 
     ---BuildStrategy---
         made BuildStrategy abstract
         made it protected instead of private
+        added a builder setter to the parent class
+        added a payload member to the FullStageBuildStrategy
+        implemented the build() and constructor for FullStageBuild
+        =====FullStageBuildStrategy Complete=====
+        implemented the build() function for SingleRocketBuildStrategy
+        =====SingleRocketBuildStrategy Complete=====
+        added a Setter in the RocketBuilderDirector class for the strategy
+        implemented the build function
+
+    ---Satelite---
+        stubbed functions not yet implemented and added a TODO tag
+
+    ---Main---
+        Attempting to test some builder and builderStrategy functionality
 
 
 Damian Changes:
-    -Bell, Engine, Motor...: Added Constructor and added getters and setters
+    -Nozzle, Engine, Motor...: Added Constructor and added getters and setters
     -spacecraft abstract
     -make functions to access the engins
+    -Renamed Bell to Nozzle
 
 
 Fourie Changes:
-    -Removed typo from Bell.h.
+    -Removed typo from Nozzle.h.
     -Finished getThrust() function;
     -GetThrust() in bell.h and vacuumBell.h function uses basic simplified math to get an output. (we can update it to rocket science mafs later)
     -Updated all bell class variables from integers to doubles for use in main program, if errors pop up just revert them.

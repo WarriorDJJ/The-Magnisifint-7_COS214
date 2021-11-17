@@ -1,6 +1,7 @@
 #ifndef SPACECRAFT_H
 #define SPACECRAFT_H
 
+
 class Engine;
 class SpaceCraft {
 private:

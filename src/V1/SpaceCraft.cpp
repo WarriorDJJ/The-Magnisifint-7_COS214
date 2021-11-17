@@ -12,3 +12,7 @@ SpaceCraft* SpaceCraft::GetNextStage() {
 	// TODO - implement SpaceCraft::GetNextStage
     return nullptr;
 }
+
+SpaceCraft::SpaceCraft() {
+
+}

@@ -6,12 +6,11 @@
 class BuildStrategy {
 
 protected:
-	RocketBuilder* b;
+	RocketBuilder* builder;
 
 public:
-	BuildStrategy(RocketBuilder* b);
-
 	virtual void build() = 0;
+    void setBuilder(RocketBuilder* rb);
 };
 
 #endif

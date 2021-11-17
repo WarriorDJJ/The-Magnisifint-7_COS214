@@ -11,11 +11,16 @@ protected:
     bool fail;
 public:
     Engine();
-    void StartEngine();
-    void setSpacecraft(SpaceCraft* spacecraft);
-    virtual int getThrust(int a);
+    virtual void StartEngine();
+    virtual void setSpacecraft(SpaceCraft* spacecraft);
+
+    virtual double getThrust(double altitude);
 	virtual Engine * clone();
-    void update();
+    virtual void update();
+
+    virtual bool isFail() const;
+    virtual void setFail(bool fail);
+    virtual SpaceCraft *getSpaceCraft() const;
 };
 
 #endif

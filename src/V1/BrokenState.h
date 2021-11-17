@@ -3,11 +3,12 @@
 
 #include "TestState.h"
 
-class BrokenState : public TestState {
-
-
+class BrokenState : public TestState
+{
 public:
-	bool launch();
+    BrokenState(Rocket *rocket);
+
+    bool launch(Rocket *);
 };
 
 #endif

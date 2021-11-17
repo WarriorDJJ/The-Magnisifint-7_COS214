@@ -1,8 +1,19 @@
 #include "Rocket.h"
 
 Rocket::Rocket(double f, double wm, double dm, string n) : fuel(f), wetMass(wm), dryMass(dm), name(n){
-
+    rocketState = "untested";
 }
+
+void Rocket::DestroyRocket()
+{
+
+    for(int i=0;i<engines.size();i++)
+    {
+
+        RemoveEngine(engines[i]);
+    }
+}
+
 
 void Rocket::Activate() {
 	// TODO - implement Rocket::Activate
@@ -53,6 +64,16 @@ void Rocket::AddEngine(Engine *engine) {
     engines.push_back(engine);
 }
 
-void Rocket::RemoveEngine(Engine *engine) {
-    vector<Engine*> vec;
+void Rocket::RemoveEngine(Engine * engine) {
+    vector<Engine*>::iterator ptr;
+    for (ptr = engines.begin(); ptr < engines.end(); ptr++){
+        if(*ptr==engine){
+            engines.erase(ptr);
+        }
+    }
+    
+}
+
+Rocket::~Rocket() {
+
 }

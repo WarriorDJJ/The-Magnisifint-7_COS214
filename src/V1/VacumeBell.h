@@ -1,13 +1,13 @@
 #ifndef VACUMEBELL_H
 #define VACUMEBELL_H
 
-#include "Bell.h"
+#include "Nozzle.h"
 
-class VacumeBell : public Bell {
+class VacumeBell : public Nozzle {
 
 
 public:
-	double getThrust(double altitude);
+	double getThrust(double externalPressure);
 	Engine* clone() override;
 };
 

@@ -128,30 +128,6 @@ COS214_Project_V1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/build
 .PHONY : COS214_Project_V1/fast
 
-V1/Bell.obj: V1/Bell.cpp.obj
-.PHONY : V1/Bell.obj
-
-# target to build an object file
-V1/Bell.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.obj
-.PHONY : V1/Bell.cpp.obj
-
-V1/Bell.i: V1/Bell.cpp.i
-.PHONY : V1/Bell.i
-
-# target to preprocess a source file
-V1/Bell.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.i
-.PHONY : V1/Bell.cpp.i
-
-V1/Bell.s: V1/Bell.cpp.s
-.PHONY : V1/Bell.s
-
-# target to generate assembly for a file
-V1/Bell.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.s
-.PHONY : V1/Bell.cpp.s
-
 V1/BrokenState.obj: V1/BrokenState.cpp.obj
 .PHONY : V1/BrokenState.obj
 
@@ -655,6 +631,30 @@ V1/MotorFactory.s: V1/MotorFactory.cpp.s
 V1/MotorFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.s
 .PHONY : V1/MotorFactory.cpp.s
+
+V1/Nozzle.obj: V1/Nozzle.cpp.obj
+.PHONY : V1/Nozzle.obj
+
+# target to build an object file
+V1/Nozzle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.obj
+.PHONY : V1/Nozzle.cpp.obj
+
+V1/Nozzle.i: V1/Nozzle.cpp.i
+.PHONY : V1/Nozzle.i
+
+# target to preprocess a source file
+V1/Nozzle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.i
+.PHONY : V1/Nozzle.cpp.i
+
+V1/Nozzle.s: V1/Nozzle.cpp.s
+.PHONY : V1/Nozzle.s
+
+# target to generate assembly for a file
+V1/Nozzle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.s
+.PHONY : V1/Nozzle.cpp.s
 
 V1/Payload.obj: V1/Payload.cpp.obj
 .PHONY : V1/Payload.obj
@@ -1265,9 +1265,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... COS214_Project_V1
-	@echo ... V1/Bell.obj
-	@echo ... V1/Bell.i
-	@echo ... V1/Bell.s
 	@echo ... V1/BrokenState.obj
 	@echo ... V1/BrokenState.i
 	@echo ... V1/BrokenState.s
@@ -1331,6 +1328,9 @@ help:
 	@echo ... V1/MotorFactory.obj
 	@echo ... V1/MotorFactory.i
 	@echo ... V1/MotorFactory.s
+	@echo ... V1/Nozzle.obj
+	@echo ... V1/Nozzle.i
+	@echo ... V1/Nozzle.s
 	@echo ... V1/Payload.obj
 	@echo ... V1/Payload.i
 	@echo ... V1/Payload.s

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj"
@@ -21,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj"
+  "CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/Payload.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/PitchCommand.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/Rocket.cpp.obj"

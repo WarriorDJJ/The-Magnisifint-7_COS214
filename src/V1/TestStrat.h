@@ -2,8 +2,6 @@
 #define TESTSTRAT_H
 
 class TestStrat {
-
-
 public:
 	virtual void launch() = 0;
 

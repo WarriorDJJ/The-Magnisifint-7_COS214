@@ -11,6 +11,12 @@ public:
     Satelite* getNextSatelite();
     void release();
     void setNextSatelite(Satelite *s);
+
+    //TODO
+    virtual void LoadFuel();
+    virtual int GetFuel();
+    virtual void VentFuel();
+    virtual void notify(Engine * engine);
 };
 
 #endif

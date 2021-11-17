@@ -9,8 +9,8 @@ private:
 	BuildStrategy* strategy;
 
 public:
+    RocketBuilderDirector();
 	void setStrategy(BuildStrategy* s);
-
 	void build();
 };
 

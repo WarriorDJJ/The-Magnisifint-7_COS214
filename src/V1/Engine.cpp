@@ -2,17 +2,20 @@
 #include <stdlib.h>
 using namespace std;
 
-int Engine::getThrust(int a){
+double Engine::getThrust(double altitude){
     return 0;
 }
 
  Engine * Engine::clone(){
 	Engine * newEngine = new Engine();
+    newEngine->spaceCraft = this->spaceCraft;
+    newEngine->fail = this->fail;
     return newEngine;
 }
 
 Engine::Engine(){
     this->fail = false;
+    this->spaceCraft = nullptr;
 }
 
 void Engine::setSpacecraft(SpaceCraft *spacecraft) {
@@ -34,4 +37,16 @@ void Engine::StartEngine() {
         cout << "Engine started succesfully!"<<endl;
         this->fail = false;
     }
+}
+
+bool Engine::isFail() const {
+    return fail;
+}
+
+void Engine::setFail(bool fail) {
+    Engine::fail = fail;
+}
+
+SpaceCraft *Engine::getSpaceCraft() const {
+    return spaceCraft;
 }

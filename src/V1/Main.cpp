@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "Bell.h"
+#include "Nozzle.h"
 #include "BrokenState.h"
 #include "BuildStrategy.h"
 #include "CargoDragon.h"
@@ -46,14 +46,34 @@ using namespace std;
 #include "WorkingState.h"
 #include "TestStrat.h"
 #include <stdlib.h>     /* srand, rand */
+
+void Starlink(){
+
+}
+
+void Falcon9(){
+
+}
+
+void FalconHeavy(){
+
+}
+
 int main() {
     cout << "Hello, World!" << endl;
     //MotorFactory* merlinFact = new MerlinFactory();
     //RocketMotor* yeet = merlinFact->createMotor();
     //cout << yeet->getChamberPressure();
 
+    //Keelan testing his Builder and Strategy
 
+    RocketBuilder* FHbuilder = new FalconHeavyBuilder();
+    SpaceCraft* myPayload = new Satelite();
+    BuildStrategy* myStrat = new FullStackBuildStrategy(FHbuilder , myPayload);
+    RocketBuilderDirector* director = new RocketBuilderDirector();
+    director->setStrategy(myStrat);
+    director->build();
 
-
+    delete director;
     return 0;
 }

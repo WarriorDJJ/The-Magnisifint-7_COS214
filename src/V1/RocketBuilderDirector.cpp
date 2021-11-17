@@ -1,10 +1,15 @@
 #include "RocketBuilderDirector.h"
 
+
+RocketBuilderDirector::RocketBuilderDirector() {
+
+}
+
 void RocketBuilderDirector::setStrategy(BuildStrategy* s) {
+    strategy = nullptr;
 	this->strategy = s;
 }
 
 void RocketBuilderDirector::build() {
-	// TODO - implement RocketBuilderDirector::build
-	throw "Not yet implemented";
+	strategy->build();
 }

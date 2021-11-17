@@ -1,13 +1,13 @@
 #ifndef STANDARDBELL_H
 #define STANDARDBELL_H
 
-#include "Bell.h"
+#include "Nozzle.h"
 
-class StandardBell : public Bell {
+class StandardBell : public Nozzle {
 
 
 public:
-	int getThrust(int a) override;
+	double getThrust(double externalPressure) override;
 
 	Engine* clone() override;
 };

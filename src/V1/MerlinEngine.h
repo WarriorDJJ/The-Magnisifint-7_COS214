@@ -7,7 +7,7 @@ class MerlinEngine : public RocketMotor {
 
 
 public:
-	void clone();
+	MerlinEngine * clone();
 };
 
 #endif

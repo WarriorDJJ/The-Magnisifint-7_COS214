@@ -1,6 +1,6 @@
 #include "MerlinEngine.h"
 
-void MerlinEngine::clone() {
+MerlinEngine * MerlinEngine::clone() {
 	// TODO - implement MerlinEngine::clone
 	throw "Not yet implemented";
 }

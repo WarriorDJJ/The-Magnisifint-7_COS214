@@ -65,22 +65,9 @@ include CMakeFiles/COS214_Project_V1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/COS214_Project_V1.dir/flags.make
 
-CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
-CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.obj: ../V1/Bell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\Bell.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Bell.cpp"
-
-CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Bell.cpp" > CMakeFiles\COS214_Project_V1.dir\V1\Bell.cpp.i
-
-CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Bell.cpp" -o CMakeFiles\COS214_Project_V1.dir\V1\Bell.cpp.s
-
 CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj: ../V1/BrokenState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\BrokenState.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\BrokenState.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.i: cmake_force
@@ -93,7 +80,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj: ../V1/BuildStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\BuildStrategy.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\BuildStrategy.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.i: cmake_force
@@ -106,7 +93,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj: ../V1/Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\Command.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Command.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.i: cmake_force
@@ -119,7 +106,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.obj: ../V1/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\Engine.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Engine.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.i: cmake_force
@@ -132,7 +119,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.obj: ../V1/EngineFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\EngineFactory.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\EngineFactory.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.i: cmake_force
@@ -145,7 +132,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.obj: ../V1/Falcon9TS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\Falcon9TS.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Falcon9TS.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.i: cmake_force
@@ -158,7 +145,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/FalconBuilder.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/FalconBuilder.cpp.obj: ../V1/FalconBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FalconBuilder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FalconBuilder.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\FalconBuilder.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\FalconBuilder.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/FalconBuilder.cpp.i: cmake_force
@@ -171,7 +158,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/FalconBuilder.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavy.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavy.cpp.obj: ../V1/FalconHeavy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavy.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavy.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\FalconHeavy.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\FalconHeavy.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavy.cpp.i: cmake_force
@@ -184,7 +171,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavy.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.obj: ../V1/FalconHeavyBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\FalconHeavyBuilder.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\FalconHeavyBuilder.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.i: cmake_force
@@ -197,7 +184,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.obj: ../V1/FalconHeavyTS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\FalconHeavyTS.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\FalconHeavyTS.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.i: cmake_force
@@ -210,7 +197,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.obj: ../V1/FullStackBuildStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\FullStackBuildStrategy.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\FullStackBuildStrategy.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.i: cmake_force
@@ -223,7 +210,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/Invoker.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/Invoker.cpp.obj: ../V1/Invoker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Invoker.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Invoker.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\Invoker.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Invoker.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/Invoker.cpp.i: cmake_force
@@ -236,7 +223,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Invoker.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/Iterator.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/Iterator.cpp.obj: ../V1/Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Iterator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Iterator.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\Iterator.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Iterator.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/Iterator.cpp.i: cmake_force
@@ -249,7 +236,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Iterator.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/LaunchCommand.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/LaunchCommand.cpp.obj: ../V1/LaunchCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/LaunchCommand.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/LaunchCommand.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\LaunchCommand.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\LaunchCommand.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/LaunchCommand.cpp.i: cmake_force
@@ -262,7 +249,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/LaunchCommand.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/LinkedList.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/LinkedList.cpp.obj: ../V1/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/LinkedList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/LinkedList.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\LinkedList.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\LinkedList.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/LinkedList.cpp.i: cmake_force
@@ -275,7 +262,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/LinkedList.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/LoadFuelCommand.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/LoadFuelCommand.cpp.obj: ../V1/LoadFuelCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/LoadFuelCommand.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/LoadFuelCommand.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\LoadFuelCommand.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\LoadFuelCommand.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/LoadFuelCommand.cpp.i: cmake_force
@@ -288,7 +275,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/LoadFuelCommand.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.obj: ../V1/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\Main.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Main.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.i: cmake_force
@@ -301,7 +288,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.obj: ../V1/MerlinEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\MerlinEngine.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\MerlinEngine.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.i: cmake_force
@@ -314,7 +301,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.obj: ../V1/MerlinEngineFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\MerlinEngineFactory.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\MerlinEngineFactory.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.i: cmake_force
@@ -327,7 +314,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj: ../V1/MerlinFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\MerlinFactory.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\MerlinFactory.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.i: cmake_force
@@ -340,7 +327,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.s: cmake_force
 
 CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj: ../V1/MotorFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\MotorFactory.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\MotorFactory.cpp"
 
 CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.i: cmake_force
@@ -350,6 +337,19 @@ CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.i: cmake_force
 CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\MotorFactory.cpp" -o CMakeFiles\COS214_Project_V1.dir\V1\MotorFactory.cpp.s
+
+CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
+CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.obj: ../V1/Nozzle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COS214_Project_V1.dir\V1\Nozzle.cpp.obj -c "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Nozzle.cpp"
+
+CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Nozzle.cpp" > CMakeFiles\COS214_Project_V1.dir\V1\Nozzle.cpp.i
+
+CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\djjor\OneDrive\Work Files\Uni\UP\Courses\BSc CS\2021\S2\COS 214\The-Magnisifint-7_COS214\src\V1\Nozzle.cpp" -o CMakeFiles\COS214_Project_V1.dir\V1\Nozzle.cpp.s
 
 CMakeFiles/COS214_Project_V1.dir/V1/Payload.cpp.obj: CMakeFiles/COS214_Project_V1.dir/flags.make
 CMakeFiles/COS214_Project_V1.dir/V1/Payload.cpp.obj: ../V1/Payload.cpp
@@ -678,7 +678,6 @@ CMakeFiles/COS214_Project_V1.dir/V1/YawCommand.cpp.s: cmake_force
 
 # Object files for target COS214_Project_V1
 COS214_Project_V1_OBJECTS = \
-"CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.obj" \
 "CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj" \
 "CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj" \
 "CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj" \
@@ -700,6 +699,7 @@ COS214_Project_V1_OBJECTS = \
 "CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.obj" \
 "CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj" \
 "CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj" \
+"CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.obj" \
 "CMakeFiles/COS214_Project_V1.dir/V1/Payload.cpp.obj" \
 "CMakeFiles/COS214_Project_V1.dir/V1/PitchCommand.cpp.obj" \
 "CMakeFiles/COS214_Project_V1.dir/V1/Rocket.cpp.obj" \
@@ -729,7 +729,6 @@ COS214_Project_V1_OBJECTS = \
 # External object files for target COS214_Project_V1
 COS214_Project_V1_EXTERNAL_OBJECTS =
 
-COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/Bell.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj
@@ -751,6 +750,7 @@ COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj
+COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/Payload.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/PitchCommand.cpp.obj
 COS214_Project_V1.exe: CMakeFiles/COS214_Project_V1.dir/V1/Rocket.cpp.obj

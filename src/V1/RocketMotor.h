@@ -5,17 +5,17 @@
 
 class RocketMotor : public Engine {
 protected:
-    int ISP;
-    int chamberPressure;
+    double chamberPressure;
 
 public:
-    RocketMotor(int cp);
-    virtual int getISP();
-    virtual int getChamberPressure();
+    RocketMotor();
 
-    virtual int getThrust(int a);
+    void setChamberPressure(double chamberPressure);
+    virtual double getChamberPressure();
 
 	Engine * clone() override;
+
+    double getThrust(double externalPressure) override;
 };
 
 #endif
