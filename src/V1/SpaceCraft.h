@@ -1,11 +1,12 @@
 #ifndef SPACECRAFT_H
 #define SPACECRAFT_H
-
+#include <iostream>
 
 class Engine;
 class SpaceCraft {
 private:
 	bool isFinalStage;
+    int EnginesFailed;
 
 public:
     SpaceCraft();
@@ -16,8 +17,13 @@ public:
     virtual int GetFuel()=0;
     virtual void VentFuel()=0;
     virtual void Activate()=0;
-    virtual void notify(Engine * engine)=0;
+    virtual void notify(Engine * engine);
     virtual SpaceCraft * clone()=0;
+
+    virtual void AddEngine(Engine * engine);
+    virtual void RemoveEngine(Engine * engine);
+    virtual Engine * getEngine(int i);
+    virtual int getNumEngines();
 };
 
 #endif

@@ -200,6 +200,30 @@ V1/Command.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.s
 .PHONY : V1/Command.cpp.s
 
+V1/ControlCenter.obj: V1/ControlCenter.cpp.obj
+.PHONY : V1/ControlCenter.obj
+
+# target to build an object file
+V1/ControlCenter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.obj
+.PHONY : V1/ControlCenter.cpp.obj
+
+V1/ControlCenter.i: V1/ControlCenter.cpp.i
+.PHONY : V1/ControlCenter.i
+
+# target to preprocess a source file
+V1/ControlCenter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.i
+.PHONY : V1/ControlCenter.cpp.i
+
+V1/ControlCenter.s: V1/ControlCenter.cpp.s
+.PHONY : V1/ControlCenter.s
+
+# target to generate assembly for a file
+V1/ControlCenter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.s
+.PHONY : V1/ControlCenter.cpp.s
+
 V1/Engine.obj: V1/Engine.cpp.obj
 .PHONY : V1/Engine.obj
 
@@ -583,54 +607,6 @@ V1/MerlinEngineFactory.s: V1/MerlinEngineFactory.cpp.s
 V1/MerlinEngineFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.s
 .PHONY : V1/MerlinEngineFactory.cpp.s
-
-V1/MerlinFactory.obj: V1/MerlinFactory.cpp.obj
-.PHONY : V1/MerlinFactory.obj
-
-# target to build an object file
-V1/MerlinFactory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj
-.PHONY : V1/MerlinFactory.cpp.obj
-
-V1/MerlinFactory.i: V1/MerlinFactory.cpp.i
-.PHONY : V1/MerlinFactory.i
-
-# target to preprocess a source file
-V1/MerlinFactory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.i
-.PHONY : V1/MerlinFactory.cpp.i
-
-V1/MerlinFactory.s: V1/MerlinFactory.cpp.s
-.PHONY : V1/MerlinFactory.s
-
-# target to generate assembly for a file
-V1/MerlinFactory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.s
-.PHONY : V1/MerlinFactory.cpp.s
-
-V1/MotorFactory.obj: V1/MotorFactory.cpp.obj
-.PHONY : V1/MotorFactory.obj
-
-# target to build an object file
-V1/MotorFactory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj
-.PHONY : V1/MotorFactory.cpp.obj
-
-V1/MotorFactory.i: V1/MotorFactory.cpp.i
-.PHONY : V1/MotorFactory.i
-
-# target to preprocess a source file
-V1/MotorFactory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.i
-.PHONY : V1/MotorFactory.cpp.i
-
-V1/MotorFactory.s: V1/MotorFactory.cpp.s
-.PHONY : V1/MotorFactory.s
-
-# target to generate assembly for a file
-V1/MotorFactory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.s
-.PHONY : V1/MotorFactory.cpp.s
 
 V1/Nozzle.obj: V1/Nozzle.cpp.obj
 .PHONY : V1/Nozzle.obj
@@ -1184,29 +1160,29 @@ V1/UpperStageBuilder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/UpperStageBuilder.cpp.s
 .PHONY : V1/UpperStageBuilder.cpp.s
 
-V1/VacumeBell.obj: V1/VacumeBell.cpp.obj
-.PHONY : V1/VacumeBell.obj
+V1/VacuumBell.obj: V1/VacuumBell.cpp.obj
+.PHONY : V1/VacuumBell.obj
 
 # target to build an object file
-V1/VacumeBell.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/VacumeBell.cpp.obj
-.PHONY : V1/VacumeBell.cpp.obj
+V1/VacuumBell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/VacuumBell.cpp.obj
+.PHONY : V1/VacuumBell.cpp.obj
 
-V1/VacumeBell.i: V1/VacumeBell.cpp.i
-.PHONY : V1/VacumeBell.i
+V1/VacuumBell.i: V1/VacuumBell.cpp.i
+.PHONY : V1/VacuumBell.i
 
 # target to preprocess a source file
-V1/VacumeBell.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/VacumeBell.cpp.i
-.PHONY : V1/VacumeBell.cpp.i
+V1/VacuumBell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/VacuumBell.cpp.i
+.PHONY : V1/VacuumBell.cpp.i
 
-V1/VacumeBell.s: V1/VacumeBell.cpp.s
-.PHONY : V1/VacumeBell.s
+V1/VacuumBell.s: V1/VacuumBell.cpp.s
+.PHONY : V1/VacuumBell.s
 
 # target to generate assembly for a file
-V1/VacumeBell.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/VacumeBell.cpp.s
-.PHONY : V1/VacumeBell.cpp.s
+V1/VacuumBell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/VacuumBell.cpp.s
+.PHONY : V1/VacuumBell.cpp.s
 
 V1/WorkingState.obj: V1/WorkingState.cpp.obj
 .PHONY : V1/WorkingState.obj
@@ -1274,6 +1250,9 @@ help:
 	@echo ... V1/Command.obj
 	@echo ... V1/Command.i
 	@echo ... V1/Command.s
+	@echo ... V1/ControlCenter.obj
+	@echo ... V1/ControlCenter.i
+	@echo ... V1/ControlCenter.s
 	@echo ... V1/Engine.obj
 	@echo ... V1/Engine.i
 	@echo ... V1/Engine.s
@@ -1322,12 +1301,6 @@ help:
 	@echo ... V1/MerlinEngineFactory.obj
 	@echo ... V1/MerlinEngineFactory.i
 	@echo ... V1/MerlinEngineFactory.s
-	@echo ... V1/MerlinFactory.obj
-	@echo ... V1/MerlinFactory.i
-	@echo ... V1/MerlinFactory.s
-	@echo ... V1/MotorFactory.obj
-	@echo ... V1/MotorFactory.i
-	@echo ... V1/MotorFactory.s
 	@echo ... V1/Nozzle.obj
 	@echo ... V1/Nozzle.i
 	@echo ... V1/Nozzle.s
@@ -1397,9 +1370,9 @@ help:
 	@echo ... V1/UpperStageBuilder.obj
 	@echo ... V1/UpperStageBuilder.i
 	@echo ... V1/UpperStageBuilder.s
-	@echo ... V1/VacumeBell.obj
-	@echo ... V1/VacumeBell.i
-	@echo ... V1/VacumeBell.s
+	@echo ... V1/VacuumBell.obj
+	@echo ... V1/VacuumBell.i
+	@echo ... V1/VacuumBell.s
 	@echo ... V1/WorkingState.obj
 	@echo ... V1/WorkingState.i
 	@echo ... V1/WorkingState.s

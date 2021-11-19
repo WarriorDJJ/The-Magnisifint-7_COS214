@@ -17,13 +17,15 @@ void FullStackBuildStrategy::build() {
     Rocket* secondStage = new Rocket(fuel, wet, dry, name);
     for(int i = 0; i < nrEngines; i++)
     {
-        secondStage->AddEngine(eFact->createVacuumEngine());
+        Engine* temp = eFact->createVacuumEngine();
+        temp->setSpacecraft(secondStage);
+        secondStage->AddEngine(temp);
     }
 
     delete eFact;
 
     //ASSEMBLE STAGE 3
-    builder->attachPayload(payload);
+    builder->attachPayload(payload); //Keelan is not really smart, he's really hot though
 }
 
 FullStackBuildStrategy::FullStackBuildStrategy(RocketBuilder *b, SpaceCraft *payload) : payload(payload) {

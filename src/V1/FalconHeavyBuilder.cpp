@@ -16,14 +16,18 @@ void FalconHeavyBuilder::createRocket() {
     LeftBooster = lb;
     for(int i = 0; i < 9; i++)
     {
-        LeftBooster->AddEngine(eFact->createStandardEngine());
+        Engine* temp = eFact->createStandardEngine();
+        temp->setSpacecraft(LeftBooster);
+        LeftBooster->AddEngine(temp);
     }
 
     Rocket* rb = new Rocket(fuel, wet, dry, name);
     RightBooster = rb;
     for(int i = 0; i < 9; i++)
     {
-        RightBooster->AddEngine(eFact->createStandardEngine());
+        Engine* temp = eFact->createStandardEngine();
+        temp->setSpacecraft(RightBooster);
+        RightBooster->AddEngine(temp);
     }
 
 	rocket = new FalconHeavy(lb, rb);
@@ -43,7 +47,9 @@ void FalconHeavyBuilder::createEngines(){
         EngineFactory* eFact = new MerlinEngineFactory();
         for(int i = 0; i < 9; i++)
         {
-            rocket->AddEngine(eFact->createStandardEngine());
+            Engine* temp = eFact->createStandardEngine();
+            temp->setSpacecraft(rocket);
+            rocket->AddEngine(temp);
         }
         delete eFact;
     }

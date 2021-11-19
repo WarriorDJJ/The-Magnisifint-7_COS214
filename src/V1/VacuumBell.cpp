@@ -8,3 +8,14 @@ double VacuumBell::getThrust(double externalPressure) {
     double thrust = nozzleArea * diameter * length * 420 * thrustInVacuum; //calculating the thrust
 	return thrust;
 }
+
+VacuumBell *VacuumBell::clone() {
+    VacuumBell * temp = new VacuumBell();
+    temp->motor = this->motor->clone();
+
+    temp->diameter = this->diameter;
+    temp->length = this->length;
+    temp->nozzleArea = this->nozzleArea;
+    temp->throatArea = this->throatArea;
+    return temp;
+}

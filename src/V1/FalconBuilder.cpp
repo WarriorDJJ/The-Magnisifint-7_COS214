@@ -19,7 +19,9 @@ void FalconBuilder::createEngines() {
         EngineFactory* eFact = new MerlinEngineFactory();
         for(int i = 0; i < 9; i++)
         {
-            rocket->AddEngine(eFact->createStandardEngine());
+            Engine* temp = eFact->createStandardEngine();
+            temp->setSpacecraft(rocket);
+            rocket->AddEngine(temp);
         }
         delete eFact;
     }

@@ -8,9 +8,10 @@ double Nozzle::getThrust(double externalPressure) {
     return thrust;
 }
 
-Engine * Nozzle::clone() {
+Nozzle * Nozzle::clone() {
     Nozzle * temp = new Nozzle();
     temp->motor = this->motor->clone();
+
     temp->diameter = this->diameter;
     temp->length = this->length;
     temp->nozzleArea = this->nozzleArea;
@@ -60,7 +61,9 @@ SpaceCraft *Nozzle::getSpaceCraft() const {
 }
 
 void Nozzle::update() {
-    motor->getSpaceCraft()->notify(this);
+    cout<<"yay"<<endl;
+    this->spaceCraft = motor->getSpaceCraft();
+    Engine::update();
 }
 
 void Nozzle::setLength(double length) {

@@ -57,6 +57,7 @@ Francois Changes:
     -Moved vector<Engine*> engines in rocket to private
     -Implemented the Activate() function inside Rocket.cpp
     -AddEngine and RemoveEngine implemented in Rocket class
+    -Implemented the clone function inside of Rocket.cpp
 
 
 Keelan Changes:

@@ -6,6 +6,8 @@
 class StandardBell : public Nozzle {
 public:
 	double getThrust(double externalPressure) override;
+
+    StandardBell *clone() override;
 };
 
 #endif

@@ -13,7 +13,12 @@ void FalconHeavy::SeperateStage() {
 
 void FalconHeavy::Activate() {
 	// TODO - implement FalconHeavy::Activate
-	throw "Not yet implemented";
+    cout<< "======Core Booster======" <<endl;
+	Rocket::Activate();
+    cout<< "======Left Booster======" <<endl;
+    this->LeftBooster->Activate();
+    cout<< "======Right Booster=====" <<endl;
+    this->RightBooster->Activate();
 }
 
 FalconHeavy * FalconHeavy::clone() {

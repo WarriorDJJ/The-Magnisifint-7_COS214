@@ -4,6 +4,7 @@
 #include <ctime>
 #include <cstdlib>
 #include "SpaceCraft.h"
+//#include "Rocket.h"
 
 class Engine {
 protected:
@@ -14,7 +15,7 @@ public:
     virtual void StartEngine();
     virtual void setSpacecraft(SpaceCraft* spacecraft);
 
-    virtual double getThrust(double altitude);
+    virtual double getThrust(double externalPressure);
 	virtual Engine * clone();
     virtual void update();
 

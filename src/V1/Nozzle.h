@@ -17,14 +17,15 @@ public:
     Nozzle();
     virtual void addComponent(Engine*);
     virtual double getThrust(double externalPressure);
-    virtual Engine * clone();
+
+    Nozzle * clone() override;
 
     virtual void StartEngine();
     virtual void setSpacecraft(SpaceCraft* spacecraft);
     virtual bool isFail() const;
     virtual void setFail(bool fail);
     virtual SpaceCraft *getSpaceCraft() const;
-    virtual void update();
+    virtual void update() override;
 
     void setLength(double length);
     void setDiameter(double diameter);

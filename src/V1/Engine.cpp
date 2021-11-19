@@ -2,14 +2,16 @@
 #include <stdlib.h>
 using namespace std;
 
-double Engine::getThrust(double altitude){
+double Engine::getThrust(double externalPressure){
     return 0;
 }
 
  Engine * Engine::clone(){
 	Engine * newEngine = new Engine();
+
     newEngine->spaceCraft = this->spaceCraft;
     newEngine->fail = this->fail;
+
     return newEngine;
 }
 
@@ -23,7 +25,8 @@ void Engine::setSpacecraft(SpaceCraft *spacecraft) {
 }
 
 void Engine::update() {
-    this->spaceCraft->notify(this);
+    if(spaceCraft== nullptr) cout<<"spacecraft not set"<<endl;
+    else this->spaceCraft->notify(this);
 }
 
 void Engine::StartEngine() {
@@ -34,7 +37,7 @@ void Engine::StartEngine() {
         this->update();
     }
     else {
-        cout << "Engine started succesfully!"<<endl;
+        cout << "Engine started successfully!"<<endl;
         this->fail = false;
     }
 }

@@ -23,11 +23,33 @@ CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj: \
  ../V1/RocketMotor.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
- ../V1/VacumeBell.h
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj: \
  ../V1/Command.cpp \
  ../V1/Command.h \
  ../V1/SpaceCraft.h
+CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.obj: \
+ ../V1/BuildStrategy.h \
+ ../V1/Command.h \
+ ../V1/ControlCenter.cpp \
+ ../V1/ControlCenter.h \
+ ../V1/Engine.h \
+ ../V1/EngineFactory.h \
+ ../V1/FalconBuilder.h \
+ ../V1/FalconHeavy.h \
+ ../V1/FalconHeavyBuilder.h \
+ ../V1/FullStackBuildStrategy.h \
+ ../V1/MerlinEngine.h \
+ ../V1/MerlinEngineFactory.h \
+ ../V1/Nozzle.h \
+ ../V1/Rocket.h \
+ ../V1/RocketBuilder.h \
+ ../V1/RocketBuilderDirector.h \
+ ../V1/RocketMotor.h \
+ ../V1/SingleRocketBuildStrategy.h \
+ ../V1/SpaceCraft.h \
+ ../V1/StandardBell.h \
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.obj: \
  ../V1/Engine.cpp \
  ../V1/Engine.h \
@@ -54,7 +76,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/FalconBuilder.cpp.obj: \
  ../V1/RocketMotor.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
- ../V1/VacumeBell.h
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavy.cpp.obj: \
  ../V1/Engine.h \
  ../V1/FalconHeavy.cpp \
@@ -75,7 +97,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.obj: \
  ../V1/RocketMotor.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
- ../V1/VacumeBell.h
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.obj: \
  ../V1/FalconHeavyTS.cpp \
  ../V1/FalconHeavyTS.h \
@@ -94,7 +116,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.obj: \
  ../V1/RocketMotor.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
- ../V1/VacumeBell.h
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/Invoker.cpp.obj: \
  ../V1/Command.h \
  ../V1/Invoker.cpp \
@@ -145,8 +167,6 @@ CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.obj: \
  ../V1/Main.cpp \
  ../V1/MerlinEngine.h \
  ../V1/MerlinEngineFactory.h \
- ../V1/MerlinFactory.h \
- ../V1/MotorFactory.h \
  ../V1/Nozzle.h \
  ../V1/Payload.h \
  ../V1/Rocket.h \
@@ -168,7 +188,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.obj: \
  ../V1/TestStrat.h \
  ../V1/UntestedState.h \
  ../V1/UpperStageBuilder.h \
- ../V1/VacumeBell.h \
+ ../V1/VacuumBell.h \
  ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.obj: \
  ../V1/Engine.h \
@@ -186,20 +206,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngineFactory.cpp.obj: \
  ../V1/RocketMotor.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
- ../V1/VacumeBell.h
-CMakeFiles/COS214_Project_V1.dir/V1/MerlinFactory.cpp.obj: \
- ../V1/Engine.h \
- ../V1/MerlinFactory.cpp \
- ../V1/MerlinFactory.h \
- ../V1/MotorFactory.h \
- ../V1/RocketMotor.h \
- ../V1/SpaceCraft.h
-CMakeFiles/COS214_Project_V1.dir/V1/MotorFactory.cpp.obj: \
- ../V1/Engine.h \
- ../V1/MotorFactory.cpp \
- ../V1/MotorFactory.h \
- ../V1/RocketMotor.h \
- ../V1/SpaceCraft.h
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/Nozzle.cpp.obj: \
  ../V1/Engine.h \
  ../V1/Nozzle.cpp \
@@ -229,7 +236,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/RocketBuilder.cpp.obj: \
  ../V1/RocketMotor.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
- ../V1/VacumeBell.h
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/RocketBuilderDirector.cpp.obj: \
  ../V1/BuildStrategy.h \
  ../V1/Engine.h \
@@ -244,7 +251,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/RocketBuilderDirector.cpp.obj: \
  ../V1/RocketMotor.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
- ../V1/VacumeBell.h
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/RocketMotor.cpp.obj: \
  ../V1/Engine.h \
  ../V1/RocketMotor.cpp \
@@ -291,7 +298,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/SingleRocketBuildStrategy.cpp.obj: \
  ../V1/SingleRocketBuildStrategy.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
- ../V1/VacumeBell.h
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/SpaceCraft.cpp.obj: \
  ../V1/SpaceCraft.cpp \
  ../V1/SpaceCraft.h
@@ -382,13 +389,13 @@ CMakeFiles/COS214_Project_V1.dir/V1/UpperStageBuilder.cpp.obj: \
  ../V1/StandardBell.h \
  ../V1/UpperStageBuilder.cpp \
  ../V1/UpperStageBuilder.h \
- ../V1/VacumeBell.h
-CMakeFiles/COS214_Project_V1.dir/V1/VacumeBell.cpp.obj: \
+ ../V1/VacuumBell.h
+CMakeFiles/COS214_Project_V1.dir/V1/VacuumBell.cpp.obj: \
  ../V1/Engine.h \
  ../V1/Nozzle.h \
  ../V1/SpaceCraft.h \
- ../V1/VacumeBell.cpp \
- ../V1/VacumeBell.h
+ ../V1/VacuumBell.cpp \
+ ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/WorkingState.cpp.obj: \
  ../V1/Engine.h \
  ../V1/Payload.h \

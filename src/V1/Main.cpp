@@ -21,8 +21,6 @@ using namespace std;
 #include "LinkedList.h"
 #include "MerlinEngine.h"
 #include "MerlinEngineFactory.h"
-#include "MerlinFactory.h"
-#include "MotorFactory.h"
 #include "Payload.h"
 #include "Rocket.h"
 #include "RocketBuilder.h"
@@ -60,7 +58,7 @@ void FalconHeavy(){
 }
 
 int main() {
-    cout << "Hello, World!" << endl;
+    cout << endl << endl << "   --===-- Main Running --===--" << endl <<endl;
     //MotorFactory* merlinFact = new MerlinFactory();
     //RocketMotor* yeet = merlinFact->createMotor();
     //cout << yeet->getChamberPressure();
@@ -71,9 +69,19 @@ int main() {
     SpaceCraft* myPayload = new Satelite();
     BuildStrategy* myStrat = new FullStackBuildStrategy(FHbuilder , myPayload);
     RocketBuilderDirector* director = new RocketBuilderDirector();
+
     director->setStrategy(myStrat);
     director->build();
+    cout<<"Build successful!"<<endl;
 
+    Rocket* TestRocket = FHbuilder->getRocket();
+    for(int i = 0; i < TestRocket->getNumEngines(); i++)
+    {
+        cout<<"Thrust on engine " << i + 1 << " : " << TestRocket->getEngine(i)->getThrust(0) << endl;
+    }
+
+    TestRocket->Activate();
     delete director;
+
     return 0;
 }

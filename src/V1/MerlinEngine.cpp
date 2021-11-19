@@ -11,9 +11,20 @@ void MerlinEngine::StartEngine() {
     else {
         std::cout << "Engine started succesfully!"<<std::endl;
         this->fail = false;
+        this->update();
     }
 }
 
 MerlinEngine::MerlinEngine() {
     chamberPressure = 10800000; // (Pa)
+}
+
+MerlinEngine *MerlinEngine::clone() {
+    MerlinEngine * temp = new MerlinEngine();
+
+    temp->chamberPressure = this->chamberPressure;
+    temp->fail = this->fail;
+    temp->spaceCraft = this->spaceCraft;
+
+    return temp;
 }

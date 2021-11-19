@@ -8,9 +8,14 @@ double RocketMotor::getChamberPressure() {
     return chamberPressure;
 }
 
-Engine * RocketMotor::clone() {
-	// TODO - implement RocketMotor::clone
-	throw "Not yet implemented";
+RocketMotor * RocketMotor::clone() {
+    RocketMotor * temp = new RocketMotor();
+
+    temp->chamberPressure = this->chamberPressure;
+    temp->fail = this->fail;
+    temp->spaceCraft = this->spaceCraft;
+
+    return temp;
 }
 
 void RocketMotor::setChamberPressure(double chamberPressure) {
@@ -19,4 +24,8 @@ void RocketMotor::setChamberPressure(double chamberPressure) {
 
 double RocketMotor::getThrust(double externalPressure) {
     return 0;
+}
+
+void RocketMotor::update() {
+    Engine::update();
 }

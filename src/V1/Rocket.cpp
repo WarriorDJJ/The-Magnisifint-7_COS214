@@ -18,14 +18,26 @@ void Rocket::DestroyRocket()
 void Rocket::Activate() {
 	// TODO - implement Rocket::Activate
 	for(int i=0;i<engines.size();i++){
-        cout<< to_string(i) + ": " << endl;
+        cout<< to_string(i+1) + ": ";
         engines[i]->StartEngine();
     }
 }
 
 Rocket * Rocket::clone() {
-	// TODO - implement Rocket::clone
-	throw "Not yet implemented";
+	Rocket * newRocket = new Rocket(this->fuel, this->wetMass, this->dryMass, this->name);
+    for (int i=0;i<engines.size();i++){
+        Engine * newEngine = engines[i]->clone();
+        newEngine->setSpacecraft(newRocket);
+        newRocket->AddEngine(newEngine);
+    }
+    if(this->NextStage!=nullptr){
+        SpaceCraft* newStage = NextStage->clone();
+        this->NextStage = newStage;
+    }
+    else{
+        this->NextStage = nullptr;
+    }
+    return newRocket;
 }
 
 void Rocket::AddStage(SpaceCraft *s) {
@@ -53,11 +65,10 @@ void Rocket::VentFuel() {
 }
 
 void Rocket::notify(Engine * engine) {
-    this->EnginesFailed++;
+    SpaceCraft::notify(engine);
 }
 
 Rocket::Rocket(){
-    this->EnginesFailed = 0;
 }
 
 void Rocket::AddEngine(Engine *engine) {
@@ -72,6 +83,17 @@ void Rocket::RemoveEngine(Engine * engine) {
         }
     }
     
+}
+
+Engine * Rocket::getEngine(int i){
+    if(i<engines.size()){
+        return engines.at(i);
+    }
+    else return nullptr;
+}
+
+int Rocket::getNumEngines() {
+    return engines.size();
 }
 
 Rocket::~Rocket() {

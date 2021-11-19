@@ -14,5 +14,26 @@ SpaceCraft* SpaceCraft::GetNextStage() {
 }
 
 SpaceCraft::SpaceCraft() {
+    this->EnginesFailed = 0;
+}
 
+void SpaceCraft::AddEngine(Engine *engine) {
+    //Nope, dont like you
+}
+
+void SpaceCraft::RemoveEngine(Engine * engine) {
+    //Nope, dont like you
+
+}
+
+Engine * SpaceCraft::getEngine(int i){
+   return nullptr;
+}
+
+int SpaceCraft::getNumEngines(){
+    return 0;
+}
+
+void SpaceCraft::notify(Engine * engine){
+    this->EnginesFailed++;
 }

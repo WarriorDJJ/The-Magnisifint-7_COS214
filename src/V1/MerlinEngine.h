@@ -7,6 +7,7 @@ class MerlinEngine : public RocketMotor {
 public:
     MerlinEngine();
 
+    MerlinEngine * clone() override;
     virtual void StartEngine();
 };
 

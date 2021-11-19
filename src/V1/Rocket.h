@@ -22,9 +22,12 @@ public:
     Rocket(double f, double wm, double dm, string n);
 
     void DestroyRocket();
+    //engine part
+    void AddEngine(Engine * engine) override;
+    void RemoveEngine(Engine * engine) override;
+    Engine * getEngine(int i) override;
+    int getNumEngines() override;
 
-    void AddEngine(Engine * engine);
-    void RemoveEngine(Engine * engine);
     virtual void AddStage(SpaceCraft* s);
     virtual void SeperateStage();
     virtual SpaceCraft * GetNextStage();
@@ -35,7 +38,7 @@ public:
     void LoadFuel() override;
     int GetFuel() override;
     void VentFuel() override;
-    void notify(Engine * engine) override;
+    virtual void notify(Engine * engine);
     vector<Engine*> engines;
     string rocketState;
 
