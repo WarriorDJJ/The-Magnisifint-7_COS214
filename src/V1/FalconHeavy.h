@@ -19,6 +19,10 @@ public:
 	virtual FalconHeavy * clone();
 
     virtual double getThrust(double externalPressure);
+
+    Engine *getEngine(int i) override;
+
+    int getNumEngines() override;
 };
 
 #endif

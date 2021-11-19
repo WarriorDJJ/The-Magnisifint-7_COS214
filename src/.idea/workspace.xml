@@ -13,40 +13,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Engine.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/FalconHeavy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconHeavy.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/FalconHeavy.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconHeavy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/MerlinEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/MerlinEngine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Nozzle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Nozzle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Rocket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Rocket.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Rocket.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Rocket.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/SpaceCraft.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/SpaceCraft.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/SpaceCraft.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/SpaceCraft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
-    <list id="7e98f668-c66c-4b73-8fd5-d7729ef7155b" name="Changes by Caleb" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/FullStackBuildStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FullStackBuildStrategy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-    </list>
-    <list id="c7ab5084-89ec-4104-b5f6-4147e85e23ae" name="Changes by cornelius" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/ControlCenter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/ControlCenter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Nozzle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Nozzle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Nozzle.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Nozzle.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/StandardBell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/StandardBell.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/VacuumBell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/VacuumBell.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changeLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changeLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
-    <list id="c19a9707-6d48-464d-b97e-361eb1792346" name="Changes by Francois" comment="" />
-    <list id="3dbb9de5-6296-4f03-9da3-467fa1241cc5" name="Changes by Keelan Cross" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/ControlCenter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/ControlCenter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/ControlCenter.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/ControlCenter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/FalconBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconBuilder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/FullStackBuildStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FullStackBuildStrategy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/RocketBuilder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/RocketBuilder.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/RocketBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/RocketBuilder.h" afterDir="false" />
+    <list id="c7ab5084-89ec-4104-b5f6-4147e85e23ae" name="Changes by cornelius" comment="">
+      <change beforePath="$PROJECT_DIR$/V1/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Engine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Nozzle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Nozzle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Rocket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Rocket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/StandardBell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/StandardBell.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/VacuumBell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/VacuumBell.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,41 +49,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/V1/Nozzle.cpp">
+    <file path="$PROJECT_DIR$/V1/VacuumBell.cpp">
       <ranges>
-        <range start1="4" end1="8" start2="4" end2="40" changelist="c7ab5084-89ec-4104-b5f6-4147e85e23ae" />
-        <range start1="43" end1="43" start2="75" end2="76" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="63" end1="64" start2="96" end2="96" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="12" end1="13" start2="12" end2="13" changelist="c7ab5084-89ec-4104-b5f6-4147e85e23ae" />
+        <range start1="16" end1="18" start2="16" end2="18" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="38" end1="46" start2="38" end2="46" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
       </ranges>
     </file>
-    <file path="$PROJECT_DIR$/V1/Main.cpp">
+    <file path="$PROJECT_DIR$/V1/StandardBell.cpp">
       <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="60" end1="61" start2="61" end2="62" changelist="7e98f668-c66c-4b73-8fd5-d7729ef7155b" />
-        <range start1="66" end1="67" start2="67" end2="68" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="84" end1="84" start2="85" end2="103" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/V1/ControlCenter.cpp">
-      <ranges>
-        <range start1="6" end1="7" start2="6" end2="7" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="8" end1="8" start2="8" end2="11" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="11" end1="13" start2="14" end2="14" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="17" end1="20" start2="18" end2="20" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="24" end1="24" start2="24" end2="26" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="28" end1="28" start2="30" end2="31" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="32" end1="33" start2="35" end2="36" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="44" end1="45" start2="47" end2="48" changelist="c7ab5084-89ec-4104-b5f6-4147e85e23ae" />
-        <range start1="69" end1="71" start2="72" end2="74" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="72" end1="74" start2="75" end2="89" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="75" end1="76" start2="90" end2="91" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="77" end1="83" start2="92" end2="106" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/V1/FullStackBuildStrategy.cpp">
-      <ranges>
-        <range start1="26" end1="26" start2="26" end2="27" changelist="3dbb9de5-6296-4f03-9da3-467fa1241cc5" />
-        <range start1="27" end1="28" start2="28" end2="29" changelist="7e98f668-c66c-4b73-8fd5-d7729ef7155b" />
+        <range start1="4" end1="5" start2="4" end2="5" changelist="c7ab5084-89ec-4104-b5f6-4147e85e23ae" />
+        <range start1="8" end1="10" start2="8" end2="10" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
       </ranges>
     </file>
   </component>
@@ -149,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637325147792</updated>
-      <workItem from="1637325149282" duration="11646000" />
+      <workItem from="1637325149282" duration="15239000" />
     </task>
     <servers />
   </component>
@@ -168,6 +124,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/V1/Main.cpp</url>
+          <line>99</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="this-&gt;buildStrat-&gt;builder-&gt;RocketBuilder" />

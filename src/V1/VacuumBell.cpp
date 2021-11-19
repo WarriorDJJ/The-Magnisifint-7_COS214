@@ -10,12 +10,12 @@ double VacuumBell::getThrust(double externalPressure) {
 //    double thrust = nozzleArea * diameter * length * 420 * thrustInVacuum; //calculating the thrust
 //	return thrust;
     double Pt = 101325; //Total Pressure
-	double Tt = 300000; //Total Temperature
+	double Tt = 3500; //Total Temperature
 	double Po = 9.7; //Free Steam Pressure
 	double Y = 16; //Specific Heat Ratio
 	double R = 8314; //Universal Gas Constant
-	double ASmall = M_PI*pow((0.22/2),2); //Nozzle Throat Area
-	double ABig = M_PI*pow((0.97/2),2); //Nozzle Exit Area
+	double ASmall = throatArea; //Nozzle Throat Area
+	double ABig = nozzleArea; //Nozzle Exit Area
 	double Me = 100000; // ??????
 
 	//Mass Flow Rate: m* = (A*Pt)/sqrt(Tt) * (sqrt(Y/R)) * ((Y+1)/2)^(-((Y+1)/2(Y-1)))
@@ -36,14 +36,14 @@ double VacuumBell::getThrust(double externalPressure) {
 	//Thrust
 	double F = MFR * EV + (EP - Po) * EM;
 
-	cout << "Nozzle Throat Area: " << ASmall << endl;
-	cout << "Nozzle Exit Area: " << ABig << endl;
-	cout << "Mass Flow Rate: " << MFR << endl;
-	cout << "Exit Mach: " << EM << endl;
-	cout << "Exit Temperature: " << ET << endl;
-	cout << "Exit Pressure: " << EP << endl;
-	cout << "Exit Velocity: " << EV << endl;
-	cout << "Thrust: " << F << endl;
+//	cout << "Nozzle Throat Area: " << ASmall << endl;
+//	cout << "Nozzle Exit Area: " << ABig << endl;
+//	cout << "Mass Flow Rate: " << MFR << endl;
+//	cout << "Exit Mach: " << EM << endl;
+//	cout << "Exit Temperature: " << ET << endl;
+//	cout << "Exit Pressure: " << EP << endl;
+//	cout << "Exit Velocity: " << EV << endl;
+//	cout << "Thrust: " << F << endl;
 	return F;
 }
 

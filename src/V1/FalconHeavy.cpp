@@ -29,3 +29,11 @@ FalconHeavy * FalconHeavy::clone() {
 double FalconHeavy::getThrust(double externalPressure) {
     return 0;
 }
+
+Engine *FalconHeavy::getEngine(int i) {
+    return Rocket::getEngine(i);
+}
+
+int FalconHeavy::getNumEngines() {
+    return Rocket::getNumEngines();
+}

@@ -5,6 +5,8 @@
 #include <cstdlib>
 #include "SpaceCraft.h"
 //#include "Rocket.h"
+#include <stdlib.h>
+#include <math.h>
 
 class Engine {
 protected:

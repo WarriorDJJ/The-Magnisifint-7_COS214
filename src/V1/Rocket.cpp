@@ -10,7 +10,7 @@ void Rocket::DestroyRocket()
     {
         RemoveEngine(engines[i]);
     }
-    //nedds to also destroy next stages
+    //needs to also destroy next stages
 }
 
 

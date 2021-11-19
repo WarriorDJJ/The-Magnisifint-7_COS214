@@ -3,7 +3,7 @@
 using namespace std;
 double Nozzle::getThrust(double externalPressure) {
     double Pt = 101325; //Total Pressure
-	double Tt = 300000; //Total Temperature
+	double Tt = 3500; //Total Temperature
 	double Po = 9.7; //Free Steam Pressure
 	double Y = 16; //Specific Heat Ratio
 	double R = 8314; //Universal Gas Constant
