@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include "ControlCenter.h"
 #include "Nozzle.h"
 #include "BrokenState.h"
 #include "BuildStrategy.h"
@@ -58,13 +59,13 @@ void FalconHeavy(){
 }
 
 int main() {
-    cout << endl << endl << "   --===-- Main Running --===--" << endl <<endl;
+    cout << endl << endl << "   .--::--===--<||  Main Running  ||>--===--::--." << endl <<endl;
     //MotorFactory* merlinFact = new MerlinFactory();
     //RocketMotor* yeet = merlinFact->createMotor();
     //cout << yeet->getChamberPressure();
 
     //Keelan testing his Builder and Strategy
-
+    /*
     RocketBuilder* FHbuilder = new FalconHeavyBuilder();
     SpaceCraft* myPayload = new Satelite();
     BuildStrategy* myStrat = new FullStackBuildStrategy(FHbuilder , myPayload);
@@ -82,6 +83,24 @@ int main() {
 
     TestRocket->Activate();
     delete director;
+    */
+
+    SpaceCraft* myPayload = new Satelite();
+    SpaceCraft* myPayload2 = new Satelite();
+
+    //ControlCenter* myCC = ControlCenter::instance();
+    //myCC->setBuild(myPayload);
+    //myCC->build
+    ControlCenter::instance().setBuild(myPayload, "FalconHeavy");
+    //ControlCenter::instance().setBuild(myPayload2, "Falcon9");
+    Rocket* myRocket = ControlCenter::instance().build();
+
+    for(int i = 0; i < myRocket->getNumEngines(); i++)
+    {
+        cout<<"   Thrust on engine " << i + 1 << " : " << myRocket->getEngine(i)->getThrust(69) << endl;
+    }
+
+    delete myPayload;
 
     return 0;
 }

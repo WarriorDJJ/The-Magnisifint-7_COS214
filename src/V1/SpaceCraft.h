@@ -20,6 +20,11 @@ public:
     virtual void notify(Engine * engine);
     virtual SpaceCraft * clone()=0;
 
+    //end ll
+    virtual void appendStage(SpaceCraft* s);
+
+    virtual double getThrust(double externalPressure);
+
     virtual void AddEngine(Engine * engine);
     virtual void RemoveEngine(Engine * engine);
     virtual Engine * getEngine(int i);

@@ -23,7 +23,6 @@ void SpaceCraft::AddEngine(Engine *engine) {
 
 void SpaceCraft::RemoveEngine(Engine * engine) {
     //Nope, dont like you
-
 }
 
 Engine * SpaceCraft::getEngine(int i){
@@ -36,4 +35,12 @@ int SpaceCraft::getNumEngines(){
 
 void SpaceCraft::notify(Engine * engine){
     this->EnginesFailed++;
+}
+
+void SpaceCraft::appendStage(SpaceCraft *s) {
+    //todo
+}
+
+double SpaceCraft::getThrust(double externalPressure) {
+    return 0;
 }

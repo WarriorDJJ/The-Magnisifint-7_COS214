@@ -1,8 +1,8 @@
 #ifndef BELL_H
 #define BELL_H
 
+#include <cmath>
 #include "Engine.h"
-
 
 class Nozzle : public Engine {
 

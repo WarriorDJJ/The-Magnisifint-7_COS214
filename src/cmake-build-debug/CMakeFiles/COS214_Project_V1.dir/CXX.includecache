@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.cpp
-Engine.h
-C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
-stdlib.h
--
-
 C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
 iostream
 -
@@ -22,7 +16,21 @@ cstdlib
 SpaceCraft.h
 C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
 
+C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Nozzle.h
+cmath
+-
+Engine.h
+C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
+
 C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
 iostream
 -
+
+C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.cpp
+StandardBell.h
+C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.h
+
+C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.h
+Nozzle.h
+C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Nozzle.h
 

@@ -113,3 +113,5 @@ Fourie Changes:
     -Added 2 variables to the bell classes respectively, these 2 define the power in kN of each engine
     -ThrustInVacuum and ThrustAtSealevel;
     -Finished both bell classes getThrust functions, (Damian will replace the maths later)
+
+    -Implemented Nasa's Equation for calculating the thrust of the rocket etc

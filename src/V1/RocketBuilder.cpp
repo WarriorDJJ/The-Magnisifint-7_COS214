@@ -5,5 +5,9 @@ Rocket* RocketBuilder::getRocket() {
 }
 
 void RocketBuilder::attachPayload(SpaceCraft* p) {
-	rocket->AddStage(p);
+	rocket->appendStage(p);
+}
+
+void RocketBuilder::appStage(SpaceCraft *s) {
+    rocket->appendStage(s);
 }

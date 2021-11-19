@@ -6,19 +6,19 @@ Rocket::Rocket(double f, double wm, double dm, string n) : fuel(f), wetMass(wm),
 
 void Rocket::DestroyRocket()
 {
-
     for(int i=0;i<engines.size();i++)
     {
-
         RemoveEngine(engines[i]);
     }
+    //nedds to also destroy next stages
 }
 
 
 void Rocket::Activate() {
 	// TODO - implement Rocket::Activate
+    cout<<name<<":"<<endl;
 	for(int i=0;i<engines.size();i++){
-        cout<< to_string(i+1) + ": ";
+        cout<<"\t"<< to_string(i+1) + ": ";
         engines[i]->StartEngine();
     }
 }
@@ -41,7 +41,7 @@ Rocket * Rocket::clone() {
 }
 
 void Rocket::AddStage(SpaceCraft *s) {
-    //
+    this->NextStage = s;
 }
 
 void Rocket::SeperateStage() {
@@ -98,4 +98,16 @@ int Rocket::getNumEngines() {
 
 Rocket::~Rocket() {
 
+}
+
+void Rocket::appendStage(SpaceCraft *s) {
+    //todo
+}
+
+double Rocket::getThrust(double externalPressure) {
+    double thrust = 0;
+    for(int i=0;i<engines.size();i++){
+        thrust += engines[i]->getThrust(externalPressure);
+    }
+    return 0;
 }

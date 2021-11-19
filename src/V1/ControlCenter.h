@@ -24,16 +24,14 @@ private:
     bool isHeavy;
 
 protected:
-    ControlCenter* cc;
     ControlCenter();
     ~ControlCenter();
-    Rocket* build();
-    void setBuild();
-    void setBuild(SpaceCraft* payload);
 
 public:
-    ControlCenter* instance();
-
+    static ControlCenter& instance();
+    Rocket* build();
+    void setBuild();//Falcon 9
+    void setBuild(SpaceCraft* payload, string rocket);//Falcon Heavy
 };
 
 

@@ -13,15 +13,19 @@ void FalconHeavy::SeperateStage() {
 
 void FalconHeavy::Activate() {
 	// TODO - implement FalconHeavy::Activate
-    cout<< "======Core Booster======" <<endl;
+    //cout<< "======Core Booster======" <<endl;
 	Rocket::Activate();
-    cout<< "======Left Booster======" <<endl;
+    //cout<< "======Left Booster======" <<endl;
     this->LeftBooster->Activate();
-    cout<< "======Right Booster=====" <<endl;
+    //cout<< "======Right Booster=====" <<endl;
     this->RightBooster->Activate();
 }
 
 FalconHeavy * FalconHeavy::clone() {
 	// TODO - implement FalconHeavy::clone
 	throw "Not yet implemented";
+}
+
+double FalconHeavy::getThrust(double externalPressure) {
+    return 0;
 }

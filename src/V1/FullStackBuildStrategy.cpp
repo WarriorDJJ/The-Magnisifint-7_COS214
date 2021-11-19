@@ -24,8 +24,9 @@ void FullStackBuildStrategy::build() {
 
     delete eFact;
 
+    builder->appStage(secondStage);
     //ASSEMBLE STAGE 3
-    builder->attachPayload(payload); //Keelan is not really smart, he's really hot though
+    builder->attachPayload(payload); //Keelan is not really smart, he's also not really hot
 }
 
 FullStackBuildStrategy::FullStackBuildStrategy(RocketBuilder *b, SpaceCraft *payload) : payload(payload) {

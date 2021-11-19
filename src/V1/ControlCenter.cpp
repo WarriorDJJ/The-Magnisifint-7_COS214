@@ -4,33 +4,36 @@
 
 #include "ControlCenter.h"
 
-ControlCenter* ControlCenter::instance()
+ControlCenter& ControlCenter::instance()
 {
+    static ControlCenter cc;
+    return cc;
+    /*
     if(cc != nullptr)
     {
         cc = new ControlCenter();
-        FHBuilder = new FalconHeavyBuilder();
-        F9Builder = new FalconBuilder();
         return cc;
     }
     else
     {
-        cout<<"Control center already exsists!"<<endl;
-        return nullptr;
-    }
+        return cc;
+    }*/
 }
 
 ControlCenter::ControlCenter() {
     director = new RocketBuilderDirector();
+    FHBuilder = new FalconHeavyBuilder();
+    F9Builder = new FalconBuilder();
     isHeavy = false;
 }
 
 ControlCenter::~ControlCenter() {
+    /*
     if(cc != nullptr)
     {
         delete cc;
         cc = nullptr;
-    }
+    }*/
 
     if(buildStrat != nullptr)
     {
@@ -42,7 +45,7 @@ ControlCenter::~ControlCenter() {
 Rocket* ControlCenter::build(){
     director->setStrategy(buildStrat);
     director->build();
-    if(isHeavy)
+   if(isHeavy)
     {
         return FHBuilder->getRocket();
     }
@@ -67,19 +70,39 @@ void ControlCenter::setBuild() {
     }
 }
 
-void ControlCenter::setBuild(SpaceCraft* payload) {
-    if(buildStrat == nullptr)
+void ControlCenter::setBuild(SpaceCraft* payload, string rocket) {
+    if(rocket == "Falcon9")
     {
-        buildStrat = new FullStackBuildStrategy(FHBuilder , payload);
-        isHeavy = true;
+        if(buildStrat == nullptr)
+        {
+            buildStrat = new FullStackBuildStrategy(F9Builder , payload);
+            isHeavy = false;
+        }
+        else
+        {
+            delete buildStrat;
+            buildStrat = nullptr;
+            buildStrat = new FullStackBuildStrategy(F9Builder , payload);
+            isHeavy = false;
+            //i am here
+            //the power of presence
+        }
     }
-    else
+    else if(rocket == "FalconHeavy")
     {
-        delete buildStrat;
-        buildStrat = nullptr;
-        buildStrat = new FullStackBuildStrategy(FHBuilder , payload);
-        isHeavy = true;
-        //i am here
-        //the power of presence
+        if(buildStrat == nullptr)
+        {
+            buildStrat = new FullStackBuildStrategy(FHBuilder , payload);
+            isHeavy = true;
+        }
+        else
+        {
+            delete buildStrat;
+            buildStrat = nullptr;
+            buildStrat = new FullStackBuildStrategy(FHBuilder , payload);
+            isHeavy = true;
+            //i am here
+            //the power of presence
+        }
     }
 }

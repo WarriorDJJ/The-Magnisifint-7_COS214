@@ -19,6 +19,8 @@ public:
 	virtual void createEngines() = 0;
 
 	void attachPayload(SpaceCraft* p);
+
+    void appStage(SpaceCraft* s);
 };
 
 #endif

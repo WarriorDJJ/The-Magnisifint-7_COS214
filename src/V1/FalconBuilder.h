@@ -7,6 +7,8 @@ public:
 	virtual void createRocket();
 
 	virtual void createEngines();
+
+   // virtual void attachPayload(SpaceCraft *p);
 };
 
 #endif

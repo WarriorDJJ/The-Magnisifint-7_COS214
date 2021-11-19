@@ -150,6 +150,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.obj: \
  ../V1/BuildStrategy.h \
  ../V1/CargoDragon.h \
  ../V1/Command.h \
+ ../V1/ControlCenter.h \
  ../V1/CrewDragon.h \
  ../V1/Dragon.h \
  ../V1/Engine.h \

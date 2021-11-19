@@ -6,12 +6,10 @@ void MerlinEngine::StartEngine() {
     if(rand1 >=99.7 && rand1 <=100){
         std::cout << "Engine Failed!"<<std::endl;
         this->fail = true;
-        this->update();
     }
     else {
         std::cout << "Engine started succesfully!"<<std::endl;
         this->fail = false;
-        this->update();
     }
 }
 

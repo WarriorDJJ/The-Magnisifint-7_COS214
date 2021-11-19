@@ -35,6 +35,10 @@ public:
 
 	virtual Rocket * clone();
 
+    void appendStage(SpaceCraft *s) override;
+
+    virtual double getThrust(double externalPressure);
+
     void LoadFuel() override;
     int GetFuel() override;
     void VentFuel() override;

@@ -17,6 +17,8 @@ public:
 	void Activate();
 
 	virtual FalconHeavy * clone();
+
+    virtual double getThrust(double externalPressure);
 };
 
 #endif
