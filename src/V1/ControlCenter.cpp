@@ -27,8 +27,20 @@ ControlCenter::ControlCenter() {
     isHeavy = false;
 }
 
-void ControlCenter::storeSim(TestState *sim) {
-    mainStore.push_back(new SimStore())
+int ControlCenter::storeSim(TestState* sim, Payload* payload) {
+    SimStore* tempSS = new SimStore();
+    StoredSim* storedSIM = new StoredSim(sim, payload);
+    tempSS->storeSim(storedSIM);
+    mainStore.push_back(tempSS);
+    return mainStore.size()-1;
+}
+
+Payload* ControlCenter::getSimPayload(int i) {
+    return mainStore.at(i)->getSim()->getState()->getPayload();
+}
+
+TestState* ControlCenter::getSimState(int i) {
+    return mainStore.at(i)->getSim()->getState()->getTestState();
 }
 
 ControlCenter::~ControlCenter() {
@@ -43,6 +55,25 @@ ControlCenter::~ControlCenter() {
     {
         delete buildStrat;
         buildStrat = nullptr;
+    }
+
+    for(int i = 0; i < mainStore.size(); i++)
+    {
+        delete mainStore.at(i);
+    }
+    if(director !=nullptr)
+    {
+        delete director;
+    }
+
+    if(F9Builder != nullptr)
+    {
+        delete F9Builder;
+    }
+
+    if(FHBuilder != nullptr)
+    {
+        delete FHBuilder;
     }
 }
 

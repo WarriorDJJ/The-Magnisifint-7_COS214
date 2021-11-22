@@ -5,7 +5,7 @@
 #include "LoadFuelCommand.h"
 using namespace std;
 
-LoadFuelCommand::LoadFuelCommand(SpaceCraft* s):Command(s){
+LoadFuelCommand::LoadFuelCommand(Payload* s, Rocket* r):Command(s, r){
 
 }
 

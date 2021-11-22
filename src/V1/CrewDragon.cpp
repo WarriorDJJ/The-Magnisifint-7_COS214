@@ -9,9 +9,20 @@ CrewDragon::CrewDragon(int cc) : crewCount(cc){
 
 }
 
-void CrewDragon::Activate() /*->this is trash tier->>>>>*/{
-    //stubbed ?
-    return;
+void CrewDragon::Activate() {
+
+}
+
+void CrewDragon::VentFuel() {
+
+}
+
+void CrewDragon::LoadFuel() {
+
+}
+
+double CrewDragon::GetFuel() {
+    return 0;
 }
 
 Payload *CrewDragon::clone()

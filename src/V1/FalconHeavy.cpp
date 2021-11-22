@@ -6,6 +6,11 @@ FalconHeavy::FalconHeavy(Rocket *lb, Rocket *rb) : LeftBooster(lb), RightBooster
     name = "FalconHeavy";
 }
 
+FalconHeavy::~FalconHeavy(){
+    delete LeftBooster;
+    delete RightBooster;
+}
+
 Rocket * FalconHeavy::SeperateStage() {
 	if (this->LeftBooster != nullptr){
         Rocket * tempLB = this->LeftBooster;
@@ -107,4 +112,38 @@ int FalconHeavy::getNumEngines() {
     temp += Rocket::getNumEngines();
 
     return temp;
+}
+
+void FalconHeavy::LoadFuel() {
+    if (this->LeftBooster != nullptr){
+        LeftBooster->LoadFuel();
+    }
+    if (this->RightBooster != nullptr){
+        RightBooster->LoadFuel();
+    }
+    Rocket::LoadFuel();
+}
+
+double FalconHeavy::GetFuel() {
+    return Rocket::GetFuel();
+}
+
+void FalconHeavy::VentFuel() {
+    if (this->LeftBooster != nullptr){
+        LeftBooster->VentFuel();
+    }
+    if (this->RightBooster != nullptr){
+        RightBooster->VentFuel();
+    }
+    Rocket::VentFuel();
+}
+
+void FalconHeavy::useFuel(double Percent) {
+    SpaceCraft::useFuel(Percent);
+    if (this->LeftBooster != nullptr){
+        LeftBooster->setFuel(fuel);
+    }
+    if (this->RightBooster != nullptr){
+        RightBooster->setFuel(fuel);
+    }
 }

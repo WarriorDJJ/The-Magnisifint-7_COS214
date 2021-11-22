@@ -9,8 +9,8 @@ private:
 	StoredSim* _mem;
 
 public:
+    ~SimStore();
 	void storeSim(StoredSim* mem);
-
 	StoredSim* getSim();
 };
 

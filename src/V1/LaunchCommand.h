@@ -7,7 +7,7 @@ class LaunchCommand : public Command {
 
 
 public:
-	LaunchCommand(SpaceCraft *s);
+	LaunchCommand(Payload *s, Rocket *r);
 	void execute() override;
 };
 

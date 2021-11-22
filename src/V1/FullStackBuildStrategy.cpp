@@ -5,7 +5,7 @@ void FullStackBuildStrategy::build() {
     builder->createRocket();
     builder->createEngines();
     //ASSEMBLE STAGE
-    int nrEngines = 2;
+    int nrEngines = 1;
     string name = "SecondStage";
 
     EngineFactory* eFact = new MerlinEngineFactory();

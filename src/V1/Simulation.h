@@ -19,10 +19,12 @@ protected:
     Rocket* rocketForSim;
 
 public:
-    Simulation(Rocket *myRocket);
+    Simulation(Rocket *myRocket, Payload *p);
     bool launch();
     //void setState(bool working);
     void StaticTest();
+    Payload* getPayload();
+    TestState* getState();
 };
 
 #endif

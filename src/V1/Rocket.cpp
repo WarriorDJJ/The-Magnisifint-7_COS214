@@ -30,6 +30,10 @@ void Rocket::DestroyRocket()
     }
 }
 
+string Rocket::getName()
+{
+    return this->name;
+}
 
 void Rocket::Activate() {
     cout<<name<<":"<<endl;
@@ -69,7 +73,9 @@ SpaceCraft * Rocket::GetNextStage() {
 }
 
 void Rocket::LoadFuel() {
-    //Todo
+    this->fuel = 100;
+    cout << "Loading in Fuel onto "<< getName() << endl;
+    if(NextStage != nullptr) NextStage->LoadFuel();
 }
 
 double Rocket::GetFuel() {
@@ -77,7 +83,9 @@ double Rocket::GetFuel() {
 }
 
 void Rocket::VentFuel() {
-    //Todo
+    this->fuel = 0;
+    cout << "Venting Fuel from "<< getName() << endl;
+    if(NextStage != nullptr) NextStage->VentFuel();
 }
 
 void Rocket::notify(Engine * engine) {
@@ -124,7 +132,7 @@ int Rocket::getNumEngines() {
 }
 
 Rocket::~Rocket() {
-
+    delete this->NextStage;
 }
 
 void Rocket::appendStage(SpaceCraft *s) {

@@ -33,9 +33,11 @@ protected:
 public:
     static ControlCenter& instance();
     Rocket* build();
-    void storeSim(TestState* sim);
+    int storeSim(TestState* sim, Payload* payload);
     void setBuild();//Falcon 9
     void setBuild(SpaceCraft* payload, string rocket);//Falcon Heavy
+    TestState* getSimState(int i);
+    Payload* getSimPayload(int i);
 
 };
 

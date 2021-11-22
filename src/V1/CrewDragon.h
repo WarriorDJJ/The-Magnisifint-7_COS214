@@ -7,6 +7,9 @@ class CrewDragon : public Dragon {
 private:
     int crewCount;
 public:
+    virtual void LoadFuel();
+    virtual double GetFuel();
+    virtual void VentFuel();
     CrewDragon(int cc);
     virtual void Activate();
     virtual Payload * clone();

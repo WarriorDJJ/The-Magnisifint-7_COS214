@@ -2,6 +2,8 @@
 #define SPACECRAFT_H
 #include <iostream>
 
+using namespace std;
+
 class Engine;
 class SpaceCraft {
 protected:
@@ -12,6 +14,7 @@ protected:
 
 public:
     SpaceCraft();
+    virtual string getName() = 0;
     virtual void AddStage(SpaceCraft* s);
     virtual SpaceCraft * SeperateStage();
     virtual SpaceCraft* GetNextStage();
@@ -22,6 +25,8 @@ public:
     virtual double GetFuel();
     virtual void VentFuel();
     virtual void Activate()=0;
+
+    virtual void useFuel(double Percent);
 
     virtual SpaceCraft * clone()=0;
 
@@ -36,6 +41,8 @@ public:
     virtual void RemoveEngine(Engine * engine);
     virtual Engine * getEngine(int i);
     virtual int getNumEngines();
+
+    void setFuel(double fuel);
 };
 
 #endif

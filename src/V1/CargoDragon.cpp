@@ -12,6 +12,18 @@ void CargoDragon::Activate() {
 
 }
 
+void CargoDragon::VentFuel() {
+
+}
+
+void CargoDragon::LoadFuel() {
+
+}
+
+double CargoDragon::GetFuel() {
+    return 0;
+}
+
 Payload *CargoDragon::clone() {
     return new CargoDragon(this->mass);
 }

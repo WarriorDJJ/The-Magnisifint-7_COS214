@@ -15,6 +15,7 @@ protected:
 
 public:
     Nozzle();
+    ~Nozzle();
     virtual void addComponent(Engine*);
     virtual double getThrust(double externalPressure);
 

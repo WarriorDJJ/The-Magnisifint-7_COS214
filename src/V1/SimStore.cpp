@@ -1,5 +1,10 @@
 #include "SimStore.h"
 
+SimStore::~SimStore()
+{
+    delete _mem;
+}
+
 void SimStore::storeSim(StoredSim* mem) {
     _mem = mem;
 }

@@ -64,3 +64,16 @@ void SpaceCraft::VentFuel() {
     this->fuel = 0;
     cout << "Venting Fuel" << endl;
 }
+
+void SpaceCraft::useFuel(double Percent) {
+    if (fuel > 0) {
+        fuel = fuel - Percent;
+        if(fuel < 0){
+            fuel = 0;
+        }
+    }
+}
+
+void SpaceCraft::setFuel(double fuel) {
+    this->fuel = fuel;
+}

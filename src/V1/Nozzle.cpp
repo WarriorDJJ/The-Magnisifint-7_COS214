@@ -114,4 +114,8 @@ void Nozzle::setThroatArea(double throatArea) {
     Nozzle::throatArea = throatArea;
 }
 
+Nozzle::~Nozzle() {
+    delete this->motor;
+    motor = nullptr;
+}
 

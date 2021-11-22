@@ -10,18 +10,21 @@ using namespace std;
 class Rocket : public SpaceCraft {
 
 protected:
-    double length;
-    double diameter;
-    double wetMass;
-    double dryMass;
-	SpaceCraft* NextStage;
-    string name;
+    double length; /*!< This is the length of the rocket */
+    double diameter; /*!< This is the diameter of the rocket */
+    double wetMass; /*!< ---- */
+    double dryMass; /*!< ---- */
+	SpaceCraft* NextStage; /*!< ---- */
+    string name; /*!< The name of the rocket */
 
 public:
     Rocket();
     Rocket(string name, double length = 0, double diameter = 0, double wetMass = 0, double dryMass = 0);
 
+
     void DestroyRocket();
+
+    virtual string getName();
 
     //engine part
     void AddEngine(Engine * engine) override;

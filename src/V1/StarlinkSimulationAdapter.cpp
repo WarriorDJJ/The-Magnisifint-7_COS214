@@ -1,6 +1,6 @@
 #include "StarlinkSimulationAdapter.h"
 
-StarlinkSimulationAdapter::StarlinkSimulationAdapter(Starlink* starlink, Rocket* r) : Simulation(r){
+StarlinkSimulationAdapter::StarlinkSimulationAdapter(Starlink* starlink, Rocket* r) : Simulation(r, starlink){
 	this->starlink = starlink;
 }
 

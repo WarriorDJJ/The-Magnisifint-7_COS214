@@ -1,9 +1,18 @@
 #include "Simulation.h"
 
 
-Simulation::Simulation(Rocket* myRocket)
+Payload *Simulation::getPayload() {
+    return payload;
+}
+
+TestState *Simulation::getState() {
+    return state;
+}
+
+Simulation::Simulation(Rocket* myRocket, Payload* p)
 {
     rocketForSim = myRocket;
+    payload = p;
     state = new UntestedState(myRocket);
     //state->launch();
 }

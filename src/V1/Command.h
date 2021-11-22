@@ -2,7 +2,7 @@
 #define COMMAND_H
 #include "Simulation.h"
 
-class Command {
+class Command : public Simulation{
 
 protected:
     SpaceCraft* receiver;
@@ -10,7 +10,7 @@ protected:
 public:
     SpaceCraft* getReceiver();
 	virtual void execute()=0;
-	Command(SpaceCraft* s);
+	Command(Payload* p, Rocket* r);
 
 };
 

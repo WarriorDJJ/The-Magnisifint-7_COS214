@@ -87,3 +87,7 @@ void Engine::setFail(bool fail) {
 SpaceCraft *Engine::getSpaceCraft() const {
     return spaceCraft;
 }
+
+Engine::~Engine() {
+
+}

@@ -4,7 +4,7 @@ SpaceCraft* Command::getReceiver() {
 	return this->receiver;
 }
 
-Command::Command(SpaceCraft* s) {
+Command::Command(Payload* p, Rocket* r) : Simulation(r, p){
 	// TODO - implement Command::Command
-	this->receiver = s;
+	this->receiver = p;
 }

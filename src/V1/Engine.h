@@ -14,6 +14,7 @@ protected:
     bool fail;
 public:
     Engine();
+    ~Engine();
     virtual void StartEngine();
     virtual void setSpacecraft(SpaceCraft* spacecraft);
 

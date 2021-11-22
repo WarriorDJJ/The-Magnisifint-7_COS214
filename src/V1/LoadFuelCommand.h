@@ -10,7 +10,7 @@ class LoadFuelCommand:public Command {
 protected:
 public:
     //SpaceCraft* getReceiver();
-    LoadFuelCommand(SpaceCraft* s);
+    LoadFuelCommand(Payload* s, Rocket* r);
     void execute();
     //Command(SpaceCraft* s);
 };
