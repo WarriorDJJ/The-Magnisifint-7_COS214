@@ -13,6 +13,7 @@
 #include "SingleRocketBuildStrategy.h"
 #include "FullStackBuildStrategy.h"
 #include "SimStore.h"
+#include <vector>
 
 using namespace std;
 
@@ -23,7 +24,7 @@ private:
     RocketBuilder* FHBuilder;
     RocketBuilder* F9Builder;
     bool isHeavy;
-    vector<SimStore>;
+    vector<SimStore*> mainStore;
 
 protected:
     ControlCenter();

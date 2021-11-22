@@ -66,7 +66,7 @@ void TestMode(Rocket *r){
 void Save(Rocket *r){
 
 }
-//hi suh dude ayyy
+//hi suh dude ayyy gay, yes
 void runnyBoi(Rocket* r){
     bool valid;
     int next;
@@ -159,7 +159,7 @@ void Falcon9Sim(){
             CrewDragon* pay = new CrewDragon(next);
             ControlCenter::instance().setBuild(pay, "Falcon9");
             Rocket* crewFalc9 = ControlCenter::instance().build();
-            cout << "Crew Dragon - Falcon9 Created!" << endl;
+            cout << ".--::--===--<||  Crew Dragon - Falcon9 Created!  ||>--===--::--." << endl;
             runnyBoi(crewFalc9);
         }else if(payload == "Cargo"){
             double mass;
@@ -178,13 +178,13 @@ void Falcon9Sim(){
             CargoDragon* pay = new CargoDragon(mass);
             ControlCenter::instance().setBuild(pay, "Falcon9");
             Rocket* cargoFalc9 = ControlCenter::instance().build();
-            cout << "Cargo Dragon - Falcon9 Created!" << endl;
+            cout << ".--::--===--<||  Cargo Dragon - Falcon9 Created!  ||>--===--::--." << endl;
             runnyBoi(cargoFalc9);
         }else if(payload == "Starlink"){
             Starlink* pay = new Starlink();
             ControlCenter::instance().setBuild(pay, "Falcon9");
             Rocket* starFalc9 = ControlCenter::instance().build();
-            cout << "Starlink - Falcon9 Created!" << endl;
+            cout << ".--::--===--<||  Starlink - Falcon9 Created!  ||>--===--::--." << endl;
             runnyBoi(starFalc9);
         }else{
             cout << "wut" << endl;
@@ -237,7 +237,7 @@ void FalconHeavySim(){
         CrewDragon* pay = new CrewDragon(next);
         ControlCenter::instance().setBuild(pay, "Falcon9");
         Rocket* crewFalcHeav = ControlCenter::instance().build();
-        cout << "Crew Dragon - Falcon Heavy Created!" << endl;
+        cout << ".--::--===--<||  Crew Dragon - Falcon Heavy Created!  ||>--===--::--." << endl;
         runnyBoi(crewFalcHeav);
     }else if(payload == "Cargo"){
         double mass;
@@ -256,13 +256,13 @@ void FalconHeavySim(){
         CargoDragon* pay = new CargoDragon(mass);
         ControlCenter::instance().setBuild(pay, "Falcon9");
         Rocket* cargoFalcHeav = ControlCenter::instance().build();
-        cout << "Cargo Dragon - Falcon Heavy Created!" << endl;
+        cout << ".--::--===--<||  Cargo Dragon - Falcon Heavy Created!  ||>--===--::--." << endl;
         runnyBoi(cargoFalcHeav);
     }else if(payload == "Starlink"){
         Starlink* pay = new Starlink();
         ControlCenter::instance().setBuild(pay, "Falcon9");
         Rocket* starFalcHeav = ControlCenter::instance().build();
-        cout << "Starlink - Falcon Heavy Created!" << endl;
+        cout << ".--::--===--<||  Starlink - Falcon Heavy Created!  ||>--===--::--." << endl;
         runnyBoi(starFalcHeav);
     }else{
         cout << "wut" << endl;
@@ -310,7 +310,7 @@ int main() {
     Starlink* s = new Starlink();
     ControlCenter::instance().setBuild(s, "Falcon9");
     Rocket* starlinkR = ControlCenter::instance().build();
-    cout << "Starlink Created!" << endl;
+    cout << ".--::--===--<||  Starlink Created!  ||>--===--::--." << endl;
 
     //Command* c = new LaunchCommand(starlinkR);
     StarlinkSimulationAdapter* adapter = new StarlinkSimulationAdapter(s, starlinkR);

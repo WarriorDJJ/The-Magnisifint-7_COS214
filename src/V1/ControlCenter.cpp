@@ -27,6 +27,10 @@ ControlCenter::ControlCenter() {
     isHeavy = false;
 }
 
+void ControlCenter::storeSim(TestState *sim) {
+    mainStore.push_back(new SimStore())
+}
+
 ControlCenter::~ControlCenter() {
     /*
     if(cc != nullptr)

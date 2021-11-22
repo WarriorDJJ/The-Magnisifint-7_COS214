@@ -1,4 +1,5 @@
 #include "SpaceCraft.h"
+using namespace std;
 
 void SpaceCraft::AddStage(SpaceCraft* s) {
 	//does nothing
@@ -47,4 +48,19 @@ double SpaceCraft::getThrust(double externalPressure) {
 
 int SpaceCraft::getStatusCode() {
     return statusCode;
+}
+
+void SpaceCraft::LoadFuel(){
+    this->fuel = 100;
+    cout << "Loading in Fuel" << endl;
+
+}
+
+double SpaceCraft::GetFuel() {
+    return this->fuel;
+}
+
+void SpaceCraft::VentFuel() {
+    this->fuel = 0;
+    cout << "Venting Fuel" << endl;
 }

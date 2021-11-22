@@ -1,14 +1,14 @@
 #ifndef COMMAND_H
 #define COMMAND_H
-#include "SpaceCraft.h"
+#include "Simulation.h"
 
 class Command {
 
 protected:
-	SpaceCraft* receiver;
+    SpaceCraft* receiver;
 
 public:
-	SpaceCraft* getReceiver();
+    SpaceCraft* getReceiver();
 	virtual void execute()=0;
 	Command(SpaceCraft* s);
 

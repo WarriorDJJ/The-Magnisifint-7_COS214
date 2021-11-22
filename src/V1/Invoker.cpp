@@ -1,11 +1,9 @@
 #include "Invoker.h"
 
 Invoker::Invoker(Command* c) {
-	// TODO - implement Invoker::Invoker
-	throw "Not yet implemented";
+	command = c;
 }
 
 void Invoker::press() {
-	// TODO - implement Invoker::press
-	throw "Not yet implemented";
+	command->execute();
 }

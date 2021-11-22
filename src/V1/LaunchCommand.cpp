@@ -11,5 +11,6 @@ void LaunchCommand::execute() {
     else{
         this->receiver->LoadFuel();
         this->receiver->Activate();
+        cout << "" << endl;
     }
 }

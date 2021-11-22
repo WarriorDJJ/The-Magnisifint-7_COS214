@@ -5,6 +5,7 @@
 class Engine;
 class SpaceCraft {
 protected:
+    double fuel;
 	bool isFinalStage;
     int EnginesFailed;
     int statusCode;
@@ -17,9 +18,9 @@ public:
 
     virtual int getStatusCode();//0: No Problems, 1: Some Problems but still Working, 2: Not Working, 3: Exploded
 
-    virtual void LoadFuel()=0;
-    virtual double GetFuel()=0;
-    virtual void VentFuel()=0;
+    virtual void LoadFuel();
+    virtual double GetFuel();
+    virtual void VentFuel();
     virtual void Activate()=0;
 
     virtual SpaceCraft * clone()=0;

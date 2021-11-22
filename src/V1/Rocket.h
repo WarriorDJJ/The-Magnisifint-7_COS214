@@ -12,7 +12,6 @@ class Rocket : public SpaceCraft {
 protected:
     double length;
     double diameter;
-    double fuel;
     double wetMass;
     double dryMass;
 	SpaceCraft* NextStage;

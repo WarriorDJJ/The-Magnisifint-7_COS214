@@ -10,7 +10,7 @@ LoadFuelCommand::LoadFuelCommand(SpaceCraft* s):Command(s){
 }
 
 void LoadFuelCommand::execute(){
-    if(this->receiver->GetFuel()<100){
+    if(this->receiver->GetFuel() < 100){
         this->receiver->LoadFuel();
     }
 }

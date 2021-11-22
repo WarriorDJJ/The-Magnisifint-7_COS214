@@ -31,10 +31,19 @@ CMakeFiles/COS214_Project_V1.dir/V1/CargoDragon.cpp.obj: \
  ../V1/Payload.h \
  ../V1/SpaceCraft.h
 CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj: \
+ ../V1/BrokenState.h \
  ../V1/Command.cpp \
  ../V1/Command.h \
- ../V1/SpaceCraft.h
+ ../V1/Engine.h \
+ ../V1/Payload.h \
+ ../V1/Rocket.h \
+ ../V1/Simulation.h \
+ ../V1/SpaceCraft.h \
+ ../V1/TestState.h \
+ ../V1/UntestedState.h \
+ ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.obj: \
+ ../V1/BrokenState.h \
  ../V1/BuildStrategy.h \
  ../V1/Command.h \
  ../V1/ControlCenter.cpp \
@@ -54,13 +63,16 @@ CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.obj: \
  ../V1/RocketBuilderDirector.h \
  ../V1/RocketMotor.h \
  ../V1/SimStore.h \
+ ../V1/Simulation.h \
  ../V1/SingleRocketBuildStrategy.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
  ../V1/StoredSim.h \
  ../V1/StoredSimState.h \
  ../V1/TestState.h \
- ../V1/VacuumBell.h
+ ../V1/UntestedState.h \
+ ../V1/VacuumBell.h \
+ ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/CrewDragon.cpp.obj: \
  ../V1/CrewDragon.cpp \
  ../V1/CrewDragon.h \
@@ -132,10 +144,18 @@ CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.obj: \
  ../V1/StandardBell.h \
  ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/Invoker.cpp.obj: \
+ ../V1/BrokenState.h \
  ../V1/Command.h \
+ ../V1/Engine.h \
  ../V1/Invoker.cpp \
  ../V1/Invoker.h \
- ../V1/SpaceCraft.h
+ ../V1/Payload.h \
+ ../V1/Rocket.h \
+ ../V1/Simulation.h \
+ ../V1/SpaceCraft.h \
+ ../V1/TestState.h \
+ ../V1/UntestedState.h \
+ ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/Iterator.cpp.obj: \
  ../V1/Iterator.cpp \
  ../V1/Iterator.h \
@@ -143,10 +163,18 @@ CMakeFiles/COS214_Project_V1.dir/V1/Iterator.cpp.obj: \
  ../V1/Satelite.h \
  ../V1/SpaceCraft.h
 CMakeFiles/COS214_Project_V1.dir/V1/LaunchCommand.cpp.obj: \
+ ../V1/BrokenState.h \
  ../V1/Command.h \
+ ../V1/Engine.h \
  ../V1/LaunchCommand.cpp \
  ../V1/LaunchCommand.h \
- ../V1/SpaceCraft.h
+ ../V1/Payload.h \
+ ../V1/Rocket.h \
+ ../V1/Simulation.h \
+ ../V1/SpaceCraft.h \
+ ../V1/TestState.h \
+ ../V1/UntestedState.h \
+ ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/LinkedList.cpp.obj: \
  ../V1/Iterator.h \
  ../V1/LinkedList.cpp \
@@ -155,10 +183,18 @@ CMakeFiles/COS214_Project_V1.dir/V1/LinkedList.cpp.obj: \
  ../V1/Satelite.h \
  ../V1/SpaceCraft.h
 CMakeFiles/COS214_Project_V1.dir/V1/LoadFuelCommand.cpp.obj: \
+ ../V1/BrokenState.h \
  ../V1/Command.h \
+ ../V1/Engine.h \
  ../V1/LoadFuelCommand.cpp \
  ../V1/LoadFuelCommand.h \
- ../V1/SpaceCraft.h
+ ../V1/Payload.h \
+ ../V1/Rocket.h \
+ ../V1/Simulation.h \
+ ../V1/SpaceCraft.h \
+ ../V1/TestState.h \
+ ../V1/UntestedState.h \
+ ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.obj: \
  ../V1/Engine.h \
  ../V1/MerlinEngine.cpp \
