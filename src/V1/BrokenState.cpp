@@ -15,7 +15,7 @@ bool BrokenState::launch(Rocket* myRocket)
     if (chance > 89)
     {
         cout<<"Engine explodes and destroys the rocket"<<endl;
-        myRocket->DestroyRocket();
+        //myRocket->DestroyRocket();
         return false;
     } else
     {

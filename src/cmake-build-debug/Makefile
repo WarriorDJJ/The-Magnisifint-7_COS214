@@ -176,6 +176,30 @@ V1/BuildStrategy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.s
 .PHONY : V1/BuildStrategy.cpp.s
 
+V1/CargoDragon.obj: V1/CargoDragon.cpp.obj
+.PHONY : V1/CargoDragon.obj
+
+# target to build an object file
+V1/CargoDragon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/CargoDragon.cpp.obj
+.PHONY : V1/CargoDragon.cpp.obj
+
+V1/CargoDragon.i: V1/CargoDragon.cpp.i
+.PHONY : V1/CargoDragon.i
+
+# target to preprocess a source file
+V1/CargoDragon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/CargoDragon.cpp.i
+.PHONY : V1/CargoDragon.cpp.i
+
+V1/CargoDragon.s: V1/CargoDragon.cpp.s
+.PHONY : V1/CargoDragon.s
+
+# target to generate assembly for a file
+V1/CargoDragon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/CargoDragon.cpp.s
+.PHONY : V1/CargoDragon.cpp.s
+
 V1/Command.obj: V1/Command.cpp.obj
 .PHONY : V1/Command.obj
 
@@ -223,6 +247,54 @@ V1/ControlCenter.s: V1/ControlCenter.cpp.s
 V1/ControlCenter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.s
 .PHONY : V1/ControlCenter.cpp.s
+
+V1/CrewDragon.obj: V1/CrewDragon.cpp.obj
+.PHONY : V1/CrewDragon.obj
+
+# target to build an object file
+V1/CrewDragon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/CrewDragon.cpp.obj
+.PHONY : V1/CrewDragon.cpp.obj
+
+V1/CrewDragon.i: V1/CrewDragon.cpp.i
+.PHONY : V1/CrewDragon.i
+
+# target to preprocess a source file
+V1/CrewDragon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/CrewDragon.cpp.i
+.PHONY : V1/CrewDragon.cpp.i
+
+V1/CrewDragon.s: V1/CrewDragon.cpp.s
+.PHONY : V1/CrewDragon.s
+
+# target to generate assembly for a file
+V1/CrewDragon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/CrewDragon.cpp.s
+.PHONY : V1/CrewDragon.cpp.s
+
+V1/Dragon.obj: V1/Dragon.cpp.obj
+.PHONY : V1/Dragon.obj
+
+# target to build an object file
+V1/Dragon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Dragon.cpp.obj
+.PHONY : V1/Dragon.cpp.obj
+
+V1/Dragon.i: V1/Dragon.cpp.i
+.PHONY : V1/Dragon.i
+
+# target to preprocess a source file
+V1/Dragon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Dragon.cpp.i
+.PHONY : V1/Dragon.cpp.i
+
+V1/Dragon.s: V1/Dragon.cpp.s
+.PHONY : V1/Dragon.s
+
+# target to generate assembly for a file
+V1/Dragon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Dragon.cpp.s
+.PHONY : V1/Dragon.cpp.s
 
 V1/Engine.obj: V1/Engine.cpp.obj
 .PHONY : V1/Engine.obj
@@ -1247,12 +1319,21 @@ help:
 	@echo ... V1/BuildStrategy.obj
 	@echo ... V1/BuildStrategy.i
 	@echo ... V1/BuildStrategy.s
+	@echo ... V1/CargoDragon.obj
+	@echo ... V1/CargoDragon.i
+	@echo ... V1/CargoDragon.s
 	@echo ... V1/Command.obj
 	@echo ... V1/Command.i
 	@echo ... V1/Command.s
 	@echo ... V1/ControlCenter.obj
 	@echo ... V1/ControlCenter.i
 	@echo ... V1/ControlCenter.s
+	@echo ... V1/CrewDragon.obj
+	@echo ... V1/CrewDragon.i
+	@echo ... V1/CrewDragon.s
+	@echo ... V1/Dragon.obj
+	@echo ... V1/Dragon.i
+	@echo ... V1/Dragon.s
 	@echo ... V1/Engine.obj
 	@echo ... V1/Engine.i
 	@echo ... V1/Engine.s

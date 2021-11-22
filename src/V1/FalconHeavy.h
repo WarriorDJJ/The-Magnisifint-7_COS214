@@ -12,13 +12,14 @@ protected:
 public:
     FalconHeavy(Rocket* lb, Rocket* rb);
 
-	void SeperateStage();
+    Rocket * SeperateStage() override;
+    virtual SpaceCraft * GetNextStage();
 
-	void Activate();
+	void Activate() override;
 
-	virtual FalconHeavy * clone();
+	FalconHeavy * clone() override;
 
-    virtual double getThrust(double externalPressure);
+    double getThrust(double externalPressure) override;
 
     Engine *getEngine(int i) override;
 

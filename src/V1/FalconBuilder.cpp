@@ -1,11 +1,8 @@
 #include "FalconBuilder.h"
 
-void FalconBuilder::createRocket() {
-    double wet = 0;//needs falcon 9 values
-    double dry = 0;
-    double fuel = 0;
+void FalconBuilder::createRocket(){
     string name = "Falcon 9";
-    rocket = new Rocket(fuel, wet, dry, name);//to here
+    rocket = new Rocket(name);//to here
 }
 
 void FalconBuilder::createEngines() {

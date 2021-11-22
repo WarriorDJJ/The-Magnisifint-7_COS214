@@ -92,6 +92,9 @@
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BuildStrategy.h">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/CargoDragon.cpp">
+			<Option target="COS214_Project_V1"/>
+		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/CargoDragon.h">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
@@ -104,7 +107,16 @@
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/ControlCenter.cpp">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/ControlCenter.h">
+			<Option target="COS214_Project_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/CrewDragon.cpp">
+			<Option target="COS214_Project_V1"/>
+		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/CrewDragon.h">
+			<Option target="COS214_Project_V1"/>
+		</Unit>
+		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Dragon.cpp">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Dragon.h">

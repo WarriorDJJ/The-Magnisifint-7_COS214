@@ -4,15 +4,10 @@
 using namespace std;
 
 void FalconHeavyBuilder::createRocket() {
-    double wet = 0;//needs falcon 9 values
-    double dry = 0;
-    double fuel = 0;
-    double len = 0;
-    double diameter = 0;
     string name = "Falcon 9";
 
     EngineFactory* eFact = new MerlinEngineFactory();
-    Rocket* lb = new Rocket(fuel, wet, dry, name);
+    Rocket* lb = new Rocket(name);
     LeftBooster = lb;
     for(int i = 0; i < 9; i++)
     {
@@ -21,7 +16,7 @@ void FalconHeavyBuilder::createRocket() {
         LeftBooster->AddEngine(temp);
     }
 
-    Rocket* rb = new Rocket(fuel, wet, dry, name);
+    Rocket* rb = new Rocket(name);
     RightBooster = rb;
     for(int i = 0; i < 9; i++)
     {

@@ -4,9 +4,10 @@
 
 #include "Satelite.h"
 
-Satelite::Satelite() {
+Satelite::Satelite(string s) : name(s){
     next = nullptr;
 }
+
 
 Satelite *Satelite::getNextSatelite() {
     return next;
@@ -20,7 +21,7 @@ void Satelite::release() {
     cout << "Satellite released..." << endl;
 }
 
-//TODO
+/*//TODO
 void Satelite::LoadFuel() {
 
 }
@@ -29,10 +30,10 @@ void Satelite::VentFuel() {
 
 }
 
-int Satelite::GetFuel() {//should almost definitely be double but yeah someone else oughta fix it
+double Satelite::GetFuel() {//should almost definitely be double but yeah someone else oughta fix it
     return 0;
 }
 
 void Satelite::notify(Engine *engine) {
 
-}
+}*/

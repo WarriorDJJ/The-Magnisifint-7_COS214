@@ -4,21 +4,27 @@
 
 class Engine;
 class SpaceCraft {
-private:
+protected:
 	bool isFinalStage;
     int EnginesFailed;
+    int statusCode;
 
 public:
     SpaceCraft();
     virtual void AddStage(SpaceCraft* s);
-    virtual void SeperateStage();
+    virtual SpaceCraft * SeperateStage();
     virtual SpaceCraft* GetNextStage();
+
+    virtual int getStatusCode();//0: No Problems, 1: Some Problems but still Working, 2: Not Working, 3: Exploded
+
     virtual void LoadFuel()=0;
-    virtual int GetFuel()=0;
+    virtual double GetFuel()=0;
     virtual void VentFuel()=0;
     virtual void Activate()=0;
-    virtual void notify(Engine * engine);
+
     virtual SpaceCraft * clone()=0;
+
+    virtual void notify(Engine * engine);
 
     //end ll
     virtual void appendStage(SpaceCraft* s);

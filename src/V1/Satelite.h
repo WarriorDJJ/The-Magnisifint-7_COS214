@@ -3,20 +3,21 @@
 #include "Payload.h"
 #include <iostream>
 using namespace std;
-class Satelite : public Payload {
+class Satelite{
 private:
     Satelite* next;
+    string name;
 public:
-    Satelite();
+    Satelite(string n);
     Satelite* getNextSatelite();
     void release();
     void setNextSatelite(Satelite *s);
 
-    //TODO
+    /*TODO
     virtual void LoadFuel();
-    virtual int GetFuel();
+    virtual double GetFuel();
     virtual void VentFuel();
-    virtual void notify(Engine * engine);
+    virtual void notify(Engine * engine);*/
 };
 
 #endif

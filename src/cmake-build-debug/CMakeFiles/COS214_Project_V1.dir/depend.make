@@ -24,6 +24,12 @@ CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj: \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
  ../V1/VacuumBell.h
+CMakeFiles/COS214_Project_V1.dir/V1/CargoDragon.cpp.obj: \
+ ../V1/CargoDragon.cpp \
+ ../V1/CargoDragon.h \
+ ../V1/Dragon.h \
+ ../V1/Payload.h \
+ ../V1/SpaceCraft.h
 CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj: \
  ../V1/Command.cpp \
  ../V1/Command.h \
@@ -50,6 +56,17 @@ CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.obj: \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
  ../V1/VacuumBell.h
+CMakeFiles/COS214_Project_V1.dir/V1/CrewDragon.cpp.obj: \
+ ../V1/CrewDragon.cpp \
+ ../V1/CrewDragon.h \
+ ../V1/Dragon.h \
+ ../V1/Payload.h \
+ ../V1/SpaceCraft.h
+CMakeFiles/COS214_Project_V1.dir/V1/Dragon.cpp.obj: \
+ ../V1/Dragon.cpp \
+ ../V1/Dragon.h \
+ ../V1/Payload.h \
+ ../V1/SpaceCraft.h
 CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.obj: \
  ../V1/Engine.cpp \
  ../V1/Engine.h \

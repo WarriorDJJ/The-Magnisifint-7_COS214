@@ -1,21 +1,37 @@
 #include "Rocket.h"
 
-Rocket::Rocket(double f, double wm, double dm, string n) : fuel(f), wetMass(wm), dryMass(dm), name(n){
-    rocketState = "untested";
+Rocket::Rocket(string name, double length, double diameter, double wetMass, double dryMass) : Rocket(){
+    this->length = length;
+    this->diameter = diameter;
+    this->wetMass = wetMass;
+    this->dryMass = dryMass;
+    this->name = name;
+}
+
+Rocket::Rocket(){
+    this->rocketState = "untested";
+    this->EnginesFailed = 0;
+    this->isFinalStage = false;
+    this->NextStage = nullptr;
+
+    this->length = 0;
+    this->diameter = 0;
+    this->wetMass = 0;
+    this->dryMass = 0;
+
 }
 
 void Rocket::DestroyRocket()
 {
+    //Todo
     for(int i=0;i<engines.size();i++)
     {
         RemoveEngine(engines[i]);
     }
-    //needs to also destroy next stages
 }
 
 
 void Rocket::Activate() {
-	// TODO - implement Rocket::Activate
     cout<<name<<":"<<endl;
 	for(int i=0;i<engines.size();i++){
         cout<<"\t"<< to_string(i+1) + ": ";
@@ -24,19 +40,18 @@ void Rocket::Activate() {
 }
 
 Rocket * Rocket::clone() {
-	Rocket * newRocket = new Rocket(this->fuel, this->wetMass, this->dryMass, this->name);
+	Rocket * newRocket = new Rocket(this->name, this->length, this->diameter, this->wetMass, this->dryMass);
+
     for (int i=0;i<engines.size();i++){
         Engine * newEngine = engines[i]->clone();
         newEngine->setSpacecraft(newRocket);
         newRocket->AddEngine(newEngine);
     }
+
     if(this->NextStage!=nullptr){
-        SpaceCraft* newStage = NextStage->clone();
-        this->NextStage = newStage;
+        newRocket->NextStage = this->NextStage->clone();
     }
-    else{
-        this->NextStage = nullptr;
-    }
+
     return newRocket;
 }
 
@@ -44,31 +59,44 @@ void Rocket::AddStage(SpaceCraft *s) {
     this->NextStage = s;
 }
 
-void Rocket::SeperateStage() {
-    SpaceCraft::SeperateStage();
+Rocket * Rocket::SeperateStage() {
+    NextStage = nullptr;
+    return this;
 }
 
-SpaceCraft *Rocket::GetNextStage() {
-    return SpaceCraft::GetNextStage();
+SpaceCraft * Rocket::GetNextStage() {
+    return NextStage;
 }
 
 void Rocket::LoadFuel() {
-
+    //Todo
 }
 
-int Rocket::GetFuel() {
-    return 0;
+double Rocket::GetFuel() {
+    return fuel;
 }
 
 void Rocket::VentFuel() {
-
+    //Todo
 }
 
 void Rocket::notify(Engine * engine) {
-    SpaceCraft::notify(engine);
-}
+    if(engine->isFail()){
+        this->EnginesFailed++;
 
-Rocket::Rocket(){
+        int rand1 = rand() % 100 + 1;
+        if(rand1 >=50 && rand1 <=100){
+            statusCode = 3;//Explodes
+        }
+    }
+
+    if(statusCode != 3) {
+        if (EnginesFailed > 0) {
+            statusCode = 1;
+        } else if (EnginesFailed >= 0.5 * getNumEngines()) {
+            statusCode = 2;
+        }
+    }
 }
 
 void Rocket::AddEngine(Engine *engine) {
@@ -82,11 +110,10 @@ void Rocket::RemoveEngine(Engine * engine) {
             engines.erase(ptr);
         }
     }
-    
 }
 
 Engine * Rocket::getEngine(int i){
-    if(i<engines.size()){
+    if(i>=0 && i<getNumEngines()){
         return engines.at(i);
     }
     else return nullptr;
@@ -101,7 +128,14 @@ Rocket::~Rocket() {
 }
 
 void Rocket::appendStage(SpaceCraft *s) {
-    //todo
+    if(this->GetNextStage() != nullptr)
+    {
+        this->GetNextStage()->appendStage(s);
+    }
+    else
+    {
+        this->AddStage(s);
+    }
 }
 
 double Rocket::getThrust(double externalPressure) {
@@ -109,5 +143,5 @@ double Rocket::getThrust(double externalPressure) {
     for(int i=0;i<engines.size();i++){
         thrust += engines[i]->getThrust(externalPressure);
     }
-    return 0;
+    return thrust;
 }

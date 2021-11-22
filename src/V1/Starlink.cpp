@@ -1,5 +1,6 @@
 #include "Starlink.h"
 #include "LinkedList.h"
+
 void Starlink::release() {
 	while(root != nullptr){
         removeSat(nullptr,true);
@@ -79,8 +80,37 @@ void Starlink::removeSat(Satelite *s, bool launch) {
 
 Starlink::Starlink() {
     root = nullptr;
+    string name;
+    stringstream ss;
+    for(int i = 0; i < 60; i++)
+    {
+        ss<<"Starlink "<<i;
+        ss>>name;
+        addSat(new Satelite(name));
+        ss.clear();
+    }
 }
 
 bool Starlink::isEmpty() {
     return root == nullptr;
+}
+
+Payload *Starlink::clone() {
+    return this;
+}
+
+void Starlink::Activate() {
+
+}
+
+void Starlink::VentFuel() {
+
+}
+
+void Starlink::LoadFuel() {
+
+}
+
+double Starlink::GetFuel() {
+    return 0;
 }

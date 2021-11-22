@@ -12,21 +12,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/V1/CargoDragon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V1/CrewDragon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V1/Dragon.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Engine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/BrokenState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/BrokenState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/FalconHeavy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconHeavy.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/FalconHeavy.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconHeavy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/StandardBell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/StandardBell.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/VacuumBell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/VacuumBell.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/MerlinEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/MerlinEngine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Rocket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Rocket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Rocket.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Rocket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/SpaceCraft.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/SpaceCraft.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/SpaceCraft.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/SpaceCraft.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/COS214_Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/COS214_Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
-    <list id="c7ab5084-89ec-4104-b5f6-4147e85e23ae" name="Changes by cornelius" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Engine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Nozzle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Nozzle.cpp" afterDir="false" />
+    <list id="c7ab5084-89ec-4104-b5f6-4147e85e23ae" name="Changes by cornelius" comment="" />
+    <list id="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" name="Changes by james" comment="">
+      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Satelite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Satelite.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Satelite.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Satelite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Starlink.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Starlink.cpp" afterDir="false" />
+    </list>
+    <list id="91795f71-e023-4a10-8ae1-a55d8e5db671" name="Changes by Keelan Cross" comment="">
+      <change beforePath="$PROJECT_DIR$/V1/CargoDragon.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/CargoDragon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/CrewDragon.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/CrewDragon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Dragon.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Dragon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/FalconBuilder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconBuilder.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/FalconHeavy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconHeavy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/FalconHeavyBuilder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconHeavyBuilder.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/FullStackBuildStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FullStackBuildStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Payload.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Payload.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/Rocket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Rocket.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/StandardBell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/StandardBell.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/VacuumBell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/VacuumBell.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Satelite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Satelite.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Satelite.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Satelite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Starlink.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Starlink.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Starlink.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Starlink.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +83,83 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/V1/VacuumBell.cpp">
+    <file path="$PROJECT_DIR$/V1/Satelite.cpp">
       <ranges>
-        <range start1="12" end1="13" start2="12" end2="13" changelist="c7ab5084-89ec-4104-b5f6-4147e85e23ae" />
-        <range start1="16" end1="18" start2="16" end2="18" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="38" end1="46" start2="38" end2="46" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="6" end1="7" start2="6" end2="7" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="10" end1="10" start2="10" end2="11" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="22" end1="23" start2="23" end2="24" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="31" end1="32" start2="32" end2="33" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="37" end1="38" start2="38" end2="39" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
       </ranges>
     </file>
-    <file path="$PROJECT_DIR$/V1/StandardBell.cpp">
+    <file path="$PROJECT_DIR$/V1/Rocket.cpp">
       <ranges>
-        <range start1="4" end1="5" start2="4" end2="5" changelist="c7ab5084-89ec-4104-b5f6-4147e85e23ae" />
-        <range start1="8" end1="10" start2="8" end2="10" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="2" end1="4" start2="2" end2="8" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="5" end1="5" start2="9" end2="22" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="8" end1="8" start2="25" end2="26" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="12" end1="13" start2="30" end2="30" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="17" end1="18" start2="34" end2="34" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="26" end1="27" start2="42" end2="44" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="32" end1="32" start2="49" end2="50" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="33" end1="35" start2="51" end2="52" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="36" end1="39" start2="53" end2="54" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="46" end1="48" start2="61" end2="64" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="50" end1="52" start2="66" end2="68" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="55" end1="56" start2="71" end2="72" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="58" end1="60" start2="74" end2="76" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="63" end1="64" start2="79" end2="80" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="67" end1="68" start2="83" end2="99" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="69" end1="72" start2="100" end2="100" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="84" end1="85" start2="112" end2="112" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="88" end1="89" start2="115" end2="116" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="103" end1="104" start2="130" end2="138" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="111" end1="112" start2="145" end2="146" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/V1/Starlink.cpp">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="3" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="81" end1="81" start2="82" end2="91" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="86" end1="86" start2="96" end2="116" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/V1/Main.cpp">
+      <ranges>
+        <range start1="47" end1="47" start2="47" end2="48" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="48" end1="50" start2="49" end2="56" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="52" end1="54" start2="58" end2="131" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="56" end1="58" start2="133" end2="135" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="62" end1="62" start2="139" end2="192" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="69" end1="70" start2="199" end2="200" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="85" end1="86" start2="215" end2="217" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="87" end1="89" start2="218" end2="225" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="93" end1="95" start2="229" end2="232" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="97" end1="97" start2="234" end2="236" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="104" end1="104" start2="243" end2="244" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/V1/FalconHeavy.cpp">
+      <ranges>
+        <range start1="4" end1="6" start2="4" end2="6" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="8" end1="11" start2="8" end2="18" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="12" end1="12" start2="19" end2="27" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="14" end1="15" start2="29" end2="29" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="18" end1="19" start2="32" end2="38" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="20" end1="21" start2="39" end2="42" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="24" end1="26" start2="45" end2="66" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="29" end1="30" start2="69" end2="78" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="32" end1="34" start2="80" end2="97" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="37" end1="38" start2="100" end2="110" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/V1/Satelite.h">
+      <ranges>
+        <range start1="5" end1="6" start2="5" end2="6" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="8" end1="8" start2="8" end2="9" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="9" end1="10" start2="10" end2="11" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="14" end1="15" start2="15" end2="16" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="16" end1="17" start2="17" end2="18" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="18" end1="19" start2="19" end2="20" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
       </ranges>
     </file>
   </component>
@@ -81,12 +181,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="COS214_Project_V1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="COS214_Project" TARGET_NAME="COS214_Project_V1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="COS214_Project" RUN_TARGET_NAME="COS214_Project_V1">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="COS214_Project_V1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="COS214_Project" TARGET_NAME="COS214_Project_V1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="COS214_Project" RUN_TARGET_NAME="COS214_Project_V1">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -106,6 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637325147792</updated>
       <workItem from="1637325149282" duration="15239000" />
+      <workItem from="1637573710828" duration="14700000" />
     </task>
     <servers />
   </component>
@@ -122,14 +223,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/V1/Main.cpp</url>
-          <line>99</line>
-          <option name="timeStamp" value="37" />
+          <line>181</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

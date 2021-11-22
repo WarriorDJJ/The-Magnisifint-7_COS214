@@ -45,21 +45,151 @@ using namespace std;
 #include "WorkingState.h"
 #include "TestStrat.h"
 #include <stdlib.h>     /* srand, rand */
+#include <sstream>
 
-void Starlink(){
-
+void StarlinkSim(){
+    cout << "Starlink" << endl;
+    Starlink* s = new Starlink();
+    ControlCenter::instance().setBuild(s, "Falcon9");
+    Rocket* starlink = ControlCenter::instance().build();
+    cout << "Starlink Created!";
+    starlink->Activate();
 }
 
-void Falcon9(){
-
+void Falcon9Sim(){
+    cout << "Falcon9" << endl;
+    //bool done = false;
+    bool valid;
+    int next;
+    string temp1 = "";
+    valid = false;
+    string payload = "";
+    while(!valid){
+            cout << "\nWhat type of payload would you like to create? Crew Dragon = 0, Cargo Dragon = 1, Starlink = 2 > ";
+            cin >> temp1;
+            stringstream intV(temp1);
+            intV >> next;
+            if(next >= 0 && next <= 2){
+                valid = true;
+            }else{
+                cout << "Invalid Choice!" << endl;
+            }
+        }
+        switch(next){
+            case 0:
+                payload = "Crew";
+                break;
+            case 1:
+                payload = "Cargo";
+                break;
+            case 2:
+                payload = "Starlink";
+                break;
+        }
+        if(payload == "Crew"){
+            valid = false;
+            while(!valid){
+                cout << "\nHow many crew members (Min: 2, Max: 4)? > ";
+                cin >> temp1;
+                stringstream  intV(temp1);
+                intV >> next;
+                if(next >= 2 && next <= 4){
+                    valid = true;
+                }else{
+                    cout << "Invalid Choice!" << endl;
+                }
+            }
+            CrewDragon* pay = new CrewDragon(next);
+            ControlCenter::instance().setBuild(pay, "Falcon9");
+            Rocket* crewFalc9 = ControlCenter::instance().build();
+            cout << "Crew Dragon - Falcon9 Created!" << endl;
+        }else if(payload == "Cargo"){
+            double mass;
+            valid = false;
+            while(!valid){
+                cout << "\nHow much does the cargo weigh(kg)? > ";
+                cin >> temp1;
+                stringstream intV(temp1);
+                intV >> mass;
+                if(mass > 0){
+                    valid = true;
+                }else{
+                    cout << "Invalid Choice!" << endl;
+                }
+            }
+            CargoDragon* pay = new CargoDragon(mass);
+            ControlCenter::instance().setBuild(pay, "Falcon9");
+            Rocket* cargoFalc9 = ControlCenter::instance().build();
+            cout << "Cargo Dragon - Falcon9 Created!" << endl;
+        }else if(payload == "Starlink"){
+            Starlink* pay = new Starlink();
+            ControlCenter::instance().setBuild(pay, "Falcon9");
+            Rocket* starFalc9 = ControlCenter::instance().build();
+            cout << "Starlink - Falcon9 Created!" << endl;
+        }else{
+            cout << "wut" << endl;
+        }
 }
 
-void FalconHeavy(){
-
+void FalconHeavySim(){
+    cout << "FalconHeavy" << endl;
 }
 
 int main() {
     cout << endl << endl << "   .--::--===--<||  Main Running  ||>--===--::--." << endl <<endl;
+    bool done = true;
+    bool valid;
+    int next;
+    string temp1 = "";
+    while(!done){
+        valid = false;
+        while(!valid){
+            cout << "\nWhat type of rocket would you like to create? Finish = 0, Falcon9 = 1, FalconHeavy = 2, Starlink = 3 > ";
+            cin >> temp1;
+            stringstream intV(temp1);
+            intV >> next;
+            if(next >= 0 && next <= 3){
+                valid = true;
+            }else{
+                cout << "Invalid Choice!" << endl;
+            }
+        }
+        switch(next){
+            case 0:
+                done = true;
+                break;
+            case 1:
+                Falcon9Sim();
+                break;
+            case 2:
+                FalconHeavySim();
+                break;
+            case 3:
+                StarlinkSim();
+                break;
+        }
+    }
+    //Main Testing
+
+    Starlink* s = new Starlink();
+    ControlCenter::instance().setBuild(s, "Falcon9");
+    Rocket* starlink = ControlCenter::instance().build();
+    cout << "Starlink Created!" << endl;
+    starlink->Activate();
+
+    Command* c = new LaunchCommand(starlink);
+    StarlinkSimulationAdapter* adapter = new StarlinkSimulationAdapter(s);
+    adapter->launch();
+
+
+
+
+
+
+
+
+
+
     //MotorFactory* merlinFact = new MerlinFactory();
     //RocketMotor* yeet = merlinFact->createMotor();
     //cout << yeet->getChamberPressure();
@@ -67,7 +197,7 @@ int main() {
     //Keelan testing his Builder and Strategy
     /*
     RocketBuilder* FHbuilder = new FalconHeavyBuilder();
-    SpaceCraft* myPayload = new Satelite();
+    SpaceCraft* myPayload = nullptr;
     BuildStrategy* myStrat = new FullStackBuildStrategy(FHbuilder , myPayload);
     RocketBuilderDirector* director = new RocketBuilderDirector();
 
@@ -83,17 +213,26 @@ int main() {
 
     TestRocket->Activate();
     delete director;
-    */
+    //*/
 
-    SpaceCraft* myPayload = new Satelite();
-    SpaceCraft* myPayload2 = new Satelite();
+
+
+
+
+
+    /*
+    SpaceCraft* myPayload = new CrewDragon(2);
+    //SpaceCraft* myPayload2 = new Satelite();
 
     //ControlCenter* myCC = ControlCenter::instance();
     //myCC->setBuild(myPayload);
     //myCC->build
-    ControlCenter::instance().setBuild(myPayload, "FalconHeavy");
-    //ControlCenter::instance().setBuild(myPayload2, "Falcon9");
+    ControlCenter::instance().setBuild(myPayload, "FalconHeavy");//FullStack
+    //ControlCenter::instance().setBuild(myPayload2, "Falcon9");//FUllStack
+    //ControlCenter::instance().setBuild();//SingleStack - Falcon9
     Rocket* myRocket = ControlCenter::instance().build();
+
+    myRocket->Activate();
 
     for(int i = 0; i < myRocket->getNumEngines(); i++)
     {
@@ -102,5 +241,6 @@ int main() {
 
     delete myPayload;
 
+    //*/
     return 0;
 }

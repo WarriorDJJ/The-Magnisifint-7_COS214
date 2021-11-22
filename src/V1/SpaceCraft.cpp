@@ -1,28 +1,28 @@
 #include "SpaceCraft.h"
 
 void SpaceCraft::AddStage(SpaceCraft* s) {
-	// TODO - implement SpaceCraft::AddStage
+	//does nothing
 }
 
-void SpaceCraft::SeperateStage() {
-	// TODO - implement SpaceCraft::SeperateStage
+SpaceCraft * SpaceCraft::SeperateStage() {
+    return this;
 }
 
 SpaceCraft* SpaceCraft::GetNextStage() {
-	// TODO - implement SpaceCraft::GetNextStage
     return nullptr;
 }
 
 SpaceCraft::SpaceCraft() {
     this->EnginesFailed = 0;
+    this->isFinalStage = true;
 }
 
 void SpaceCraft::AddEngine(Engine *engine) {
-    //Nope, dont like you
+    //Does Nothing
 }
 
 void SpaceCraft::RemoveEngine(Engine * engine) {
-    //Nope, dont like you
+    //Does Nothing
 }
 
 Engine * SpaceCraft::getEngine(int i){
@@ -38,9 +38,13 @@ void SpaceCraft::notify(Engine * engine){
 }
 
 void SpaceCraft::appendStage(SpaceCraft *s) {
-    //todo
+    //Does Nothing
 }
 
 double SpaceCraft::getThrust(double externalPressure) {
     return 0;
+}
+
+int SpaceCraft::getStatusCode() {
+    return statusCode;
 }

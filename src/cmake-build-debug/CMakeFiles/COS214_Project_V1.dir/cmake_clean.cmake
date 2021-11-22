@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj"
+  "CMakeFiles/COS214_Project_V1.dir/V1/CargoDragon.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/Command.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.obj"
+  "CMakeFiles/COS214_Project_V1.dir/V1/CrewDragon.cpp.obj"
+  "CMakeFiles/COS214_Project_V1.dir/V1/Dragon.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/Engine.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.obj"
   "CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.obj"

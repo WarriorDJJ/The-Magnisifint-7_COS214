@@ -9,8 +9,9 @@ using namespace std;
 
 class Rocket : public SpaceCraft {
 
-private:
-    int EnginesFailed;
+protected:
+    double length;
+    double diameter;
     double fuel;
     double wetMass;
     double dryMass;
@@ -19,9 +20,10 @@ private:
 
 public:
     Rocket();
-    Rocket(double f, double wm, double dm, string n);
+    Rocket(string name, double length = 0, double diameter = 0, double wetMass = 0, double dryMass = 0);
 
     void DestroyRocket();
+
     //engine part
     void AddEngine(Engine * engine) override;
     void RemoveEngine(Engine * engine) override;
@@ -29,20 +31,21 @@ public:
     int getNumEngines() override;
 
     virtual void AddStage(SpaceCraft* s);
-    virtual void SeperateStage();
+    virtual Rocket * SeperateStage();
     virtual SpaceCraft * GetNextStage();
 	virtual void Activate();
 
-	virtual Rocket * clone();
+	Rocket * clone() override;
 
     void appendStage(SpaceCraft *s) override;
 
-    virtual double getThrust(double externalPressure);
+    double getThrust(double externalPressure) override;
 
     void LoadFuel() override;
-    int GetFuel() override;
+    double GetFuel() override;
     void VentFuel() override;
     virtual void notify(Engine * engine);
+
     vector<Engine*> engines;
     string rocketState;
 

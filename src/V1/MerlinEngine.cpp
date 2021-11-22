@@ -3,7 +3,7 @@
 void MerlinEngine::StartEngine() {
     //Merlin Engines have a 99.7% success rate
     double rand1 = rand() % 100 + 1;
-    if(rand1 >=99.7 && rand1 <=100){
+    if(rand1 >=97.7 && rand1 <=100){
         std::cout << "Engine Failed!"<<std::endl;
         this->fail = true;
     }
