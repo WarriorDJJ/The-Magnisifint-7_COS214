@@ -12,6 +12,7 @@
 #include "FalconBuilder.h"
 #include "SingleRocketBuildStrategy.h"
 #include "FullStackBuildStrategy.h"
+#include "SimStore.h"
 
 using namespace std;
 
@@ -22,6 +23,7 @@ private:
     RocketBuilder* FHBuilder;
     RocketBuilder* F9Builder;
     bool isHeavy;
+    vector<SimStore>;
 
 protected:
     ControlCenter();
@@ -30,8 +32,10 @@ protected:
 public:
     static ControlCenter& instance();
     Rocket* build();
+    void storeSim(TestState* sim);
     void setBuild();//Falcon 9
     void setBuild(SpaceCraft* payload, string rocket);//Falcon Heavy
+
 };
 
 

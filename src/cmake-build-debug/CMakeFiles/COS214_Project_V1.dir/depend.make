@@ -48,13 +48,18 @@ CMakeFiles/COS214_Project_V1.dir/V1/ControlCenter.cpp.obj: \
  ../V1/MerlinEngine.h \
  ../V1/MerlinEngineFactory.h \
  ../V1/Nozzle.h \
+ ../V1/Payload.h \
  ../V1/Rocket.h \
  ../V1/RocketBuilder.h \
  ../V1/RocketBuilderDirector.h \
  ../V1/RocketMotor.h \
+ ../V1/SimStore.h \
  ../V1/SingleRocketBuildStrategy.h \
  ../V1/SpaceCraft.h \
  ../V1/StandardBell.h \
+ ../V1/StoredSim.h \
+ ../V1/StoredSimState.h \
+ ../V1/TestState.h \
  ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/CrewDragon.cpp.obj: \
  ../V1/CrewDragon.cpp \

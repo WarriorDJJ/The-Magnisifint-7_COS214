@@ -41,10 +41,31 @@ using namespace std;
 #include "UpperStageBuilder.h"
 #include "VacuumBell.h"
 #include "WorkingState.h"
+#include "LoadFuelCommand.h"
 #include <stdlib.h>     /* srand, rand */
 #include <sstream>
 
 vector<Rocket*> rockets;
+
+
+void Launch(Rocket* r){
+    Command* launch = new LaunchCommand(r);
+    Command* fuel = new LaunchCommand(r);
+    fuel->execute();
+    launch->execute();
+}
+
+void LaunchSim(Rocket *r){
+
+}
+
+void TestMode(Rocket *r){
+
+}
+
+void Save(Rocket *r){
+
+}
 //hi suh dude ayyy
 void runnyBoi(Rocket* r){
     bool valid;
@@ -54,7 +75,7 @@ void runnyBoi(Rocket* r){
     bool done = false;
     while(!done){
         while(!valid){
-            cout << "\nWhat type of launch would you like to do with your new rocket hottie? Test Mode = 0, Launch Sim = 1, Actual Launch = 2, Save it for later = 3 > ";
+            cout << "\nWhat type of launch would you like to do with your rocket? Test Mode = 0, Launch Sim = 1, Actual Launch = 2, Save it for later = 3 > ";
             cin >> temp1;
             stringstream intV(temp1);
             intV >> next;
@@ -73,9 +94,11 @@ void runnyBoi(Rocket* r){
                 break;
             case 2:
                 Launch(r);
+                done = true;
                 break;
             case 3:
                 Save(r);
+                done = true;
         }
     }
 
@@ -99,7 +122,7 @@ void Falcon9Sim(){
     valid = false;
     string payload = "";
     while(!valid){
-            cout << "\nWhat type of payload would you like to create? Crew Dragon = 0, Cargo Dragon = 1, Starlink = 2 > ";
+            cout << "\nWhat type of payload would you like to create? \n→ Crew Dragon = 0\n→ Cargo Dragon = 1\n→ Starlink = 2 \n>";
             cin >> temp1;
             stringstream intV(temp1);
             intV >> next;
@@ -123,7 +146,7 @@ void Falcon9Sim(){
         if(payload == "Crew"){
             valid = false;
             while(!valid){
-                cout << "\nHow many crew members (Min: 2, Max: 4)? > ";
+                cout << "\nHow many crew members (Min: 2, Max: 4)? \n> ";
                 cin >> temp1;
                 stringstream  intV(temp1);
                 intV >> next;
@@ -142,7 +165,7 @@ void Falcon9Sim(){
             double mass;
             valid = false;
             while(!valid){
-                cout << "\nHow much does the cargo weigh(kg)? > ";
+                cout << "\nHow much does the cargo weigh(kg)? \n> ";
                 cin >> temp1;
                 stringstream intV(temp1);
                 intV >> mass;
@@ -291,7 +314,15 @@ int main() {
 
     //Command* c = new LaunchCommand(starlinkR);
     StarlinkSimulationAdapter* adapter = new StarlinkSimulationAdapter(s, starlinkR);
-    adapter->launch();
+    //adapter->launch();
+    ControlCenter::instance().setBuild(new CrewDragon(2), "Falcon9");
+    Rocket* crewDragFalc9 = ControlCenter::instance().build();
+    Command* c = new LaunchCommand(crewDragFalc9);
+    Invoker* launchButton = new Invoker(c);
+    Command* load = new LoadFuelCommand(crewDragFalc9);
+    Invoker* loadButton = new Invoker(load);
+    loadButton->press();
+    launchButton->press();
 
 
 
