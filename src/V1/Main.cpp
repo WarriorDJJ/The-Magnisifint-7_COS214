@@ -44,6 +44,8 @@ using namespace std;
 #include <stdlib.h>     /* srand, rand */
 #include <sstream>
 
+vector<Rocket*> rockets;
+//hi suh dude ayyy
 void runnyBoi(Rocket* r){
     bool valid;
     int next;
@@ -64,14 +66,16 @@ void runnyBoi(Rocket* r){
         }
         switch(next){
             case 0:
-                payload = "Crew";
+                TestMode(r);
                 break;
             case 1:
-                payload = "Cargo";
+                LaunchSim(r);
                 break;
             case 2:
-                payload = "Starlink";
+                Launch(r);
                 break;
+            case 3:
+                Save(r);
         }
     }
 
