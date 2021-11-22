@@ -35,6 +35,7 @@ public:
     virtual void AddStage(SpaceCraft* s);
     virtual Rocket * SeperateStage();
     virtual SpaceCraft * GetNextStage();
+    virtual SpaceCraft * GetNextStageMain();
 	virtual void Activate();
 
 	Rocket * clone() override;

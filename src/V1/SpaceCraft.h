@@ -18,6 +18,7 @@ public:
     virtual void AddStage(SpaceCraft* s);
     virtual SpaceCraft * SeperateStage();
     virtual SpaceCraft* GetNextStage();
+    virtual SpaceCraft * GetNextStageMain();
 
     virtual int getStatusCode();//0: No Problems, 1: Some Problems but still Working, 2: Not Working, 3: Exploded
 

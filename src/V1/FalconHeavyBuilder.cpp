@@ -4,7 +4,7 @@
 using namespace std;
 
 void FalconHeavyBuilder::createRocket() {
-    string name = "Falcon 9";
+    string name = "Falcon Heavy - Left Booster";
 
     EngineFactory* eFact = new MerlinEngineFactory();
     Rocket* lb = new Rocket(name);
@@ -15,7 +15,7 @@ void FalconHeavyBuilder::createRocket() {
         temp->setSpacecraft(LeftBooster);
         LeftBooster->AddEngine(temp);
     }
-
+    name = "Falcon Heavy - Right Booster";
     Rocket* rb = new Rocket(name);
     RightBooster = rb;
     for(int i = 0; i < 9; i++)

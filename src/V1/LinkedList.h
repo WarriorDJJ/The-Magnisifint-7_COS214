@@ -8,13 +8,14 @@ class LinkedList : public Iterator {
 
 public:
     LinkedList(Satelite* s);
-	void first() override;
 
-	void next() override;
+	virtual void first() ;
 
-	bool hasNext() override;
+	virtual void next();
 
-	Satelite* current() override;
+	virtual bool hasNext();
+
+	virtual Satelite* current();
 };
 
 #endif

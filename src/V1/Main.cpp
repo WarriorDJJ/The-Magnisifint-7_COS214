@@ -45,28 +45,8 @@ using namespace std;
 #include <stdlib.h>     /* srand, rand */
 #include <sstream>
 
-vector<Rocket*> rockets;
 
-void loadRocket(){
-    bool valid;
-    int next;
-    string temp1 = "";
-    valid = false;
-    bool done = false;
-    while(!valid){
-        cout << "\nEnter the index of the rocket you would like to retrieve > ";
-        cin >> temp1;
-        stringstream intV(temp1);
-        intV >> next;
-        if(ControlCenter::instance().getSimState(next) != nullptr){
-            valid = true;
-        }else{
-            cout << "Invalid Choice!" << endl;
-        }
-    }
-    //runnyBoi(ControlCenter::instance().getSimPayload(next), ControlCenter::instance().getSimState(next));
 
-}
 
 void Launch(Payload* s, Rocket* r){
     cout<<"launch Start:-------------------------------------------------------------------------------"<<endl;
@@ -85,20 +65,21 @@ void Launch(Payload* s, Rocket* r){
     //launchButton->press();
     //fuelButton->press();
 
-    cout<<"loop-------------------"<<endl;
-    while (current->GetNextStage() != nullptr) {
+    //cout<<"loop-------------------"<<endl;
+    current->LoadFuel();
+    current->Activate();
+    while (current != nullptr) {
         while (current->GetFuel() > 11) {
             current->useFuel(10);
         }
         //stage seperation
         nextS = r->GetNextStage();
-        seperated.push_back(r->SeperateStage());
-        seperated.at(seperated.size()-1);
+        seperated.push_back(current->SeperateStage());
 
         current = nextS;
 
-        if(current != current->GetNextStage()){
-            if(current != nullptr) current->Activate();
+        if(current != nullptr && current != current->GetNextStage()){
+            current->Activate();
         }
     }
     cout<<"luanch completed";
@@ -157,6 +138,26 @@ void runnyBoi(Payload* s, Rocket* r){
         }
     }
 
+}
+
+void loadRocket(){
+    bool valid;
+    int next;
+    string temp1 = "";
+    valid = false;
+    bool done = false;
+    while(!valid){
+        cout << "\nEnter the index of the rocket you would like to retrieve > ";
+        cin >> temp1;
+        stringstream intV(temp1);
+        intV >> next;
+        if(ControlCenter::instance().getSimState(next) != nullptr){
+            valid = true;
+        }else{
+            cout << "Invalid Choice!" << endl;
+        }
+    }
+    runnyBoi(ControlCenter::instance().getSimPayload(next), ControlCenter::instance().getSimState(next)->getRocket());
 }
 
 void StarlinkSim(){
@@ -290,7 +291,7 @@ void FalconHeavySim(){
             }
         }
         CrewDragon* pay = new CrewDragon(next);
-        ControlCenter::instance().setBuild(pay, "Falcon9");
+        ControlCenter::instance().setBuild(pay, "FalconHeavy");
         Rocket* crewFalcHeav = ControlCenter::instance().build();
         cout << ".--::--===--<||  Crew Dragon - Falcon Heavy Created!  ||>--===--::--." << endl;
         runnyBoi(pay, crewFalcHeav);
@@ -309,13 +310,13 @@ void FalconHeavySim(){
             }
         }
         CargoDragon* pay = new CargoDragon(mass);
-        ControlCenter::instance().setBuild(pay, "Falcon9");
+        ControlCenter::instance().setBuild(pay, "FalconHeavy");
         Rocket* cargoFalcHeav = ControlCenter::instance().build();
         cout << ".--::--===--<||  Cargo Dragon - Falcon Heavy Created!  ||>--===--::--." << endl;
         runnyBoi(pay, cargoFalcHeav);
     }else if(payload == "Starlink"){
         Starlink* pay = new Starlink();
-        ControlCenter::instance().setBuild(pay, "Falcon9");
+        ControlCenter::instance().setBuild(pay, "FalconHeavy");
         Rocket* starFalcHeav = ControlCenter::instance().build();
         cout << ".--::--===--<||  Starlink - Falcon Heavy Created!  ||>--===--::--." << endl;
         runnyBoi(pay, starFalcHeav);
@@ -366,16 +367,35 @@ int main() {
     //Main Testing
 
     Starlink* s = new Starlink();
-    ControlCenter::instance().setBuild(s, "Falcon9");
-    Rocket* starlinkR = ControlCenter::instance().build();
+    //ControlCenter::instance().setBuild(s, "Falcon9");
+    //Rocket* starlinkR = ControlCenter::instance().build();
     cout << ".--::--===--<||  Starlink Created!  ||>--===--::--." << endl;
 
     //Command* c = new LaunchCommand(starlinkR);
     //StarlinkSimulationAdapter* adapter = new StarlinkSimulationAdapter(s, starlinkR);
     //adapter->launch();
     Payload* p = new CrewDragon(2);
-    ControlCenter::instance().setBuild(p, "Falcon9");
+
+    ControlCenter::instance().setBuild(p, "FalconHeavy");
     Rocket* crewDragFalc9 = ControlCenter::instance().build();
+
+//    RocketBuilder* FHbuilder = new FalconHeavyBuilder();
+//    RocketBuilder* F9Builder = new FalconBuilder();
+//    SpaceCraft* myPayload = new CrewDragon(2);
+//    BuildStrategy* myStrat1 = new FullStackBuildStrategy(FHbuilder , myPayload);
+//    BuildStrategy* myStrat2 = new FullStackBuildStrategy(F9Builder , myPayload);
+//
+//    RocketBuilderDirector* director1 = new RocketBuilderDirector();
+//    RocketBuilderDirector* director2 = new RocketBuilderDirector();
+//
+//    director1->setStrategy(myStrat1);
+//    director2->setStrategy(myStrat2);
+//    director1->build();
+//    director2->build();
+//    cout<<"Build successful!"<<endl;
+//    Rocket* crewDragFalc9 = FHbuilder->getRocket();
+//    Rocket* crewDragFalc92 = F9Builder->getRocket();
+
     //Command* c = new LaunchCommand(p,crewDragFalc9);
     //Invoker* launchButton = new Invoker(c);
     //Command* load = new LoadFuelCommand(p, crewDragFalc9);

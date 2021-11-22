@@ -8,7 +8,7 @@ class LaunchCommand : public Command {
 
 public:
 	LaunchCommand(Payload *s, Rocket *r);
-	void execute() override;
+	virtual void execute();
 };
 
 #endif

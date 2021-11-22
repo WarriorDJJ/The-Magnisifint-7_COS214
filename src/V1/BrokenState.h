@@ -7,8 +7,8 @@ class BrokenState : public TestState
 {
 public:
     BrokenState(Rocket *rocket);
-    TestState* launch() override;
-    bool runStaticTest() override;
+    virtual TestState* launch();
+    virtual bool runStaticTest();
 
 };
 // love you james keelan damian francois fourie (and zelda if she codes) -- Caleb

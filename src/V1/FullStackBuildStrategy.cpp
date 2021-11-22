@@ -19,7 +19,7 @@ void FullStackBuildStrategy::build() {
 
     delete eFact;
 
-    builder->appStage(secondStage);
+    builder->appStage(secondStage);//this calls appendStage
     //ASSEMBLE STAGE 3
     builder->attachPayload(payload); //Keelan is not really smart, he's also not really hot
 }

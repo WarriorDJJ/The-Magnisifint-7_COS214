@@ -10,9 +10,9 @@ public:
     virtual void Activate() = 0;
     virtual Payload * clone() = 0;
 
-    void LoadFuel() override;
-    double GetFuel() override;
-    void VentFuel() override;
+    virtual void LoadFuel();
+    virtual double GetFuel();
+    virtual void VentFuel();
 };
 
 #endif

@@ -13,20 +13,20 @@ public:
     FalconHeavy(Rocket* lb, Rocket* rb);
     virtual ~FalconHeavy();
 
-    Rocket * SeperateStage() override;
-    virtual SpaceCraft * GetNextStage();
-	void Activate() override;
+//    virtual Rocket * SeperateStage();
+    virtual SpaceCraft * GetNextStageMain();
+	virtual void Activate();
 
-	FalconHeavy * clone() override;
+	virtual FalconHeavy * clone();
 
-    double getThrust(double externalPressure) override;
-    Engine *getEngine(int i) override;
-    int getNumEngines() override;
+    virtual double getThrust(double externalPressure);
+    virtual Engine *getEngine(int i);
+    virtual int getNumEngines();
 
-    void LoadFuel() override;
-    double GetFuel() override;
-    void VentFuel() override;
-    void useFuel(double Percent) override;
+    virtual void LoadFuel();
+    virtual double GetFuel();
+    virtual void VentFuel();
+    virtual void useFuel(double Percent);
 };
 
 #endif

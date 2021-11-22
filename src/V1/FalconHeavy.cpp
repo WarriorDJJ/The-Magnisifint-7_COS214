@@ -11,19 +11,25 @@ FalconHeavy::~FalconHeavy(){
     delete RightBooster;
 }
 
-Rocket * FalconHeavy::SeperateStage() {
-	if (this->LeftBooster != nullptr){
-        Rocket * tempLB = this->LeftBooster;
-        this->LeftBooster = nullptr;
-        return tempLB;
-    } else if (this->RightBooster != nullptr){
-        Rocket * tempRB = this->RightBooster;
-        this->RightBooster = nullptr;
-        return tempRB;
-    } else return this;
-}
+//Rocket * FalconHeavy::SeperateStage() {
+//	if (this->LeftBooster != nullptr){
+//        Rocket * tempLB = this->LeftBooster;
+//        this->LeftBooster = nullptr;
+//        cout<<"Left Booster Seperated"<<endl;
+//        return tempLB;
+//    } else if (this->RightBooster != nullptr){
+//        Rocket * tempRB = this->RightBooster;
+//        this->RightBooster = nullptr;
+//        cout<<"Right Booster Seperated"<<endl;
+//        return tempRB;
+//    } else {
+//        NextStage = nullptr;
+//        cout<<"Stage Decoupled: "<< this->getName() <<endl;
+//        return this;
+//    }
+//}
 
-SpaceCraft * FalconHeavy::GetNextStage() {
+SpaceCraft * FalconHeavy::GetNextStageMain() {
     if (this->LeftBooster != nullptr){
         return this;
     } else if (this->RightBooster != nullptr){

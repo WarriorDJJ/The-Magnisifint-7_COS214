@@ -65,10 +65,15 @@ void Rocket::AddStage(SpaceCraft *s) {
 
 Rocket * Rocket::SeperateStage() {
     NextStage = nullptr;
+    cout<<"Stage Decoupled: "<< this->getName() <<endl;
     return this;
 }
 
 SpaceCraft * Rocket::GetNextStage() {
+    return NextStage;
+}
+
+SpaceCraft * Rocket::GetNextStageMain() {
     return NextStage;
 }
 
@@ -138,6 +143,7 @@ Rocket::~Rocket() {
 void Rocket::appendStage(SpaceCraft *s) {
     if(this->GetNextStage() != nullptr)
     {
+
         this->GetNextStage()->appendStage(s);
     }
     else

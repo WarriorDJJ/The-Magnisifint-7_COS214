@@ -13,6 +13,10 @@ SpaceCraft* SpaceCraft::GetNextStage() {
     return nullptr;
 }
 
+SpaceCraft* SpaceCraft::GetNextStageMain() {
+    return nullptr;
+}
+
 SpaceCraft::SpaceCraft() {
     this->EnginesFailed = 0;
     this->isFinalStage = true;

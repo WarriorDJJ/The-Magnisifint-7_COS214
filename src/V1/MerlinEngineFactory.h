@@ -8,8 +8,8 @@
 
 class MerlinEngineFactory : public EngineFactory {
 public:
-	Engine* createVacuumEngine() override;
-	Engine* createStandardEngine() override;
+	virtual Engine* createVacuumEngine();
+	virtual Engine* createStandardEngine();
 };
 
 #endif
