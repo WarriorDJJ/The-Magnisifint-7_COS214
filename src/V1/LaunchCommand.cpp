@@ -5,11 +5,11 @@ LaunchCommand::LaunchCommand(Payload *s, Rocket* r) : Command(s, r) {
 }
 
 void LaunchCommand::execute() {
-    if (this->receiver->GetFuel() == 100){
+    if (this->rocketReceiver->GetFuel() == 100){
         this->launch();
     }
     else{
-        this->receiver->LoadFuel();
+        this->rocketReceiver->LoadFuel();
         this->launch();
         cout << "" << endl;
     }

@@ -17,11 +17,11 @@ void CargoDragon::VentFuel() {
 }
 
 void CargoDragon::LoadFuel() {
-    Dragon::LoadFuel();
+
 }
 
 double CargoDragon::GetFuel() {
-    return Dragon::GetFuel();
+return 0;
 }
 
 Payload *CargoDragon::clone() {

@@ -88,12 +88,50 @@ void Launch(Payload* s, Rocket* r){
         }
     }
     cout<<"luanch completed";
+    cout << "Landing back on earth lesss goooo poggers" << endl;
 }
 
 void LaunchSim(Payload* p, Rocket *r){
-    //
-    cout << "Launch Simulation Started: " << endl;
-    Command* launch = new LaunchCommand(p, r);
+    cout<<"launch Start:-------------------------------------------------------------------------------"<<endl;
+    //vars
+    Rocket * current;
+    Rocket * nextS;
+    vector<SpaceCraft*> seperated;
+    current = r;
+
+    Command* launch = new LaunchCommand(p,r);
+    Command* fuel = new LoadFuelCommand(p,r);
+    Invoker* launchButton = new Invoker(launch);
+    Invoker* fuelButton = new Invoker(fuel);
+    //fuel->execute();
+    //launch->execute();
+
+    fuelButton->press();
+    launchButton->press();
+
+    //cout<<"loop-------------------"<<endl;
+    //current->LoadFuel();
+    //current->Activate();
+    while (current != nullptr) {
+
+        while (current->GetFuel() > 11) {
+            current->useFuel(10);
+        }
+        //stage seperation
+        nextS = dynamic_cast<Rocket *>(r->GetNextStage());
+        seperated.push_back(current->SeperateStage());
+
+        current = nextS;
+
+        Command* launch = new LaunchCommand(p, current);
+        Invoker* launchButton = new Invoker(launch);
+        if(current != nullptr && current != current->GetNextStage()){
+            //current->Activate();
+            launchButton->press();
+        }
+    }
+    cout<<"luanch completed";
+    cout << "Landing back on earth lesss goooo poggers" << endl;
 
 }
 

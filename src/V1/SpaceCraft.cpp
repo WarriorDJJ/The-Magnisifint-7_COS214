@@ -57,9 +57,9 @@ int SpaceCraft::getStatusCode() {
 void SpaceCraft::LoadFuel(){
     this->fuel = 100;
     cout << "Loading in Fuel into " << this->getName() << endl;
-    if (GetNextStage() != nullptr){
-        GetNextStage()->LoadFuel();
-    }
+//    if (GetNextStage() != nullptr){
+//        GetNextStage()->LoadFuel();
+//    }
 }
 
 double SpaceCraft::GetFuel() {

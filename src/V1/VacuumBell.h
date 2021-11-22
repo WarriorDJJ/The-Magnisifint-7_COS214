@@ -8,7 +8,7 @@ class VacuumBell : public Nozzle {
 public:
     virtual double getThrust(double externalPressure);
 
-    VacuumBell *clone() override;
+    virtual VacuumBell *clone();
 };
 
 #endif
