@@ -62,13 +62,11 @@ void Starlink::removeSat(Satelite *s, bool launch) {
             while(it->hasNext()){
                 prev->next();
                 it->next();
-                if(it->current() == s){
-                    if(launch){
-                        prev->current()->release();
-                    }
-                    prev->current()->setNextSatelite(nullptr);
-                }
             }
+            if(launch){
+                it->current()->release();
+            }
+            prev->current()->setNextSatelite(nullptr);
         }else{
             if(launch){
                 root->release();
@@ -82,9 +80,9 @@ Starlink::Starlink() {
     root = nullptr;
     string name;
     stringstream ss;
-    for(int i = 0; i < 60; i++)
+    for(int i = 60; i > 0; i--)
     {
-        ss<<"Starlink "<<i;
+        ss<<"Starlink-"<<i;
         ss>>name;
         addSat(new Satelite(name));
         ss.clear();

@@ -344,30 +344,6 @@ V1/EngineFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.s
 .PHONY : V1/EngineFactory.cpp.s
 
-V1/Falcon9TS.obj: V1/Falcon9TS.cpp.obj
-.PHONY : V1/Falcon9TS.obj
-
-# target to build an object file
-V1/Falcon9TS.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.obj
-.PHONY : V1/Falcon9TS.cpp.obj
-
-V1/Falcon9TS.i: V1/Falcon9TS.cpp.i
-.PHONY : V1/Falcon9TS.i
-
-# target to preprocess a source file
-V1/Falcon9TS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.i
-.PHONY : V1/Falcon9TS.cpp.i
-
-V1/Falcon9TS.s: V1/Falcon9TS.cpp.s
-.PHONY : V1/Falcon9TS.s
-
-# target to generate assembly for a file
-V1/Falcon9TS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.s
-.PHONY : V1/Falcon9TS.cpp.s
-
 V1/FalconBuilder.obj: V1/FalconBuilder.cpp.obj
 .PHONY : V1/FalconBuilder.obj
 
@@ -439,30 +415,6 @@ V1/FalconHeavyBuilder.s: V1/FalconHeavyBuilder.cpp.s
 V1/FalconHeavyBuilder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.s
 .PHONY : V1/FalconHeavyBuilder.cpp.s
-
-V1/FalconHeavyTS.obj: V1/FalconHeavyTS.cpp.obj
-.PHONY : V1/FalconHeavyTS.obj
-
-# target to build an object file
-V1/FalconHeavyTS.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.obj
-.PHONY : V1/FalconHeavyTS.cpp.obj
-
-V1/FalconHeavyTS.i: V1/FalconHeavyTS.cpp.i
-.PHONY : V1/FalconHeavyTS.i
-
-# target to preprocess a source file
-V1/FalconHeavyTS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.i
-.PHONY : V1/FalconHeavyTS.cpp.i
-
-V1/FalconHeavyTS.s: V1/FalconHeavyTS.cpp.s
-.PHONY : V1/FalconHeavyTS.s
-
-# target to generate assembly for a file
-V1/FalconHeavyTS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.s
-.PHONY : V1/FalconHeavyTS.cpp.s
 
 V1/FullStackBuildStrategy.obj: V1/FullStackBuildStrategy.cpp.obj
 .PHONY : V1/FullStackBuildStrategy.obj
@@ -1160,30 +1112,6 @@ V1/TestState.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/TestState.cpp.s
 .PHONY : V1/TestState.cpp.s
 
-V1/TestStrat.obj: V1/TestStrat.cpp.obj
-.PHONY : V1/TestStrat.obj
-
-# target to build an object file
-V1/TestStrat.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/TestStrat.cpp.obj
-.PHONY : V1/TestStrat.cpp.obj
-
-V1/TestStrat.i: V1/TestStrat.cpp.i
-.PHONY : V1/TestStrat.i
-
-# target to preprocess a source file
-V1/TestStrat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/TestStrat.cpp.i
-.PHONY : V1/TestStrat.cpp.i
-
-V1/TestStrat.s: V1/TestStrat.cpp.s
-.PHONY : V1/TestStrat.s
-
-# target to generate assembly for a file
-V1/TestStrat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COS214_Project_V1.dir\build.make CMakeFiles/COS214_Project_V1.dir/V1/TestStrat.cpp.s
-.PHONY : V1/TestStrat.cpp.s
-
 V1/UntestedState.obj: V1/UntestedState.cpp.obj
 .PHONY : V1/UntestedState.obj
 
@@ -1340,9 +1268,6 @@ help:
 	@echo ... V1/EngineFactory.obj
 	@echo ... V1/EngineFactory.i
 	@echo ... V1/EngineFactory.s
-	@echo ... V1/Falcon9TS.obj
-	@echo ... V1/Falcon9TS.i
-	@echo ... V1/Falcon9TS.s
 	@echo ... V1/FalconBuilder.obj
 	@echo ... V1/FalconBuilder.i
 	@echo ... V1/FalconBuilder.s
@@ -1352,9 +1277,6 @@ help:
 	@echo ... V1/FalconHeavyBuilder.obj
 	@echo ... V1/FalconHeavyBuilder.i
 	@echo ... V1/FalconHeavyBuilder.s
-	@echo ... V1/FalconHeavyTS.obj
-	@echo ... V1/FalconHeavyTS.i
-	@echo ... V1/FalconHeavyTS.s
 	@echo ... V1/FullStackBuildStrategy.obj
 	@echo ... V1/FullStackBuildStrategy.i
 	@echo ... V1/FullStackBuildStrategy.s
@@ -1442,9 +1364,6 @@ help:
 	@echo ... V1/TestState.obj
 	@echo ... V1/TestState.i
 	@echo ... V1/TestState.s
-	@echo ... V1/TestStrat.obj
-	@echo ... V1/TestStrat.i
-	@echo ... V1/TestStrat.s
 	@echo ... V1/UntestedState.obj
 	@echo ... V1/UntestedState.i
 	@echo ... V1/UntestedState.s

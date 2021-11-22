@@ -1,16 +1,32 @@
 #include "UntestedState.h"
 
-bool UntestedState::launch() {
-	// TODO - implement UntestedState::launch
-	throw "Not yet implemented";
+TestState UntestedState::launch()
+{
+    string input;
+    cout<<"Rocket is untested. It would be wise to fire all the engines briefly to make sure that they are working. Would you like to do that now?"<<endl;
+    cout<<"y/n:";
+    cin>>input;
+
+    if (input == "y"||input == "yes")
+    {
+        vector<Engine*> engineList;
+        int numberOfEngines = engineList.size();
+
+        for (int i = 0; i < numberOfEngines; ++i)
+        {
+            thisRocket->engines[i]->StartEngine();
+            if (thisRocket->engines[i]->isFail())
+            {
+                //TODO: change state
+                setState(false);
+                return;
+            }
+        }
+        setState(true);
+    } else cout<<"Simulation was cancelled."<<endl;
 }
 
-TestState* UntestedState::getBrokenState() {
-	// TODO - implement UntestedState::getBrokenState
-	throw "Not yet implemented";
-}
+UntestedState::UntestedState(Rocket *myRocket) : TestState(myRocket) {
+    thisRocket = myRocket;
 
-TestState* UntestedState::getWorkingState() {
-	// TODO - implement UntestedState::getWorkingState
-	throw "Not yet implemented";
 }

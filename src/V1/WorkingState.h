@@ -4,10 +4,11 @@
 #include "TestState.h"
 
 class WorkingState : public TestState {
+protected:
+    Rocket* myRocket;
 public:
     WorkingState(Rocket *rocket);
-
-    bool launch();
+    virtual void launch();
 };
 
 #endif

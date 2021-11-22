@@ -1,22 +1,27 @@
 #ifndef SIMULATION_H
 #define SIMULATION_H
-#include "TestState.h"
+//#include "TestState.h"
+#include "WorkingState.h"
+#include "BrokenState.h"
+#include "UntestedState.h"
 #include "Payload.h"
 #include "Rocket.h"
+
+using namespace std;
+
+class TestState;
 
 class Simulation {
 
 protected:
-	//TestState* state;
-	Payload* payload;
+    TestState* state;
+    Payload* payload;
     Rocket* rocketForSim;
 
 public:
-	void launch();
-
-    void launch(Rocket*);
-
-	void setState(bool working);
+    Simulation(Rocket *myRocket);
+    void launch();
+    void setState(bool working);
 };
 
 #endif

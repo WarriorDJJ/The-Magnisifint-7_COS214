@@ -32,13 +32,12 @@ void FalconHeavy::Activate() {
     //cout<< "======Left Booster======" <<endl;
     if (this->LeftBooster != nullptr) {
         this->LeftBooster->Activate();
-        if (LeftBooster->getStatusCode() > 0){
-            statusCode = LeftBooster->getStatusCode();
-        }
+        if (LeftBooster->getStatusCode() > statusCode) if(statusCode != 3) statusCode = LeftBooster->getStatusCode();
     }
     //cout<< "======Right Booster=====" <<endl;
     if (this->RightBooster != nullptr) {
         this->RightBooster->Activate();
+        if (LeftBooster->getStatusCode() > statusCode) if(statusCode != 3) statusCode = RightBooster->getStatusCode();
     }
 }
 

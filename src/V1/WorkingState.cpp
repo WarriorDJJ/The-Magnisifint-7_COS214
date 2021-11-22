@@ -1,8 +1,10 @@
 #include "WorkingState.h"
 
-bool WorkingState::launch() {
-	// TODO - implement WorkingState::launch
-	throw "Not yet implemented";
-}
 
 WorkingState::WorkingState(Rocket *rocket) : TestState(rocket) {}
+
+void WorkingState::launch()
+{
+    cout<<"TEST SUCCESSFUL!"<<endl;
+    cout<<"Congratulations, your rocket is working perfectly and you can proceed to launch."<<endl;
+}

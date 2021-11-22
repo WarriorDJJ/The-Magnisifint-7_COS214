@@ -134,12 +134,6 @@
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/EngineFactory.h">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
-		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Falcon9TS.cpp">
-			<Option target="COS214_Project_V1"/>
-		</Unit>
-		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Falcon9TS.h">
-			<Option target="COS214_Project_V1"/>
-		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconBuilder.cpp">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
@@ -156,12 +150,6 @@
 			<Option target="COS214_Project_V1"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyBuilder.h">
-			<Option target="COS214_Project_V1"/>
-		</Unit>
-		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyTS.cpp">
-			<Option target="COS214_Project_V1"/>
-		</Unit>
-		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyTS.h">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FullStackBuildStrategy.cpp">
@@ -333,12 +321,6 @@
 			<Option target="COS214_Project_V1"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h">
-			<Option target="COS214_Project_V1"/>
-		</Unit>
-		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.cpp">
-			<Option target="COS214_Project_V1"/>
-		</Unit>
-		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.h">
 			<Option target="COS214_Project_V1"/>
 		</Unit>
 		<Unit filename="C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UntestedState.cpp">

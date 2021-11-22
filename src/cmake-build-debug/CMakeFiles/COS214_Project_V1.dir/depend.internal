@@ -5,9 +5,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
 CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj
@@ -76,10 +74,6 @@ CMakeFiles/COS214_Project_V1.dir/V1/EngineFactory.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/EngineFactory.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/EngineFactory.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
-CMakeFiles/COS214_Project_V1.dir/V1/Falcon9TS.cpp.obj
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Falcon9TS.cpp
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Falcon9TS.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.h
 CMakeFiles/COS214_Project_V1.dir/V1/FalconBuilder.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/EngineFactory.h
@@ -115,10 +109,6 @@ CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyBuilder.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/VacuumBell.h
-CMakeFiles/COS214_Project_V1.dir/V1/FalconHeavyTS.cpp.obj
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyTS.cpp
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyTS.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.h
 CMakeFiles/COS214_Project_V1.dir/V1/FullStackBuildStrategy.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BuildStrategy.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
@@ -163,51 +153,6 @@ CMakeFiles/COS214_Project_V1.dir/V1/LoadFuelCommand.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/LoadFuelCommand.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
 CMakeFiles/COS214_Project_V1.dir/V1/Main.cpp.obj
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BuildStrategy.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/CargoDragon.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Command.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/ControlCenter.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/CrewDragon.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Dragon.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/EngineFactory.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Falcon9TS.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconBuilder.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavy.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyBuilder.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FalconHeavyTS.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/FullStackBuildStrategy.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Invoker.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Iterator.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/LaunchCommand.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/LinkedList.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Main.cpp
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinEngine.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinEngineFactory.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Nozzle.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketBuilder.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketBuilderDirector.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/RocketMotor.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Satelite.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SimStore.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SingleRocketBuildStrategy.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardSimulation.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Starlink.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StarlinkSimulationAdapter.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSim.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSimState.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UntestedState.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UpperStageBuilder.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/VacuumBell.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/MerlinEngine.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/MerlinEngine.cpp
@@ -289,12 +234,12 @@ CMakeFiles/COS214_Project_V1.dir/V1/SimStore.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SimStore.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SimStore.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSim.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSimState.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
 CMakeFiles/COS214_Project_V1.dir/V1/Simulation.cpp.obj
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
@@ -302,6 +247,8 @@ CMakeFiles/COS214_Project_V1.dir/V1/Simulation.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UntestedState.h
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/SingleRocketBuildStrategy.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BuildStrategy.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
@@ -327,6 +274,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/StandardBell.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/StandardSimulation.cpp.obj
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
@@ -335,6 +283,8 @@ CMakeFiles/COS214_Project_V1.dir/V1/StandardSimulation.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardSimulation.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StandardSimulation.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UntestedState.h
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/Starlink.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Iterator.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/LinkedList.h
@@ -344,6 +294,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/Starlink.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Starlink.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Starlink.h
 CMakeFiles/COS214_Project_V1.dir/V1/StarlinkSimulationAdapter.cpp.obj
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/BrokenState.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Iterator.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
@@ -355,11 +306,12 @@ CMakeFiles/COS214_Project_V1.dir/V1/StarlinkSimulationAdapter.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StarlinkSimulationAdapter.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StarlinkSimulationAdapter.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UntestedState.h
+ C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/StoredSim.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSim.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSim.h
@@ -369,27 +321,15 @@ CMakeFiles/COS214_Project_V1.dir/V1/StoredSimState.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSimState.cpp
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/StoredSimState.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
 CMakeFiles/COS214_Project_V1.dir/V1/TestState.cpp.obj
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.cpp
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
-CMakeFiles/COS214_Project_V1.dir/V1/TestStrat.cpp.obj
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.cpp
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestStrat.h
 CMakeFiles/COS214_Project_V1.dir/V1/UntestedState.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/UntestedState.cpp
@@ -416,9 +356,7 @@ CMakeFiles/COS214_Project_V1.dir/V1/VacuumBell.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/WorkingState.cpp.obj
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Engine.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Payload.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Rocket.h
- C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/Simulation.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/SpaceCraft.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/TestState.h
  C:/Users/djjor/OneDrive/Work Files/Uni/UP/Courses/BSc CS/2021/S2/COS 214/The-Magnisifint-7_COS214/src/V1/WorkingState.cpp

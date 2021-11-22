@@ -5,10 +5,11 @@
 
 class BrokenState : public TestState
 {
+protected:
+    Rocket* myRocket;
 public:
     BrokenState(Rocket *rocket);
-
-    bool launch(Rocket *);
+    virtual void launch();
 };
 
 #endif

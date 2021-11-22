@@ -10,11 +10,9 @@ using namespace std;
 #include "Dragon.h"
 #include "Engine.h"
 #include "EngineFactory.h"
-#include "Falcon9TS.h"
 #include "FalconBuilder.h"
 #include "FalconHeavy.h"
 #include "FalconHeavyBuilder.h"
-#include "FalconHeavyTS.h"
 #include "FullStackBuildStrategy.h"
 #include "Invoker.h"
 #include "Iterator.h"
@@ -43,7 +41,6 @@ using namespace std;
 #include "UpperStageBuilder.h"
 #include "VacuumBell.h"
 #include "WorkingState.h"
-#include "TestStrat.h"
 #include <stdlib.h>     /* srand, rand */
 #include <sstream>
 

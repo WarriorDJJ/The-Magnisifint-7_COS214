@@ -9,7 +9,7 @@ public:
 
 	StarlinkSimulationAdapter(Starlink* starlink);
 
-	void launch();
+	void launch(Rocket* r);
 };
 
 #endif

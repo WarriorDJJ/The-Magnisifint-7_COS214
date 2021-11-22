@@ -3,9 +3,14 @@
 #include <ctime>
 
 using namespace std;
-bool BrokenState::launch(Rocket* myRocket)
+
+BrokenState::BrokenState(Rocket *rocket) : TestState(rocket)
 {
-	// TODO - implement BrokenState::launch
+    myRocket = rocket;
+}
+
+void BrokenState::launch()
+{
     cout<<"TEST FAILED!"<<endl;
 
     int chance;
@@ -15,13 +20,9 @@ bool BrokenState::launch(Rocket* myRocket)
     if (chance > 89)
     {
         cout<<"Engine explodes and destroys the rocket"<<endl;
-        //myRocket->DestroyRocket();
-        return false;
+        myRocket->DestroyRocket();
     } else
     {
         cout<<"Engine failed to fire"<<endl;
-        return true;
     }
 }
-
-BrokenState::BrokenState(Rocket *rocket) : TestState(rocket) {}

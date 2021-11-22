@@ -18,7 +18,7 @@ void Satelite::setNextSatelite(Satelite *s) {
 }
 
 void Satelite::release() {
-    cout << "Satellite released..." << endl;
+    cout <<"    "<< name <<" released..." << endl;
 }
 
 /*//TODO
