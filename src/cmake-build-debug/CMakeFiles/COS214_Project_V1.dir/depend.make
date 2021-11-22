@@ -7,7 +7,9 @@ CMakeFiles/COS214_Project_V1.dir/V1/BrokenState.cpp.obj: \
  ../V1/Engine.h \
  ../V1/Rocket.h \
  ../V1/SpaceCraft.h \
- ../V1/TestState.h
+ ../V1/TestState.h \
+ ../V1/UntestedState.h \
+ ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/BuildStrategy.cpp.obj: \
  ../V1/BuildStrategy.cpp \
  ../V1/BuildStrategy.h \
@@ -325,14 +327,20 @@ CMakeFiles/COS214_Project_V1.dir/V1/StoredSimState.cpp.obj: \
  ../V1/StoredSimState.h \
  ../V1/TestState.h
 CMakeFiles/COS214_Project_V1.dir/V1/TestState.cpp.obj: \
- ../V1/TestState.cpp
+ ../V1/Engine.h \
+ ../V1/Rocket.h \
+ ../V1/SpaceCraft.h \
+ ../V1/TestState.cpp \
+ ../V1/TestState.h
 CMakeFiles/COS214_Project_V1.dir/V1/UntestedState.cpp.obj: \
+ ../V1/BrokenState.h \
  ../V1/Engine.h \
  ../V1/Rocket.h \
  ../V1/SpaceCraft.h \
  ../V1/TestState.h \
  ../V1/UntestedState.cpp \
- ../V1/UntestedState.h
+ ../V1/UntestedState.h \
+ ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/UpperStageBuilder.cpp.obj: \
  ../V1/Engine.h \
  ../V1/EngineFactory.h \
@@ -354,10 +362,12 @@ CMakeFiles/COS214_Project_V1.dir/V1/VacuumBell.cpp.obj: \
  ../V1/VacuumBell.cpp \
  ../V1/VacuumBell.h
 CMakeFiles/COS214_Project_V1.dir/V1/WorkingState.cpp.obj: \
+ ../V1/BrokenState.h \
  ../V1/Engine.h \
  ../V1/Rocket.h \
  ../V1/SpaceCraft.h \
  ../V1/TestState.h \
+ ../V1/UntestedState.h \
  ../V1/WorkingState.cpp \
  ../V1/WorkingState.h
 CMakeFiles/COS214_Project_V1.dir/V1/YawCommand.cpp.obj: \

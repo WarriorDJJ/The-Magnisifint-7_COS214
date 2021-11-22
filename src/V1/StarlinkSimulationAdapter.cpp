@@ -1,10 +1,11 @@
 #include "StarlinkSimulationAdapter.h"
 
-StarlinkSimulationAdapter::StarlinkSimulationAdapter(Starlink* starlink) {
+StarlinkSimulationAdapter::StarlinkSimulationAdapter(Starlink* starlink, Rocket* r) : Simulation(r){
 	this->starlink = starlink;
 }
 
-void StarlinkSimulationAdapter::launch(Rocket* r) {
-    Simulation::launch(r);
-	starlink->release();
+void StarlinkSimulationAdapter::launch() {
+    if(Simulation::launch()) {
+        starlink->release();
+    }
 }

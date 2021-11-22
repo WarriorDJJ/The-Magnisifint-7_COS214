@@ -44,13 +44,46 @@ using namespace std;
 #include <stdlib.h>     /* srand, rand */
 #include <sstream>
 
+void runnyBoi(Rocket* r){
+    bool valid;
+    int next;
+    string temp1 = "";
+    valid = false;
+    bool done = false;
+    while(!done){
+        while(!valid){
+            cout << "\nWhat type of launch would you like to do with your new rocket hottie? Test Mode = 0, Launch Sim = 1, Actual Launch = 2, Save it for later = 3 > ";
+            cin >> temp1;
+            stringstream intV(temp1);
+            intV >> next;
+            if(next >= 0 && next <= 3){
+                valid = true;
+            }else{
+                cout << "Invalid Choice!" << endl;
+            }
+        }
+        switch(next){
+            case 0:
+                payload = "Crew";
+                break;
+            case 1:
+                payload = "Cargo";
+                break;
+            case 2:
+                payload = "Starlink";
+                break;
+        }
+    }
+
+}
+
 void StarlinkSim(){
     cout << "Starlink" << endl;
     Starlink* s = new Starlink();
     ControlCenter::instance().setBuild(s, "Falcon9");
     Rocket* starlink = ControlCenter::instance().build();
     cout << "Starlink Created!";
-    starlink->Activate();
+    runnyBoi(starlink);
 }
 
 void Falcon9Sim(){
@@ -100,6 +133,7 @@ void Falcon9Sim(){
             ControlCenter::instance().setBuild(pay, "Falcon9");
             Rocket* crewFalc9 = ControlCenter::instance().build();
             cout << "Crew Dragon - Falcon9 Created!" << endl;
+            runnyBoi(crewFalc9);
         }else if(payload == "Cargo"){
             double mass;
             valid = false;
@@ -118,11 +152,13 @@ void Falcon9Sim(){
             ControlCenter::instance().setBuild(pay, "Falcon9");
             Rocket* cargoFalc9 = ControlCenter::instance().build();
             cout << "Cargo Dragon - Falcon9 Created!" << endl;
+            runnyBoi(cargoFalc9);
         }else if(payload == "Starlink"){
             Starlink* pay = new Starlink();
             ControlCenter::instance().setBuild(pay, "Falcon9");
             Rocket* starFalc9 = ControlCenter::instance().build();
             cout << "Starlink - Falcon9 Created!" << endl;
+            runnyBoi(starFalc9);
         }else{
             cout << "wut" << endl;
         }
@@ -130,7 +166,83 @@ void Falcon9Sim(){
 
 void FalconHeavySim(){
     cout << "FalconHeavy" << endl;
+    //bool done = false;
+    bool valid;
+    int next;
+    string temp1 = "";
+    valid = false;
+    string payload = "";
+    while(!valid){
+        cout << "\nWhat type of payload would you like to create? Crew Dragon = 0, Cargo Dragon = 1, Starlink = 2 > ";
+        cin >> temp1;
+        stringstream intV(temp1);
+        intV >> next;
+        if(next >= 0 && next <= 2){
+            valid = true;
+        }else{
+            cout << "Invalid Choice!" << endl;
+        }
+    }
+    switch(next){
+        case 0:
+            payload = "Crew";
+            break;
+        case 1:
+            payload = "Cargo";
+            break;
+        case 2:
+            payload = "Starlink";
+            break;
+    }
+    if(payload == "Crew"){
+        valid = false;
+        while(!valid){
+            cout << "\nHow many crew members (Min: 2, Max: 4)? > ";
+            cin >> temp1;
+            stringstream  intV(temp1);
+            intV >> next;
+            if(next >= 2 && next <= 4){
+                valid = true;
+            }else{
+                cout << "Invalid Choice!" << endl;
+            }
+        }
+        CrewDragon* pay = new CrewDragon(next);
+        ControlCenter::instance().setBuild(pay, "Falcon9");
+        Rocket* crewFalcHeav = ControlCenter::instance().build();
+        cout << "Crew Dragon - Falcon Heavy Created!" << endl;
+        runnyBoi(crewFalcHeav);
+    }else if(payload == "Cargo"){
+        double mass;
+        valid = false;
+        while(!valid){
+            cout << "\nHow much does the cargo weigh(kg)? > ";
+            cin >> temp1;
+            stringstream intV(temp1);
+            intV >> mass;
+            if(mass > 0){
+                valid = true;
+            }else{
+                cout << "Invalid Choice!" << endl;
+            }
+        }
+        CargoDragon* pay = new CargoDragon(mass);
+        ControlCenter::instance().setBuild(pay, "Falcon9");
+        Rocket* cargoFalcHeav = ControlCenter::instance().build();
+        cout << "Cargo Dragon - Falcon Heavy Created!" << endl;
+        runnyBoi(cargoFalcHeav);
+    }else if(payload == "Starlink"){
+        Starlink* pay = new Starlink();
+        ControlCenter::instance().setBuild(pay, "Falcon9");
+        Rocket* starFalcHeav = ControlCenter::instance().build();
+        cout << "Starlink - Falcon Heavy Created!" << endl;
+        runnyBoi(starFalcHeav);
+    }else{
+        cout << "wut" << endl;
+    }
 }
+
+
 
 int main() {
     cout << endl << endl << "   .--::--===--<||  Main Running  ||>--===--::--." << endl <<endl;
@@ -170,13 +282,14 @@ int main() {
 
     Starlink* s = new Starlink();
     ControlCenter::instance().setBuild(s, "Falcon9");
-    Rocket* starlink = ControlCenter::instance().build();
+    Rocket* starlinkR = ControlCenter::instance().build();
     cout << "Starlink Created!" << endl;
-    starlink->Activate();
 
-    Command* c = new LaunchCommand(starlink);
-    StarlinkSimulationAdapter* adapter = new StarlinkSimulationAdapter(s);
+    //Command* c = new LaunchCommand(starlinkR);
+    StarlinkSimulationAdapter* adapter = new StarlinkSimulationAdapter(s, starlinkR);
     adapter->launch();
+
+
 
 
 

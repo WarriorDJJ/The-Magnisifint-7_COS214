@@ -13,53 +13,40 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Falcon9TS.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Falcon9TS.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/FalconHeavy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconHeavy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/FalconHeavyTS.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/FalconHeavyTS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/TestState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/TestState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/TestStrat.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/TestStrat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/UntestedState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/UntestedState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/COS214_Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/COS214_Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <list id="7e87baf1-bfe4-48bc-9e64-276bff3a6e9b" name="Changes by Caleb" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/BrokenState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/BrokenState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/BrokenState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/BrokenState.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/Simulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Simulation.cpp" afterDir="false" />
+    </list>
+    <list id="c7ab5084-89ec-4104-b5f6-4147e85e23ae" name="Changes by cornelius" comment="" />
+    <list id="c3f037cf-960a-4f72-b277-50e9b2bd7d15" name="Changes by Francois" comment="" />
+    <list id="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" name="Changes by james" comment="">
+      <change beforePath="$PROJECT_DIR$/V1/BrokenState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/BrokenState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/BrokenState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/BrokenState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Simulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Simulation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Simulation.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Simulation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/StarlinkSimulationAdapter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/StarlinkSimulationAdapter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/StarlinkSimulationAdapter.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/StarlinkSimulationAdapter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/TestState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/TestState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/TestState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/TestState.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/UntestedState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/UntestedState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/UntestedState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/UntestedState.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/WorkingState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/WorkingState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/WorkingState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/WorkingState.h" afterDir="false" />
     </list>
-    <list id="c7ab5084-89ec-4104-b5f6-4147e85e23ae" name="Changes by cornelius" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/Nozzle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Nozzle.cpp" afterDir="false" />
-    </list>
-    <list id="c3f037cf-960a-4f72-b277-50e9b2bd7d15" name="Changes by Francois" comment="" />
-    <list id="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" name="Changes by james" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/Simulation.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Simulation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Starlink.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Starlink.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/StarlinkSimulationAdapter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/StarlinkSimulationAdapter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/StarlinkSimulationAdapter.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/StarlinkSimulationAdapter.h" afterDir="false" />
-    </list>
-    <list id="91795f71-e023-4a10-8ae1-a55d8e5db671" name="Changes by Keelan Cross" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/Satelite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Satelite.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Starlink.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Starlink.cpp" afterDir="false" />
-    </list>
+    <list id="91795f71-e023-4a10-8ae1-a55d8e5db671" name="Changes by Keelan Cross" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,11 +68,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/V1/Starlink.cpp">
+    <file path="$PROJECT_DIR$/V1/BrokenState.h">
       <ranges>
-        <range start1="64" end1="71" start2="64" end2="69" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="84" end1="85" start2="82" end2="83" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="86" end1="87" start2="84" end2="85" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
+        <range start1="4" end1="5" start2="4" end2="5" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="7" end1="9" start2="7" end2="7" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="11" end1="12" start2="9" end2="12" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="13" end1="14" start2="13" end2="14" changelist="7e87baf1-bfe4-48bc-9e64-276bff3a6e9b" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/V1/Simulation.cpp">
+      <ranges>
+        <range start1="7" end1="8" start2="7" end2="8" changelist="7e87baf1-bfe4-48bc-9e64-276bff3a6e9b" />
+        <range start1="10" end1="11" start2="10" end2="11" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="12" end1="12" start2="12" end2="19" changelist="7e87baf1-bfe4-48bc-9e64-276bff3a6e9b" />
+        <range start1="29" end1="30" start2="36" end2="37" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="37" end1="39" start2="44" end2="47" changelist="7e87baf1-bfe4-48bc-9e64-276bff3a6e9b" />
+        <range start1="42" end1="43" start2="50" end2="51" changelist="7e87baf1-bfe4-48bc-9e64-276bff3a6e9b" />
+        <range start1="44" end1="45" start2="52" end2="53" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/V1/UntestedState.cpp">
+      <ranges>
+        <range start1="2" end1="3" start2="2" end2="3" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="9" end1="10" start2="9" end2="10" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="11" end1="11" start2="11" end2="19" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="16" end1="18" start2="24" end2="26" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="19" end1="22" start2="27" end2="44" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="24" end1="26" start2="46" end2="52" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="29" end1="30" start2="55" end2="57" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="31" end1="31" start2="58" end2="72" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
+        <range start1="32" end1="32" start2="73" end2="75" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
       </ranges>
     </file>
   </component>
@@ -132,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637325147792</updated>
       <workItem from="1637325149282" duration="15239000" />
-      <workItem from="1637573710828" duration="17910000" />
+      <workItem from="1637573710828" duration="23157000" />
     </task>
     <servers />
   </component>

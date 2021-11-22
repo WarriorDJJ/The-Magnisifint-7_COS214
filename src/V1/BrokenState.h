@@ -2,14 +2,14 @@
 #define BROKENSTATE_H
 
 #include "TestState.h"
-
+#include "UntestedState.h"
 class BrokenState : public TestState
 {
-protected:
-    Rocket* myRocket;
 public:
     BrokenState(Rocket *rocket);
-    virtual void launch();
-};
+    TestState* launch() override;
+    bool runStaticTest() override;
 
+};
+// love you james keelan damian francois fourie (and zelda if she codes) -- Caleb
 #endif

@@ -5,11 +5,18 @@ Simulation::Simulation(Rocket* myRocket)
 {
     rocketForSim = myRocket;
     state = new UntestedState(myRocket);
-    state->launch(this);
+    //state->launch();
 }
 
-void Simulation::launch()
+bool Simulation::launch()
 {
+    TestState* temp = state;
+    state = state->launch();
+
+    if(temp == state){
+        return true;
+    }
+    return false;
 //    vector<Engine*> engineList;
 //    int numberOfEngines = engineList.size();
 //
@@ -27,7 +34,7 @@ void Simulation::launch()
 }
 
 
-void Simulation::setState(bool working)
+/*void Simulation::setState(bool working)
 {
     state = nullptr;
 
@@ -35,13 +42,14 @@ void Simulation::setState(bool working)
     {
         delete state;
         state = new WorkingState(rocketForSim);
-        state->launch(this);
-    } else
+        state->launch();
+    }
+    else
     {
         delete state;
         state = new BrokenState(rocketForSim);
-        state->launch(this);
+        state->launch();
     }
-}
+}*/
 
 

@@ -20,8 +20,9 @@ protected:
 
 public:
     Simulation(Rocket *myRocket);
-    void launch();
-    void setState(bool working);
+    bool launch();
+    //void setState(bool working);
+    void StaticTest();
 };
 
 #endif

@@ -15,21 +15,17 @@ using namespace std;
 class TestState {
 
 private:
-    Rocket* rocketForTest;
 
+protected:
+    Rocket* rocketForTest;
+    string state;
 public:
     TestState(Rocket*);
-
     //virtual void launch(Simulation *sim) = 0;
     virtual TestState* launch() = 0;
-
-    bool runStaticTest();
-
-    TestState* getWorkingState();
-
-    void checkState();
-
-    TestState* getBrokenState();
+    virtual bool runStaticTest() = 0;
+    string checkState();
+    Rocket* getRocket();
 };
 
 #endif

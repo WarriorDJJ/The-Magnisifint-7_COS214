@@ -7,9 +7,9 @@ class StarlinkSimulationAdapter : public Simulation {
 public:
 	Starlink* starlink;
 
-	StarlinkSimulationAdapter(Starlink* starlink);
+	StarlinkSimulationAdapter(Starlink* starlink, Rocket* r);
 
-	void launch(Rocket* r);
+	void launch();
 };
 
 #endif

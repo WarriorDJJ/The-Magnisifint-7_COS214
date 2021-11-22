@@ -2,13 +2,15 @@
 #define WORKINGSTATE_H
 
 #include "TestState.h"
+#include "BrokenState.h"
+
 
 class WorkingState : public TestState {
-protected:
-    Rocket* myRocket;
+
 public:
     WorkingState(Rocket *rocket);
-    virtual void launch();
+    TestState* launch() override;
+    bool runStaticTest() override;
 };
 
 #endif
