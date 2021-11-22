@@ -13,9 +13,9 @@ public:
     void setChamberPressure(double chamberPressure);
     virtual double getChamberPressure();
     virtual void update();
-    RocketMotor * clone() override;
+    virtual RocketMotor * clone();
 
-    double getThrust(double externalPressure) override;
+    virtual double getThrust(double externalPressure);
 };
 
 #endif

@@ -106,9 +106,9 @@ void Starlink::VentFuel() {
 }
 
 void Starlink::LoadFuel() {
-
+    Payload::LoadFuel();
 }
 
 double Starlink::GetFuel() {
-    return 0;
+    return Payload::GetFuel();
 }

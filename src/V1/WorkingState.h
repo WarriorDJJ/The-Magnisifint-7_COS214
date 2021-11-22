@@ -9,8 +9,8 @@ class WorkingState : public TestState {
 
 public:
     WorkingState(Rocket *rocket);
-    TestState* launch() override;
-    bool runStaticTest() override;
+    virtual TestState* launch();
+    virtual bool runStaticTest();
 };
 
 #endif

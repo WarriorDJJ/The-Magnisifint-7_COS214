@@ -10,7 +10,7 @@ LoadFuelCommand::LoadFuelCommand(Payload* s, Rocket* r):Command(s, r){
 }
 
 void LoadFuelCommand::execute(){
-    if(this->receiver->GetFuel() < 100){
-        this->receiver->LoadFuel();
+    if(this->rocketReceiver->GetFuel() < 100){
+        this->rocketReceiver->LoadFuel();
     }
 }

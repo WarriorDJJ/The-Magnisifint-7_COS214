@@ -5,10 +5,10 @@
 class Command : public Simulation{
 
 protected:
-    SpaceCraft* receiver;
-
+    Payload* receiver;
+    Rocket* rocketReceiver;
 public:
-    SpaceCraft* getReceiver();
+    Payload* getReceiver();
 	virtual void execute()=0;
 	Command(Payload* p, Rocket* r);
 

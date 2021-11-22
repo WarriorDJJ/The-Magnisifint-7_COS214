@@ -18,11 +18,11 @@ public:
     bool isEmpty();
 
     //TODO
-    void LoadFuel() override;
-    double GetFuel() override;
-    void VentFuel() override;
-    void Activate() override;
-    Payload *  clone() override;
+    virtual void LoadFuel();
+    virtual double GetFuel();
+    virtual void VentFuel();
+    virtual void Activate();
+    virtual Payload *  clone();
 };
 
 #endif

@@ -27,10 +27,10 @@ public:
     virtual string getName();
 
     //engine part
-    void AddEngine(Engine * engine) override;
-    void RemoveEngine(Engine * engine) override;
-    Engine * getEngine(int i) override;
-    int getNumEngines() override;
+    virtual void AddEngine(Engine * engine);
+    virtual void RemoveEngine(Engine * engine);
+    virtual Engine * getEngine(int i);
+    virtual int getNumEngines();
 
     virtual void AddStage(SpaceCraft* s);
     virtual Rocket * SeperateStage();
@@ -38,15 +38,15 @@ public:
     virtual SpaceCraft * GetNextStageMain();
 	virtual void Activate();
 
-	Rocket * clone() override;
+	virtual Rocket * clone();
 
-    void appendStage(SpaceCraft *s) override;
+    virtual void appendStage(SpaceCraft *s);
 
-    double getThrust(double externalPressure) override;
+    virtual double getThrust(double externalPressure);
 
-    void LoadFuel() override;
-    double GetFuel() override;
-    void VentFuel() override;
+    virtual void LoadFuel();
+    virtual double GetFuel();
+    virtual void VentFuel();
     virtual void notify(Engine * engine);
 
     vector<Engine*> engines;

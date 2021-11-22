@@ -6,14 +6,13 @@
 
 void Dragon::LoadFuel()
 {
-    //stubbed
+    Payload::LoadFuel();
     return;
 }
 
 double Dragon::GetFuel()
 {
-    //stubbed
-    return 0;
+    return Payload::GetFuel();
 }
 //smoove -k,f xd
 void Dragon::VentFuel()

@@ -18,11 +18,11 @@ void CrewDragon::VentFuel() {
 }
 
 void CrewDragon::LoadFuel() {
-
+    Dragon::LoadFuel();
 }
 
 double CrewDragon::GetFuel() {
-    return 0;
+    return Dragon::GetFuel();
 }
 
 Payload *CrewDragon::clone()

@@ -10,8 +10,8 @@ class UntestedState : public TestState
 public:
     UntestedState(Rocket* r);
     //virtual  launch(Simulation *sim);
-    TestState* launch() override;
-    bool runStaticTest() override;
+    virtual TestState* launch();
+    virtual bool runStaticTest();
 };
 
 #endif

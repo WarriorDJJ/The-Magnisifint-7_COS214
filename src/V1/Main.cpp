@@ -51,35 +51,40 @@ using namespace std;
 void Launch(Payload* s, Rocket* r){
     cout<<"launch Start:-------------------------------------------------------------------------------"<<endl;
     //vars
-    SpaceCraft * current;
-    SpaceCraft * nextS;
+    Rocket * current;
+    Rocket * nextS;
     vector<SpaceCraft*> seperated;
     current = r;
 
     Command* launch = new LaunchCommand(s,r);
-    Command* fuel = new LaunchCommand(s,r);
+    Command* fuel = new LoadFuelCommand(s,r);
     Invoker* launchButton = new Invoker(launch);
     Invoker* fuelButton = new Invoker(fuel);
     //fuel->execute();
     //launch->execute();
-    //launchButton->press();
-    //fuelButton->press();
+
+    fuelButton->press();
+    launchButton->press();
 
     //cout<<"loop-------------------"<<endl;
-    current->LoadFuel();
-    current->Activate();
+    //current->LoadFuel();
+    //current->Activate();
     while (current != nullptr) {
+
         while (current->GetFuel() > 11) {
             current->useFuel(10);
         }
         //stage seperation
-        nextS = r->GetNextStage();
+        nextS = dynamic_cast<Rocket *>(r->GetNextStage());
         seperated.push_back(current->SeperateStage());
 
         current = nextS;
 
+        Command* launch = new LaunchCommand(s, current);
+        Invoker* launchButton = new Invoker(launch);
         if(current != nullptr && current != current->GetNextStage()){
-            current->Activate();
+            //current->Activate();
+            launchButton->press();
         }
     }
     cout<<"luanch completed";
@@ -87,6 +92,9 @@ void Launch(Payload* s, Rocket* r){
 
 void LaunchSim(Payload* p, Rocket *r){
     //
+    cout << "Launch Simulation Started: " << endl;
+    Command* launch = new LaunchCommand(p, r);
+
 }
 
 void TestMode(Payload *p, Rocket *r){
