@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="" />
     <list id="03d48e0f-d81a-480d-9443-faa799ea6b84" name="Changes by cornelius" comment="" />
-    <list id="936aed0c-33e3-4e35-bb70-ca384e5df41e" name="Changes by james" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +73,7 @@
       <updated>1637325147792</updated>
       <workItem from="1637325149282" duration="15239000" />
       <workItem from="1637573710828" duration="29293000" />
-      <workItem from="1637613715427" duration="21821000" />
+      <workItem from="1637613715427" duration="22113000" />
     </task>
     <servers />
   </component>
