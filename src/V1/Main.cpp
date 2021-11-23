@@ -113,6 +113,10 @@ void Launch(Payload* s, Rocket* r){
     cout<<endl;
     current->Activate();
 
+    //here
+    double pressure = 101325;
+    cout << "Current Thrust: "<<current->getThrust(pressure)<<endl;
+
     int rstatus1 = current->getStatusCode();
     if(!rStatus(rstatus1)) {
         while (current != nullptr) {
@@ -130,6 +134,8 @@ void Launch(Payload* s, Rocket* r){
             Invoker *launchButton = new Invoker(launch);
             if (current != nullptr && current != current->GetNextStage()) {
                 current->Activate();
+                pressure = pressure/2;
+                cout << "Current Thrust: "<<current->getThrust(pressure)<<endl;
                 //launchButton->press();
             }
         }
@@ -209,6 +215,7 @@ void Launch(Payload* s, Rocket* r){
         */
 
         r->Activate();
+        cout << "Current Thrust: "<<r->getThrust(pressure)<<endl;
 
         if (r->getStatusCode() < 2) {
             cout << "Booster landed safely back on earth." << endl;

@@ -12,7 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <list id="03d48e0f-d81a-480d-9443-faa799ea6b84" name="Changes by cornelius" comment="">
+      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
     </list>
     <list id="936aed0c-33e3-4e35-bb70-ca384e5df41e" name="Changes by james" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +39,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/V1/Main.cpp">
+      <ranges>
+        <range start1="114" end1="114" start2="114" end2="118" changelist="03d48e0f-d81a-480d-9443-faa799ea6b84" />
+        <range start1="132" end1="132" start2="136" end2="138" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+        <range start1="211" end1="211" start2="217" end2="218" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="218aPqaJgIvrJqNQuvCrN34CZ3M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,7 +89,7 @@
       <updated>1637325147792</updated>
       <workItem from="1637325149282" duration="15239000" />
       <workItem from="1637573710828" duration="29293000" />
-      <workItem from="1637613715427" duration="19645000" />
+      <workItem from="1637613715427" duration="21202000" />
     </task>
     <servers />
   </component>
