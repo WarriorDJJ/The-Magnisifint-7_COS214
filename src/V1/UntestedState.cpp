@@ -1,11 +1,11 @@
 #include "UntestedState.h"
 
-UntestedState::WorkingState(WorkingState *s) : TestState(s->getRocket()->clone()) {
-    state = "Working";
+UntestedState::UntestedState(UntestedState *s) : TestState(s->getRocket()->clone()) {
+    state = "Untested";
 }
 
-TestState *WorkingState::clone() {
-    return new WorkingState(this);
+TestState *UntestedState::clone() {
+    return new UntestedState(this);
 }
 
 TestState* UntestedState::launch()
