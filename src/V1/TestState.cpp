@@ -11,3 +11,7 @@ TestState::TestState(Rocket *r) {
 string TestState::checkState() {
     return state;
 }
+
+TestState *TestState::clone() {
+
+}

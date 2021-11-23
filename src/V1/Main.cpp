@@ -179,14 +179,15 @@ void Launch(Payload* s, Rocket* r){
     //==================================================================================================================
 
     r->Activate();
-    s->Activate();
 
-    if (r->getStatusCode() > 2) {
+    if (r->getStatusCode() < 2) {
         cout << "Booster landed safely back on earth." << endl;
     } else
     {
         cout << "Booster unfortunately missed the landing pad and exploded." << endl;
     }
+
+    s->Activate();
     cout<<"Launch completed!"<<endl;
 }
 int Save(Payload* s, Rocket* r){

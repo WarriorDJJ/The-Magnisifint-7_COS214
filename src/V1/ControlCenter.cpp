@@ -39,7 +39,7 @@ Payload* ControlCenter::getSimPayload(int i) {
     if(i >= mainStore.size()){
         return nullptr;
     }
-    return mainStore.at(i)->getSim()->getState()->getPayload();
+    return mainStore.at(i)->getSim()->getState()->getPayload()->clone();
 }
 
 TestState* ControlCenter::getSimState(int i) {

@@ -13,28 +13,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/CargoDragon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/CargoDragon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/CargoDragon.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/CargoDragon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/ControlCenter.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/ControlCenter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/CrewDragon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/CrewDragon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/CrewDragon.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/CrewDragon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Dragon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Dragon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Dragon.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Dragon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/FalconHeavy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/FalconHeavy.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Starlink.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Starlink.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
-    <list id="42979d57-7fdf-4669-a15a-a29aae7bd96b" name="Changes by Caleb" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-    </list>
+    <list id="42979d57-7fdf-4669-a15a-a29aae7bd96b" name="Changes by Caleb" comment="" />
     <list id="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" name="Changes by james" comment="">
       <change beforePath="$PROJECT_DIR$/V1/ControlCenter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/ControlCenter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-    </list>
-    <list id="91795f71-e023-4a10-8ae1-a55d8e5db671" name="Changes by Keelan Cross" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/TestState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/TestState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/TestState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/TestState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/WorkingState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/WorkingState.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,47 +43,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/V1/Main.cpp">
-      <ranges>
-        <range start1="47" end1="49" start2="47" end2="48" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="67" end1="67" start2="66" end2="67" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="71" end1="71" start2="71" end2="89" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="72" end1="73" start2="90" end2="90" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="77" end1="77" start2="94" end2="95" changelist="42979d57-7fdf-4669-a15a-a29aae7bd96b" />
-        <range start1="85" end1="87" start2="103" end2="105" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="89" end1="91" start2="107" end2="190" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="92" end1="92" start2="191" end2="196" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="94" end1="94" start2="198" end2="209" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="119" end1="119" start2="234" end2="235" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="128" end1="130" start2="244" end2="246" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="132" end1="135" start2="248" end2="255" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="137" end1="139" start2="257" end2="257" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="140" end1="148" start2="258" end2="258" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="159" end1="160" start2="269" end2="270" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="163" end1="164" start2="273" end2="274" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="172" end1="172" start2="282" end2="283" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="175" end1="175" start2="286" end2="287" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="181" end1="182" start2="293" end2="294" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="183" end1="183" start2="295" end2="297" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="185" end1="186" start2="299" end2="299" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
-        <range start1="195" end1="196" start2="308" end2="309" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="199" end1="202" start2="312" end2="316" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="204" end1="204" start2="318" end2="325" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="207" end1="207" start2="328" end2="330" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="226" end1="227" start2="349" end2="350" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="376" end1="378" start2="499" end2="502" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="388" end1="389" start2="512" end2="513" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="394" end1="394" start2="518" end2="519" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="414" end1="415" start2="539" end2="540" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="417" end1="418" start2="542" end2="543" changelist="91795f71-e023-4a10-8ae1-a55d8e5db671" />
-        <range start1="422" end1="423" start2="547" end2="548" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="424" end1="426" start2="549" end2="551" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="451" end1="452" start2="576" end2="577" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="453" end1="463" start2="578" end2="579" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="218aPqaJgIvrJqNQuvCrN34CZ3M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -137,7 +84,7 @@
       <updated>1637325147792</updated>
       <workItem from="1637325149282" duration="15239000" />
       <workItem from="1637573710828" duration="29293000" />
-      <workItem from="1637613715427" duration="14115000" />
+      <workItem from="1637613715427" duration="15145000" />
     </task>
     <servers />
   </component>

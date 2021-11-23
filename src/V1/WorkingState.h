@@ -11,6 +11,7 @@ public:
     WorkingState(Rocket *rocket);
     virtual TestState* launch();
     virtual bool runStaticTest();
+    virtual TestState* clone();
 };
 
 #endif

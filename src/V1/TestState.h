@@ -26,6 +26,7 @@ public:
     virtual bool runStaticTest() = 0;
     string checkState();
     Rocket* getRocket();
+    TestState* clone() = 0;
 };
 
 #endif
