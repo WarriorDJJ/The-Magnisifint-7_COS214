@@ -11,7 +11,7 @@
 ~ Please open with Notepad or view in Raw ~ 	              							||||
 .--::--===--<||  Document Locations  ||>--===--::--.								||||
 														||||
-> Report can be found in the root										||||
+> Report can be found under Report/										||||
 > Final Diagrams are under Data/Final Design/									||||
 > Initial Diagrams can be found under Data/Initial Design/							||||
 > Initial Planning can be found under Planning/									||||
