@@ -69,6 +69,7 @@ bool rStatus(int i){
             fail = true;
             break;
     }
+    return fail;
 }
 
 void Launch(Payload* s, Rocket* r){

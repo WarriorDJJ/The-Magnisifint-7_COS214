@@ -8,28 +8,34 @@
 	/,,,/													||||
        /___/													||||
 														||||
-~ Please open with Notepad or view in Raw ~ 	              									||||
+~ Please open with Notepad or view in Raw ~ 	              							||||
+.--::--===--<||  Document Locations  ||>--===--::--.								||||
 														||||
+> Report can be found in the root										||||
+> Final Diagrams are under Data/Final Design/									||||
+> Initial Diagrams can be found under Data/Initial Design/							||||
+> Initial Planning can be found under Planning/									||||
+> Code can be found under src/V1/										||||
 .--::--===--<||  How to compile the program  ||>--===--::--.							||||
 														<==7
-> You can either use CLion IDE to compile and run the program, or you could use the makefile.			||||
+> You can either use CLion IDE to compile and run the program, or you could use the makefile.                   ||||
+>if You use Clion the project is under "src/" but if you use a makefile run the make commands from              ||||
+ "src/V1/"                                                                                  			||||
 > The makefile commands are as follows:										||||
 	use 'make' to build											||||
 	use 'make run' to run program										||||
-	use 'make clean' to clean build outputs									||||
+	use 'make clean' to clean build outputs									<==7
 	use 'make tar' to create a .tar file with the cpp program, the makefile and text files			||||
-	use 'make cleantar' to remove the .tar file								<==7
+	use 'make cleantar' to remove the .tar file								||||
 	use 'make cleanall' to clean all outputs: .tar file .o file and build file				||||
 	use 'make runs' check files and build files and then run program					||||
 	use 'make runc' rebuild files and then run program							||||
-														||||
-														||||
 														||||
 .--::--===--<||  How to use the Main  ||>--===--::--.								<==7
 														||||
 -==--<|| How to create a rocket ||>--==--									||||
 														||||
-> Pick the rocket, from Falcon0, Falcon Heavy or Starlink. Alternatively, you can load a saved rocket		||||
+> Pick the rocket, from Falcon9, Falcon Heavy or Starlink. Alternatively, you can load a saved rocket		||||
   or simply exit.												||||
 > Pick the payload, from Crew Dragon, Cargo Dragon or Starlink.							||||
 > Depending on what you pick, you must then provide extra details such as the weight or crew size.		<==7
@@ -56,9 +62,10 @@
 -<|| Test Mode ||>-												<==7
 														||||
 > This is similar to launch sim, except just after launch, you can completely recreate the rocket		||||
-  midflight for testing purposes.										||||
+  midflight for testing purposes. You will receive a choice at the end if you would like to keep your		||||
+  changes or restore from the backup										||||
 														||||
--<|| Launch Actual ||>-												||||
+-<|| Actual Launch ||>-												||||
 														||||
 > This will actually launch the rocket.										<==7
 > It is advisable to test the rocket first, but this does not guarantee that it will not fail.			||||
