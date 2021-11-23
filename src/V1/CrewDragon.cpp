@@ -10,7 +10,7 @@ CrewDragon::CrewDragon(int cc) : crewCount(cc){
 }
 
 void CrewDragon::Activate() {
-
+    cout<< this->getName() << " Docked to the international space station."<<endl;
 }
 
 void CrewDragon::VentFuel() {
@@ -28,6 +28,10 @@ double CrewDragon::GetFuel() {
 Payload *CrewDragon::clone()
 {  //<--- this is god tier
     return new CrewDragon(this->crewCount);
+}
+
+string CrewDragon::getName(){
+    return "Crew Dragon";
 }
 
 

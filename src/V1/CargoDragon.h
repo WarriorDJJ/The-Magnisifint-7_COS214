@@ -13,6 +13,7 @@ public:
     CargoDragon(double m);
     virtual void Activate();
     virtual Payload * clone();
+    virtual string getName();
 };
 
 #endif

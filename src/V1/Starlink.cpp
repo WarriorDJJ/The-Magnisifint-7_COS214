@@ -98,7 +98,7 @@ Payload *Starlink::clone() {
 }
 
 void Starlink::Activate() {
-
+    release();
 }
 
 void Starlink::VentFuel() {

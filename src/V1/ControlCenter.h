@@ -35,7 +35,7 @@ public:
     Rocket* build();
     int storeSim(TestState* sim, Payload* payload);
     void setBuild();//Falcon 9
-    void setBuild(SpaceCraft* payload, string rocket);//Falcon Heavy
+    void setBuild(SpaceCraft* payload, string rocket);
     TestState* getSimState(int i);
     Payload* getSimPayload(int i);
 

@@ -4,6 +4,7 @@ using namespace std;
 
 FalconHeavy::FalconHeavy(Rocket *lb, Rocket *rb) : LeftBooster(lb), RightBooster(rb), Rocket(){
     name = "FalconHeavy";
+    this->statusCode = 0;
 }
 
 FalconHeavy::~FalconHeavy(){
@@ -73,7 +74,7 @@ FalconHeavy * FalconHeavy::clone() {
         newFH->NextStage = this->NextStage->clone();
     }
 
-    return nullptr;
+    return newFH;
 }
 
 double FalconHeavy::getThrust(double externalPressure) {

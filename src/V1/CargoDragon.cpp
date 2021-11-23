@@ -9,7 +9,7 @@ CargoDragon::CargoDragon(double m) : mass(m){
 }
 
 void CargoDragon::Activate() {
-
+    cout<< this->getName() << " Docked to the international space station."<<endl;
 }
 
 void CargoDragon::VentFuel() {
@@ -26,4 +26,8 @@ return 0;
 
 Payload *CargoDragon::clone() {
     return new CargoDragon(this->mass);
+}
+
+string CargoDragon::getName(){
+    return "Cargo Dragon";
 }

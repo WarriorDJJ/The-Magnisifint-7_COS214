@@ -45,8 +45,7 @@ using namespace std;
 #include <stdlib.h>     /* srand, rand */
 #include <sstream>
 
-
-
+bool isTested = false;
 
 void Launch(Payload* s, Rocket* r){
     cout<<"launch Start:-------------------------------------------------------------------------------"<<endl;
@@ -65,16 +64,35 @@ void Launch(Payload* s, Rocket* r){
 
     fuelButton->press();
     launchButton->press();
+    isTested = true;
 
     //cout<<"loop-------------------"<<endl;
     //current->LoadFuel();
     //current->Activate();
-    while (current != nullptr) {
+    /*Rocket* temp = r->clone();
+    while(temp->GetNextStage() != nullptr){
+        temp = dynamic_cast<Rocket*>(r->GetNextStage());
+        Command* test = new LaunchCommand(s, temp);
+        if(test->getState()->checkState() == "Untested"){
+            Invoker* buton = new Invoker(test);
+            buton->press();
+        }
+    }*/
 
+    cout<<"Launch:\t";
+    int countdown = 11;
+    while (countdown>0){
+        countdown--;
+        cout<<"T-"<<countdown<<"\t";
+    }
+    cout<<endl;
+    current->Activate();
+    while (current != nullptr) {
         while (current->GetFuel() > 11) {
             current->useFuel(10);
         }
         //stage seperation
+
         nextS = dynamic_cast<Rocket *>(r->GetNextStage());
         seperated.push_back(current->SeperateStage());
 
@@ -83,15 +101,112 @@ void Launch(Payload* s, Rocket* r){
         Command* launch = new LaunchCommand(s, current);
         Invoker* launchButton = new Invoker(launch);
         if(current != nullptr && current != current->GetNextStage()){
-            //current->Activate();
-            launchButton->press();
+            current->Activate();
+            //launchButton->press();
         }
     }
-    cout<<"luanch completed";
-    cout << "Landing back on earth lesss goooo poggers" << endl;
+
+    //==================================================================================================================
+    cout<<"Would you like to edit the rocket? y/n>"<<endl;
+    string edit;
+    cin>>edit;
+    if (edit == "y")
+    {
+        Rocket* tempHolder = r;
+        Rocket* myNewRocket;
+
+        cout<<"Change payload: 0 = Cargo Dragon, 1 = Crew Dragon, 2 = StarLink"<<endl;
+        string editPayload;
+        cin>>editPayload;
+
+        delete s;
+        if (editPayload == "0")
+        {
+            string temp1;
+            double mass;
+            bool valid = false;
+            while(!valid){
+                cout << "\nHow much does the cargo weigh(kg)? \n> ";
+                cin >> temp1;
+                stringstream intV(temp1);
+                intV >> mass;
+                if(mass > 0){
+                    valid = true;
+                }else{
+                    cout << "Invalid Choice!" << endl;
+                }
+            }
+            s = new CargoDragon(mass);
+        } else if (editPayload == "1")
+        {
+            string temp1;
+            int next;
+            bool valid = false;
+            while(!valid){
+                cout << "\nHow many crew members (Min: 2, Max: 4)? \n> ";
+                cin >> temp1;
+                stringstream  intV(temp1);
+                intV >> next;
+                if(next >= 2 && next <= 4){
+                    valid = true;
+                }else{
+                    cout << "Invalid Choice!" << endl;
+                }
+            }
+            s = new CrewDragon(next);
+        } else
+        {
+            s = new Starlink();
+        }
+
+        cout<<"Change rocket: 0 = Falcon9, 1 = Falcon Heavy"<<endl;
+        string editRocket;
+        cin>>editRocket;
+
+        if (editRocket == "0")
+        {
+            ControlCenter::instance().setBuild(s, "Falcon9");
+            myNewRocket = ControlCenter::instance().build();
+        } else
+        {
+            ControlCenter::instance().setBuild(s, "Falcon9");
+            myNewRocket = ControlCenter::instance().build();
+        }
+        delete r;
+        r = myNewRocket;
+    }
+
+    //==================================================================================================================
+
+    r->Activate();
+    s->Activate();
+
+    if (r->getStatusCode() > 2) {
+        cout << "Booster landed safely back on earth." << endl;
+    } else
+    {
+        cout << "Booster unfortunately missed the landing pad and exploded." << endl;
+    }
+    cout<<"Launch completed!"<<endl;
+}
+int Save(Payload* s, Rocket* r){
+    Command* launch = new LaunchCommand(s, r);
+    return ControlCenter::instance().storeSim(launch->getState(), launch->getPayload());
 }
 
+
 void LaunchSim(Payload* p, Rocket *r){
+    cout << "Storing Spacecraft: " << endl;
+    int index = Save(p, r);
+    Launch(p, r);
+    cout << "Retrieving Backup: " << endl;
+    p = ControlCenter::instance().getSimPayload(index);
+    r = ControlCenter::instance().getSimState(index)->getRocket();
+}
+
+void TestMode(Payload *p, Rocket *r){
+    cout << "Storing Spacecraft: " << endl;
+    int index = Save(p, r);
     cout<<"launch Start:-------------------------------------------------------------------------------"<<endl;
     //vars
     Rocket * current;
@@ -117,6 +232,7 @@ void LaunchSim(Payload* p, Rocket *r){
         while (current->GetFuel() > 11) {
             current->useFuel(10);
         }
+
         //stage seperation
         nextS = dynamic_cast<Rocket *>(r->GetNextStage());
         seperated.push_back(current->SeperateStage());
@@ -126,26 +242,20 @@ void LaunchSim(Payload* p, Rocket *r){
         Command* launch = new LaunchCommand(p, current);
         Invoker* launchButton = new Invoker(launch);
         if(current != nullptr && current != current->GetNextStage()){
-            //current->Activate();
-            launchButton->press();
+            current->Activate();
+            //launchButton->press();
         }
     }
-    cout<<"luanch completed";
-    cout << "Landing back on earth lesss goooo poggers" << endl;
-
+    cout<<"Launch Simulation Completed" << endl;
+    r->Activate();
+    cout << "Booster Landed back on earth" << endl;
+    //LoadSim(index);
+    cout << "Retrieving Backup: " << endl;
+    p = ControlCenter::instance().getSimPayload(index);
+    r = ControlCenter::instance().getSimState(index)->getRocket();
 }
 
-void TestMode(Payload *p, Rocket *r){
-    cout << "Static Fire Test: " << endl;
 
-    Command* testingRocket = new LaunchCommand(p, r);
-    testingRocket->launch();
-}
-
-int Save(Payload* s, Rocket* r){
-    Command* launch = new LaunchCommand(s, r);
-    return ControlCenter::instance().storeSim(launch->getState(), launch->getPayload());
-}
 //hi suh dud our ce ayyy gay, yes
                           //the person reading our comments be like 0.0
 //still better than our readme lol
@@ -157,11 +267,11 @@ void runnyBoi(Payload* s, Rocket* r){
     bool done = false;
     while(!done){
         while(!valid){
-            cout << "\nWhat type of launch would you like to do with your rocket? Test Mode = 0, Launch Sim = 1, Actual Launch = 2, Save it for later = 3 > ";
+            cout << "\nWhat type of launch would you like to do with your rocket? Test Mode = 0, Launch Sim = 1, Actual Launch = 2, Save it for later = 3, Exit = 4 > ";
             cin >> temp1;
             stringstream intV(temp1);
             intV >> next;
-            if(next >= 0 && next <= 3){
+            if(next >= 0 && next <= 4){
                 valid = true;
             }else{
                 cout << "Invalid Choice!" << endl;
@@ -170,20 +280,23 @@ void runnyBoi(Payload* s, Rocket* r){
         switch(next){
             case 0:
                 TestMode(s,r);
+                valid = false;
                 break;
             case 1:
                 LaunchSim(s,r);
+                valid = false;
                 break;
             case 2:
                 Launch(s, r);
                 done = true;
                 break;
             case 3:
-                cout << "Rocket saved at index " << Save(s, r) << "REMEMBER THIS INDEX TO REFERENCE IT LATER" << endl;
+                cout << "Rocket saved at index " << Save(s, r) << ". REMEMBER THIS INDEX TO REFERENCE IT LATER" << endl;
+                done = true;
+            case 4:
                 done = true;
         }
     }
-
 }
 
 void loadRocket(){
@@ -193,18 +306,28 @@ void loadRocket(){
     valid = false;
     bool done = false;
     while(!valid){
-        cout << "\nEnter the index of the rocket you would like to retrieve > ";
+        cout << "\nEnter the index of the rocket you would like to retrieve > (-1 to cancel)";
         cin >> temp1;
         stringstream intV(temp1);
         intV >> next;
-        if(ControlCenter::instance().getSimState(next) != nullptr){
-            valid = true;
-        }else{
+        if(next == -1){
+            return;
+        }
+        else if(next < -1){
             cout << "Invalid Choice!" << endl;
+        }
+        else{
+            if(ControlCenter::instance().getSimState(next) != nullptr){
+                valid = true;
+            }else{
+                cout << "Invalid Choice!" << endl;
+            }
         }
     }
     runnyBoi(ControlCenter::instance().getSimPayload(next), ControlCenter::instance().getSimState(next)->getRocket());
 }
+
+
 
 void StarlinkSim(){
     cout << "Starlink" << endl;
@@ -224,7 +347,7 @@ void Falcon9Sim(){
     valid = false;
     string payload = "";
     while(!valid){
-            cout << "\nWhat type of payload would you like to create? \n→ Crew Dragon = 0\n→ Cargo Dragon = 1\n→ Starlink = 2 \n>";
+            cout << "\nWhat type of payload would you like to create? Crew Dragon = 0, Cargo Dragon = 1, Starlink = 2 >";
             cin >> temp1;
             stringstream intV(temp1);
             intV >> next;
@@ -374,8 +497,9 @@ void FalconHeavySim(){
 
 
 int main() {
-    cout << endl << endl << "   .--::--===--<||  Main Running  ||>--===--::--." << endl <<endl;
-    bool done = true;
+    cout << endl << endl << "                ..________________.."
+                 << endl << "   .--::--===--<||  Main Running  ||>--===--::--." << endl <<endl;
+    bool done = false;
     bool valid;
     int next;
     string temp1 = "";
@@ -386,12 +510,13 @@ int main() {
             cin >> temp1;
             stringstream intV(temp1);
             intV >> next;
-            if(next >= 0 && next <= 3){
+            if(next >= 0 && next <= 4){
                 valid = true;
             }else{
                 cout << "Invalid Choice!" << endl;
             }
         }
+        valid = false;
         switch(next){
             case 0:
                 done = true;
@@ -412,18 +537,18 @@ int main() {
     }
     //Main Testing
 
-    Starlink* s = new Starlink();
+    //Starlink* s = new Starlink();
     //ControlCenter::instance().setBuild(s, "Falcon9");
     //Rocket* starlinkR = ControlCenter::instance().build();
-    cout << ".--::--===--<||  Starlink Created!  ||>--===--::--." << endl;
+    //cout << ".--::--===--<||  Starlink Created!  ||>--===--::--." << endl << endl;
 
     //Command* c = new LaunchCommand(starlinkR);
     //StarlinkSimulationAdapter* adapter = new StarlinkSimulationAdapter(s, starlinkR);
     //adapter->launch();
-    Payload* p = new CrewDragon(2);
+    //Payload* p = new CrewDragon(2);
 
-    ControlCenter::instance().setBuild(p, "FalconHeavy");
-    Rocket* crewDragFalc9 = ControlCenter::instance().build();
+    //ControlCenter::instance().setBuild(p, "FalconHeavy");
+    //Rocket* crewDragFalc9 = ControlCenter::instance().build();
 
 //    RocketBuilder* FHbuilder = new FalconHeavyBuilder();
 //    RocketBuilder* F9Builder = new FalconBuilder();
@@ -449,18 +574,9 @@ int main() {
     //loadButton->press();
     //launchButton->press();
     //TestMode(p, crewDragFalc9);
-    Launch(p, crewDragFalc9);
+   // Launch(p, crewDragFalc9);
 
-
-
-
-
-
-
-
-
-
-
+    //StarlinkSim();
 
     //MotorFactory* merlinFact = new MerlinFactory();
     //RocketMotor* yeet = merlinFact->createMotor();

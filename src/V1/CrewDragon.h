@@ -13,6 +13,7 @@ public:
     CrewDragon(int cc);
     virtual void Activate();
     virtual Payload * clone();
+    virtual string getName();
 };
 
 #endif

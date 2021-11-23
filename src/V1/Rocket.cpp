@@ -11,6 +11,7 @@ Rocket::Rocket(string name, double length, double diameter, double wetMass, doub
 Rocket::Rocket(){
     this->rocketState = "untested";
     this->EnginesFailed = 0;
+    this->statusCode = 0;
     this->isFinalStage = false;
     this->NextStage = nullptr;
 

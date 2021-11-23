@@ -7,7 +7,7 @@ class Dragon : public Payload{
 protected:
 
 public:
-    virtual void Activate() = 0;
+    virtual void Activate();
     virtual Payload * clone() = 0;
 
     virtual void LoadFuel();

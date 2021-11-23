@@ -21,4 +21,8 @@ void Dragon::VentFuel()
 }
 //what else ?
 
+void Dragon::Activate(){
+    cout<< this->getName() << " Docked to the international space station."<<endl;
+}
+
 

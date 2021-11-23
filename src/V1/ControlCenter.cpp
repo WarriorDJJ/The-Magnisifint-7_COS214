@@ -36,10 +36,16 @@ int ControlCenter::storeSim(TestState* sim, Payload* payload) {
 }
 
 Payload* ControlCenter::getSimPayload(int i) {
+    if(i >= mainStore.size()){
+        return nullptr;
+    }
     return mainStore.at(i)->getSim()->getState()->getPayload();
 }
 
 TestState* ControlCenter::getSimState(int i) {
+    if(i >= mainStore.size()){
+        return nullptr;
+    }
     return mainStore.at(i)->getSim()->getState()->getTestState();
 }
 
