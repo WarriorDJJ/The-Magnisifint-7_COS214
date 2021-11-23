@@ -29,7 +29,7 @@
 														||||
 -==--<|| How to create a rocket ||>--==--									||||
 														||||
-> Pick the rocket, from Falcon0, Falcon Heavy or Starlink. Alternatively, you can load a saved rocket		||||
+> Pick the rocket, from Falcon9, Falcon Heavy or Starlink. Alternatively, you can load a saved rocket		||||
   or simply exit.												||||
 > Pick the payload, from Crew Dragon, Cargo Dragon or Starlink.							||||
 > Depending on what you pick, you must then provide extra details such as the weight or crew size.		<==7
@@ -56,9 +56,10 @@
 -<|| Test Mode ||>-												<==7
 														||||
 > This is similar to launch sim, except just after launch, you can completely recreate the rocket		||||
-  midflight for testing purposes.										||||
+  midflight for testing purposes. You will receive a choice at the end if you would like to keep your		||||
+  changes or restore from the backup										||||
 														||||
--<|| Launch Actual ||>-												||||
+-<|| Actual Launch ||>-												||||
 														||||
 > This will actually launch the rocket.										<==7
 > It is advisable to test the rocket first, but this does not guarantee that it will not fail.			||||
