@@ -9,7 +9,13 @@
        /___/													||||
 														||||
 ~ Please open with Notepad or view in Raw ~ 	              							||||
+.--::--===--<||  Document Locations  ||>--===--::--.								||||
 														||||
+> Report can be found in the root										||||
+> Final Diagrams are under Data/Final Design/									||||
+> Initial Diagrams can be found under Data/Initial Design/							||||
+> Initial Planning can be found under Planning/									||||
+> Code can be found under src/V1/										||||
 .--::--===--<||  How to compile the program  ||>--===--::--.							||||
 														<==7
 > You can either use CLion IDE to compile and run the program, or you could use the makefile.                   ||||
