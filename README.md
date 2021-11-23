@@ -1,4 +1,4 @@
-       ___________
+       ___________                                                                                              ||||
       |<<<<<<<<<;;/												||||
       \<<<<<<<<;;/												||||
 	    /:::/												||||
@@ -8,7 +8,7 @@
 	/,,,/													||||
        /___/													||||
 														||||
-														||||
+~ Please open with Notepad ~ 	              									||||
 														||||
 .--::--===--<||  How to compile the program  ||>--===--::--.							||||
 														<==7
@@ -56,7 +56,7 @@
 -<|| Test Mode ||>-												<==7
 														||||
 > This is similar to launch sim, except just after launch, you can completely recreate the rocket		||||
-  midflight for testing purposes.										||||
+  midflight for testing purposes.										||||							||||
 														||||
 -<|| Launch Actual ||>-												||||
 														||||

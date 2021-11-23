@@ -11,20 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/UntestedState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/UntestedState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="" />
     <list id="42979d57-7fdf-4669-a15a-a29aae7bd96b" name="Changes by Caleb" comment="" />
-    <list id="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" name="Changes by james" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/ControlCenter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/ControlCenter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/TestState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/TestState.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/UntestedState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/UntestedState.cpp" afterDir="false" />
-    </list>
+    <list id="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" name="Changes by james" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,39 +33,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/V1/Main.cpp">
-      <ranges>
-        <range start1="48" end1="48" start2="48" end2="72" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="89" end1="94" start2="113" end2="121" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="95" end1="97" start2="122" end2="124" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="98" end1="99" start2="125" end2="126" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="100" end1="107" start2="127" end2="134" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="108" end1="116" start2="135" end2="144" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="117" end1="120" start2="145" end2="148" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="121" end1="160" start2="149" end2="188" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="161" end1="164" start2="189" end2="192" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="165" end1="177" start2="193" end2="205" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="178" end1="179" start2="206" end2="208" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="180" end1="181" start2="209" end2="210" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="182" end1="188" start2="211" end2="216" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="189" end1="191" start2="217" end2="220" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-        <range start1="226" end1="226" start2="255" end2="256" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="230" end1="230" start2="260" end2="278" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="231" end1="232" start2="279" end2="279" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="235" end1="236" start2="282" end2="282" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="237" end1="237" start2="283" end2="284" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="249" end1="250" start2="296" end2="369" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="251" end1="256" start2="370" end2="388" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/V1/UntestedState.cpp">
-      <ranges>
-        <range start1="1" end1="1" start2="1" end2="9" changelist="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" />
-        <range start1="2" end1="10" start2="10" end2="10" changelist="e2c573fe-4813-4817-8108-5fb75aa44cb8" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="218aPqaJgIvrJqNQuvCrN34CZ3M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -118,7 +74,7 @@
       <updated>1637325147792</updated>
       <workItem from="1637325149282" duration="15239000" />
       <workItem from="1637573710828" duration="29293000" />
-      <workItem from="1637613715427" duration="16914000" />
+      <workItem from="1637613715427" duration="17332000" />
     </task>
     <servers />
   </component>
