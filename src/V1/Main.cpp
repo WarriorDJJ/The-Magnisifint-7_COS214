@@ -169,7 +169,7 @@ void Launch(Payload* s, Rocket* r){
             myNewRocket = ControlCenter::instance().build();
         } else
         {
-            ControlCenter::instance().setBuild(s, "Falcon9");
+            ControlCenter::instance().setBuild(s, "FalconHeavy");
             myNewRocket = ControlCenter::instance().build();
         }
         delete r;
