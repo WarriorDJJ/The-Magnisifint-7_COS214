@@ -12,9 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/V1/makefile" afterDir="false" />
     </list>
+    <list id="936aed0c-33e3-4e35-bb70-ca384e5df41e" name="Changes by james" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +75,7 @@
       <updated>1637325147792</updated>
       <workItem from="1637325149282" duration="15239000" />
       <workItem from="1637573710828" duration="29293000" />
-      <workItem from="1637613715427" duration="18866000" />
+      <workItem from="1637613715427" duration="19184000" />
     </task>
     <servers />
   </component>
