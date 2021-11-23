@@ -9,6 +9,10 @@ BrokenState::BrokenState(Rocket *rocket) : TestState(rocket)
     state = "Broken";
 }
 
+BrokenState::BrokenState(BrokenState *s) : TestState(s->getRocket()->clone()) {
+    state = "Broken";
+}
+
 TestState* BrokenState::launch()
 {
     runStaticTest();
@@ -54,4 +58,8 @@ bool BrokenState::runStaticTest() {
     }
     cout<<"Rocket has been repaired."<<endl;
     return true;
+}
+
+TestState *BrokenState::clone() {
+    return new BrokenState(this);
 }

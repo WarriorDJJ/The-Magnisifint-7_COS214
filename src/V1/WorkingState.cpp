@@ -5,6 +5,14 @@ WorkingState::WorkingState(Rocket *rocket) : TestState(rocket) {
     state = "Working";
 }
 
+WorkingState::WorkingState(WorkingState *s) : TestState(s->getRocket()->clone()) {
+    state = "Working";
+}
+
+TestState *WorkingState::clone() {
+    return new WorkingState(this);
+}
+
 TestState* WorkingState::launch()
 {
     //cout<<"TEST SUCCESSFUL!"<<endl;

@@ -9,6 +9,7 @@ class WorkingState : public TestState {
 
 public:
     WorkingState(Rocket *rocket);
+    WorkingState(WorkingState* s);
     virtual TestState* launch();
     virtual bool runStaticTest();
     virtual TestState* clone();

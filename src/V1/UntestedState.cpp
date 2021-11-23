@@ -1,5 +1,13 @@
 #include "UntestedState.h"
 
+UntestedState::WorkingState(WorkingState *s) : TestState(s->getRocket()->clone()) {
+    state = "Working";
+}
+
+TestState *WorkingState::clone() {
+    return new WorkingState(this);
+}
+
 TestState* UntestedState::launch()
 {
     string input;

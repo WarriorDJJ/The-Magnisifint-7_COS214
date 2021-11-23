@@ -9,9 +9,11 @@ class UntestedState : public TestState
     
 public:
     UntestedState(Rocket* r);
+    UntestedState(UntestedState* s);
     //virtual  launch(Simulation *sim);
     virtual TestState* launch();
     virtual bool runStaticTest();
+    virtual TestState* clone();
 };
 
 #endif

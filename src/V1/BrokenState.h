@@ -6,9 +6,11 @@
 class BrokenState : public TestState
 {
 public:
+    BrokenState(BrokenState* s);
     BrokenState(Rocket *rocket);
     virtual TestState* launch();
     virtual bool runStaticTest();
+    virtual TestState* clone();
 
 };
 // love you james keelan damian francois fourie (and zelda if she codes) -- Caleb

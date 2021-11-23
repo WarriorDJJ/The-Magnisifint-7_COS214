@@ -11,17 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_Project_V1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="e2c573fe-4813-4817-8108-5fb75aa44cb8" name="Changes" comment="" />
     <list id="42979d57-7fdf-4669-a15a-a29aae7bd96b" name="Changes by Caleb" comment="" />
     <list id="12a2c2d6-7284-4f54-a21e-53ee84c9c52c" name="Changes by james" comment="">
-      <change beforePath="$PROJECT_DIR$/V1/ControlCenter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/ControlCenter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/TestState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/TestState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1/TestState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/TestState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/BrokenState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/BrokenState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/BrokenState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/BrokenState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/UntestedState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/UntestedState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/UntestedState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/UntestedState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1/WorkingState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/V1/WorkingState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/V1/WorkingState.h" beforeDir="false" afterPath="$PROJECT_DIR$/V1/WorkingState.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +81,7 @@
       <updated>1637325147792</updated>
       <workItem from="1637325149282" duration="15239000" />
       <workItem from="1637573710828" duration="29293000" />
-      <workItem from="1637613715427" duration="15145000" />
+      <workItem from="1637613715427" duration="15535000" />
     </task>
     <servers />
   </component>
