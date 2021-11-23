@@ -8,22 +8,22 @@
 	/,,,/													||||
        /___/													||||
 														||||
-~ Please open with Notepad or view in Raw ~ 	              									||||
+~ Please open with Notepad or view in Raw ~ 	              							||||
 														||||
 .--::--===--<||  How to compile the program  ||>--===--::--.							||||
 														<==7
-> You can either use CLion IDE to compile and run the program, or you could use the makefile.			||||
+> You can either use CLion IDE to compile and run the program, or you could use the makefile.                   ||||
+>if You use Clion the project is under "src/" but if you use a makefile run the make commands from              ||||
+ "src/V1/"                                                                                  			||||
 > The makefile commands are as follows:										||||
 	use 'make' to build											||||
 	use 'make run' to run program										||||
-	use 'make clean' to clean build outputs									||||
+	use 'make clean' to clean build outputs									<==7
 	use 'make tar' to create a .tar file with the cpp program, the makefile and text files			||||
-	use 'make cleantar' to remove the .tar file								<==7
+	use 'make cleantar' to remove the .tar file								||||
 	use 'make cleanall' to clean all outputs: .tar file .o file and build file				||||
 	use 'make runs' check files and build files and then run program					||||
 	use 'make runc' rebuild files and then run program							||||
-														||||
-														||||
 														||||
 .--::--===--<||  How to use the Main  ||>--===--::--.								<==7
 														||||
